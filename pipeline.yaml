@@ -1,0 +1,4 @@
+tasks:
+  - source: src/data/data_extraction.py
+    product:
+      nb: notebooks/data_extraction.ipynb

@@ -1,0 +1,1917 @@
+,REF_DATE,GEO,Type of fuel sales,UOM,SCALAR_FACTOR,VALUE
+0,1987,Canada,Net sales of gasoline,Litres,thousands,31089401.0
+1,1987,Canada,Gross sales of gasoline,Litres,thousands,32819878.0
+2,1987,Canada,Net sales of diesel oil,Litres,thousands,4418838.0
+3,1987,Canada,Net sales of liquefied petroleum gas,Litres,thousands,40919.0
+4,1987,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,535421.0
+5,1987,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,558397.0
+6,1987,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,125735.0
+7,1987,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1103.0
+8,1987,Prince Edward Island,Net sales of gasoline,Litres,thousands,166155.0
+9,1987,Prince Edward Island,Gross sales of gasoline,Litres,thousands,171279.0
+10,1987,Prince Edward Island,Net sales of diesel oil,Litres,thousands,20958.0
+11,1987,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,590.0
+12,1987,Nova Scotia,Net sales of gasoline,Litres,thousands,1057589.0
+13,1987,Nova Scotia,Gross sales of gasoline,Litres,thousands,1084990.0
+14,1987,Nova Scotia,Net sales of diesel oil,Litres,thousands,255479.0
+15,1987,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,6053.0
+16,1987,New Brunswick,Net sales of gasoline,Litres,thousands,979407.0
+17,1987,New Brunswick,Gross sales of gasoline,Litres,thousands,993103.0
+18,1987,New Brunswick,Net sales of diesel oil,Litres,thousands,266847.0
+19,1987,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,5287.0
+20,1987,Quebec,Net sales of gasoline,Litres,thousands,6651383.0
+21,1987,Quebec,Gross sales of gasoline,Litres,thousands,6754680.0
+22,1987,Quebec,Net sales of diesel oil,Litres,thousands,2009031.0
+23,1987,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,3031.0
+24,1987,Ontario,Net sales of gasoline,Litres,thousands,11405093.0
+25,1987,Ontario,Gross sales of gasoline,Litres,thousands,11824862.0
+26,1987,Ontario,Net sales of diesel oil,Litres,thousands,0.0
+27,1987,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+28,1987,Manitoba,Net sales of gasoline,Litres,thousands,1308123.0
+29,1987,Manitoba,Gross sales of gasoline,Litres,thousands,1463581.0
+30,1987,Manitoba,Net sales of diesel oil,Litres,thousands,149400.0
+31,1987,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,24856.0
+32,1987,Saskatchewan,Net sales of gasoline,Litres,thousands,1606314.0
+33,1987,Saskatchewan,Gross sales of gasoline,Litres,thousands,1815924.0
+34,1987,Saskatchewan,Net sales of diesel oil,Litres,thousands,0.0
+35,1987,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+36,1987,Alberta,Net sales of gasoline,Litres,thousands,3764699.0
+37,1987,Alberta,Gross sales of gasoline,Litres,thousands,4362260.0
+38,1987,Alberta,Net sales of diesel oil,Litres,thousands,687951.0
+39,1987,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+40,1987,British Columbia,Net sales of gasoline,Litres,thousands,3519014.0
+41,1987,British Columbia,Gross sales of gasoline,Litres,thousands,3677740.0
+42,1987,British Columbia,Net sales of diesel oil,Litres,thousands,815123.0
+43,1987,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+44,1987,Yukon,Net sales of gasoline,Litres,thousands,57018.0
+45,1987,Yukon,Gross sales of gasoline,Litres,thousands,60858.0
+46,1987,Yukon,Net sales of diesel oil,Litres,thousands,28577.0
+47,1987,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+48,1987,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,39187.0
+49,1987,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,52204.0
+50,1987,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,59737.0
+51,1987,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+52,1988,Canada,Net sales of gasoline,Litres,thousands,31754651.0
+53,1988,Canada,Gross sales of gasoline,Litres,thousands,33762548.0
+54,1988,Canada,Net sales of diesel oil,Litres,thousands,5767251.0
+55,1988,Canada,Net sales of liquefied petroleum gas,Litres,thousands,87015.0
+56,1988,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,568172.0
+57,1988,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,587163.0
+58,1988,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,129355.0
+59,1988,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1420.0
+60,1988,Prince Edward Island,Net sales of gasoline,Litres,thousands,175611.0
+61,1988,Prince Edward Island,Gross sales of gasoline,Litres,thousands,179735.0
+62,1988,Prince Edward Island,Net sales of diesel oil,Litres,thousands,24341.0
+63,1988,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,723.0
+64,1988,Nova Scotia,Net sales of gasoline,Litres,thousands,1095247.0
+65,1988,Nova Scotia,Gross sales of gasoline,Litres,thousands,1118838.0
+66,1988,Nova Scotia,Net sales of diesel oil,Litres,thousands,279206.0
+67,1988,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,6824.0
+68,1988,New Brunswick,Net sales of gasoline,Litres,thousands,999483.0
+69,1988,New Brunswick,Gross sales of gasoline,Litres,thousands,999624.0
+70,1988,New Brunswick,Net sales of diesel oil,Litres,thousands,286763.0
+71,1988,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,4253.0
+72,1988,Quebec,Net sales of gasoline,Litres,thousands,6843471.0
+73,1988,Quebec,Gross sales of gasoline,Litres,thousands,6996724.0
+74,1988,Quebec,Net sales of diesel oil,Litres,thousands,2142179.0
+75,1988,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,3233.0
+76,1988,Ontario,Net sales of gasoline,Litres,thousands,12051748.0
+77,1988,Ontario,Gross sales of gasoline,Litres,thousands,12368600.0
+78,1988,Ontario,Net sales of diesel oil,Litres,thousands,0.0
+79,1988,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+80,1988,Manitoba,Net sales of gasoline,Litres,thousands,1402359.0
+81,1988,Manitoba,Gross sales of gasoline,Litres,thousands,1554980.0
+82,1988,Manitoba,Net sales of diesel oil,Litres,thousands,243362.0
+83,1988,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,26820.0
+84,1988,Saskatchewan,Net sales of gasoline,Litres,thousands,1157310.0
+85,1988,Saskatchewan,Gross sales of gasoline,Litres,thousands,1801927.0
+86,1988,Saskatchewan,Net sales of diesel oil,Litres,thousands,470646.0
+87,1988,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,43742.0
+88,1988,Alberta,Net sales of gasoline,Litres,thousands,3771623.0
+89,1988,Alberta,Gross sales of gasoline,Litres,thousands,4297317.0
+90,1988,Alberta,Net sales of diesel oil,Litres,thousands,1252186.0
+91,1988,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+92,1988,British Columbia,Net sales of gasoline,Litres,thousands,3597655.0
+93,1988,British Columbia,Gross sales of gasoline,Litres,thousands,3749629.0
+94,1988,British Columbia,Net sales of diesel oil,Litres,thousands,882119.0
+95,1988,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+96,1988,Yukon,Net sales of gasoline,Litres,thousands,60662.0
+97,1988,Yukon,Gross sales of gasoline,Litres,thousands,64932.0
+98,1988,Yukon,Net sales of diesel oil,Litres,thousands,26644.0
+99,1988,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+100,1988,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,31310.0
+101,1988,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,43079.0
+102,1988,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,30451.0
+103,1988,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+104,1989,Canada,Net sales of gasoline,Litres,thousands,31663767.0
+105,1989,Canada,Gross sales of gasoline,Litres,thousands,34153000.0
+106,1989,Canada,Net sales of diesel oil,Litres,thousands,6032674.0
+107,1989,Canada,Net sales of liquefied petroleum gas,Litres,thousands,69131.0
+108,1989,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,583386.0
+109,1989,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,602815.0
+110,1989,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,138538.0
+111,1989,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1626.0
+112,1989,Prince Edward Island,Net sales of gasoline,Litres,thousands,175896.0
+113,1989,Prince Edward Island,Gross sales of gasoline,Litres,thousands,180715.0
+114,1989,Prince Edward Island,Net sales of diesel oil,Litres,thousands,26849.0
+115,1989,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,527.0
+116,1989,Nova Scotia,Net sales of gasoline,Litres,thousands,1105209.0
+117,1989,Nova Scotia,Gross sales of gasoline,Litres,thousands,1127702.0
+118,1989,Nova Scotia,Net sales of diesel oil,Litres,thousands,283465.0
+119,1989,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,2053.0
+120,1989,New Brunswick,Net sales of gasoline,Litres,thousands,970293.0
+121,1989,New Brunswick,Gross sales of gasoline,Litres,thousands,975735.0
+122,1989,New Brunswick,Net sales of diesel oil,Litres,thousands,279952.0
+123,1989,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,4132.0
+124,1989,Quebec,Net sales of gasoline,Litres,thousands,7051184.0
+125,1989,Quebec,Gross sales of gasoline,Litres,thousands,7180953.0
+126,1989,Quebec,Net sales of diesel oil,Litres,thousands,2210953.0
+127,1989,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,1633.0
+128,1989,Ontario,Net sales of gasoline,Litres,thousands,12349948.0
+129,1989,Ontario,Gross sales of gasoline,Litres,thousands,12660325.0
+130,1989,Ontario,Net sales of diesel oil,Litres,thousands,0.0
+131,1989,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+132,1989,Manitoba,Net sales of gasoline,Litres,thousands,1341072.0
+133,1989,Manitoba,Gross sales of gasoline,Litres,thousands,1491793.0
+134,1989,Manitoba,Net sales of diesel oil,Litres,thousands,219464.0
+135,1989,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,27518.0
+136,1989,Saskatchewan,Net sales of gasoline,Litres,thousands,620070.0
+137,1989,Saskatchewan,Gross sales of gasoline,Litres,thousands,1773607.0
+138,1989,Saskatchewan,Net sales of diesel oil,Litres,thousands,514864.0
+139,1989,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,31643.0
+140,1989,Alberta,Net sales of gasoline,Litres,thousands,3774250.0
+141,1989,Alberta,Gross sales of gasoline,Litres,thousands,4285538.0
+142,1989,Alberta,Net sales of diesel oil,Litres,thousands,1341477.0
+143,1989,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+144,1989,British Columbia,Net sales of gasoline,Litres,thousands,3599180.0
+145,1989,British Columbia,Gross sales of gasoline,Litres,thousands,3754901.0
+146,1989,British Columbia,Net sales of diesel oil,Litres,thousands,948962.0
+147,1989,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+148,1989,Yukon,Net sales of gasoline,Litres,thousands,59472.0
+149,1989,Yukon,Gross sales of gasoline,Litres,thousands,64593.0
+150,1989,Yukon,Net sales of diesel oil,Litres,thousands,26838.0
+151,1989,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+152,1989,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,33807.0
+153,1989,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,54323.0
+154,1989,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,41311.0
+155,1989,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+156,1990,Canada,Net sales of gasoline,Litres,thousands,30851594.0
+157,1990,Canada,Gross sales of gasoline,Litres,thousands,33314359.0
+158,1990,Canada,Net sales of diesel oil,Litres,thousands,5899150.0
+159,1990,Canada,Net sales of liquefied petroleum gas,Litres,thousands,88274.0
+160,1990,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,572472.0
+161,1990,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,592742.0
+162,1990,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,149068.0
+163,1990,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1526.0
+164,1990,Prince Edward Island,Net sales of gasoline,Litres,thousands,177133.0
+165,1990,Prince Edward Island,Gross sales of gasoline,Litres,thousands,181104.0
+166,1990,Prince Edward Island,Net sales of diesel oil,Litres,thousands,16234.0
+167,1990,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,582.0
+168,1990,Nova Scotia,Net sales of gasoline,Litres,thousands,1039206.0
+169,1990,Nova Scotia,Gross sales of gasoline,Litres,thousands,1060329.0
+170,1990,Nova Scotia,Net sales of diesel oil,Litres,thousands,275493.0
+171,1990,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5338.0
+172,1990,New Brunswick,Net sales of gasoline,Litres,thousands,956257.0
+173,1990,New Brunswick,Gross sales of gasoline,Litres,thousands,962031.0
+174,1990,New Brunswick,Net sales of diesel oil,Litres,thousands,294368.0
+175,1990,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3875.0
+176,1990,Quebec,Net sales of gasoline,Litres,thousands,6982566.0
+177,1990,Quebec,Gross sales of gasoline,Litres,thousands,7085684.0
+178,1990,Quebec,Net sales of diesel oil,Litres,thousands,2179921.0
+179,1990,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,3599.0
+180,1990,Ontario,Net sales of gasoline,Litres,thousands,11781900.0
+181,1990,Ontario,Gross sales of gasoline,Litres,thousands,12129200.0
+182,1990,Ontario,Net sales of diesel oil,Litres,thousands,0.0
+183,1990,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+184,1990,Manitoba,Net sales of gasoline,Litres,thousands,1298488.0
+185,1990,Manitoba,Gross sales of gasoline,Litres,thousands,1447936.0
+186,1990,Manitoba,Net sales of diesel oil,Litres,thousands,307649.0
+187,1990,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,27589.0
+188,1990,Saskatchewan,Net sales of gasoline,Litres,thousands,624141.0
+189,1990,Saskatchewan,Gross sales of gasoline,Litres,thousands,1714461.0
+190,1990,Saskatchewan,Net sales of diesel oil,Litres,thousands,483655.0
+191,1990,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,45764.0
+192,1990,Alberta,Net sales of gasoline,Litres,thousands,3788294.0
+193,1990,Alberta,Gross sales of gasoline,Litres,thousands,4317706.0
+194,1990,Alberta,Net sales of diesel oil,Litres,thousands,1156026.0
+195,1990,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+196,1990,British Columbia,Net sales of gasoline,Litres,thousands,3539953.0
+197,1990,British Columbia,Gross sales of gasoline,Litres,thousands,3693551.0
+198,1990,British Columbia,Net sales of diesel oil,Litres,thousands,971437.0
+199,1990,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+200,1990,Yukon,Net sales of gasoline,Litres,thousands,57932.0
+201,1990,Yukon,Gross sales of gasoline,Litres,thousands,62967.0
+202,1990,Yukon,Net sales of diesel oil,Litres,thousands,26876.0
+203,1990,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+204,1990,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,33253.0
+205,1990,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,66647.0
+206,1990,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,38424.0
+207,1990,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+208,1991,Canada,Net sales of gasoline,Litres,thousands,30790427.0
+209,1991,Canada,Gross sales of gasoline,Litres,thousands,32602163.0
+210,1991,Canada,Net sales of diesel oil,Litres,thousands,5919996.0
+211,1991,Canada,Net sales of liquefied petroleum gas,Litres,thousands,486723.0
+212,1991,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,573614.0
+213,1991,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,594627.0
+214,1991,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,168815.0
+215,1991,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1447.0
+216,1991,Prince Edward Island,Net sales of gasoline,Litres,thousands,168763.0
+217,1991,Prince Edward Island,Gross sales of gasoline,Litres,thousands,172147.0
+218,1991,Prince Edward Island,Net sales of diesel oil,Litres,thousands,28088.0
+219,1991,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,502.0
+220,1991,Nova Scotia,Net sales of gasoline,Litres,thousands,1065925.0
+221,1991,Nova Scotia,Gross sales of gasoline,Litres,thousands,1082583.0
+222,1991,Nova Scotia,Net sales of diesel oil,Litres,thousands,264852.0
+223,1991,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5735.0
+224,1991,New Brunswick,Net sales of gasoline,Litres,thousands,904505.0
+225,1991,New Brunswick,Gross sales of gasoline,Litres,thousands,910271.0
+226,1991,New Brunswick,Net sales of diesel oil,Litres,thousands,285016.0
+227,1991,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3683.0
+228,1991,Quebec,Net sales of gasoline,Litres,thousands,6823648.0
+229,1991,Quebec,Gross sales of gasoline,Litres,thousands,7002277.0
+230,1991,Quebec,Net sales of diesel oil,Litres,thousands,2244000.0
+231,1991,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,2210.0
+232,1991,Ontario,Net sales of gasoline,Litres,thousands,11465729.0
+233,1991,Ontario,Gross sales of gasoline,Litres,thousands,11887265.0
+234,1991,Ontario,Net sales of diesel oil,Litres,thousands,0.0
+235,1991,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+236,1991,Manitoba,Net sales of gasoline,Litres,thousands,1250175.0
+237,1991,Manitoba,Gross sales of gasoline,Litres,thousands,1386475.0
+238,1991,Manitoba,Net sales of diesel oil,Litres,thousands,323657.0
+239,1991,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,26883.0
+240,1991,Saskatchewan,Net sales of gasoline,Litres,thousands,1172571.0
+241,1991,Saskatchewan,Gross sales of gasoline,Litres,thousands,1613915.0
+242,1991,Saskatchewan,Net sales of diesel oil,Litres,thousands,511134.0
+243,1991,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,60662.0
+244,1991,Alberta,Net sales of gasoline,Litres,thousands,3746700.0
+245,1991,Alberta,Gross sales of gasoline,Litres,thousands,4151900.0
+246,1991,Alberta,Net sales of diesel oil,Litres,thousands,1111100.0
+247,1991,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,385600.0
+248,1991,British Columbia,Net sales of gasoline,Litres,thousands,3527620.0
+249,1991,British Columbia,Gross sales of gasoline,Litres,thousands,3678141.0
+250,1991,British Columbia,Net sales of diesel oil,Litres,thousands,928748.0
+251,1991,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+252,1991,Yukon,Net sales of gasoline,Litres,thousands,59047.0
+253,1991,Yukon,Gross sales of gasoline,Litres,thousands,63831.0
+254,1991,Yukon,Net sales of diesel oil,Litres,thousands,26034.0
+255,1991,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+256,1991,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,32130.0
+257,1991,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,58730.0
+258,1991,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,28551.0
+259,1991,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+260,1992,Canada,Net sales of gasoline,Litres,thousands,31418676.0
+261,1992,Canada,Gross sales of gasoline,Litres,thousands,32770963.0
+262,1992,Canada,Net sales of diesel oil,Litres,thousands,5999223.0
+263,1992,Canada,Net sales of liquefied petroleum gas,Litres,thousands,535957.0
+264,1992,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,579792.0
+265,1992,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,601805.0
+266,1992,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,139948.0
+267,1992,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1402.0
+268,1992,Prince Edward Island,Net sales of gasoline,Litres,thousands,172143.0
+269,1992,Prince Edward Island,Gross sales of gasoline,Litres,thousands,175433.0
+270,1992,Prince Edward Island,Net sales of diesel oil,Litres,thousands,29835.0
+271,1992,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,405.0
+272,1992,Nova Scotia,Net sales of gasoline,Litres,thousands,1082148.0
+273,1992,Nova Scotia,Gross sales of gasoline,Litres,thousands,1098049.0
+274,1992,Nova Scotia,Net sales of diesel oil,Litres,thousands,278016.0
+275,1992,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5711.0
+276,1992,New Brunswick,Net sales of gasoline,Litres,thousands,929763.0
+277,1992,New Brunswick,Gross sales of gasoline,Litres,thousands,935016.0
+278,1992,New Brunswick,Net sales of diesel oil,Litres,thousands,287016.0
+279,1992,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3824.0
+280,1992,Quebec,Net sales of gasoline,Litres,thousands,6868325.0
+281,1992,Quebec,Gross sales of gasoline,Litres,thousands,6987095.0
+282,1992,Quebec,Net sales of diesel oil,Litres,thousands,2272617.0
+283,1992,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,2397.0
+284,1992,Ontario,Net sales of gasoline,Litres,thousands,11706200.0
+285,1992,Ontario,Gross sales of gasoline,Litres,thousands,11982500.0
+286,1992,Ontario,Net sales of diesel oil,Litres,thousands,0.0
+287,1992,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+288,1992,Manitoba,Net sales of gasoline,Litres,thousands,1150309.0
+289,1992,Manitoba,Gross sales of gasoline,Litres,thousands,1286351.0
+290,1992,Manitoba,Net sales of diesel oil,Litres,thousands,321103.0
+291,1992,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,32018.0
+292,1992,Saskatchewan,Net sales of gasoline,Litres,thousands,1446344.0
+293,1992,Saskatchewan,Gross sales of gasoline,Litres,thousands,1620537.0
+294,1992,Saskatchewan,Net sales of diesel oil,Litres,thousands,501340.0
+295,1992,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,69300.0
+296,1992,Alberta,Net sales of gasoline,Litres,thousands,3718700.0
+297,1992,Alberta,Gross sales of gasoline,Litres,thousands,4129900.0
+298,1992,Alberta,Net sales of diesel oil,Litres,thousands,1175200.0
+299,1992,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,420900.0
+300,1992,British Columbia,Net sales of gasoline,Litres,thousands,3666882.0
+301,1992,British Columbia,Gross sales of gasoline,Litres,thousands,3825647.0
+302,1992,British Columbia,Net sales of diesel oil,Litres,thousands,940068.0
+303,1992,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+304,1992,Yukon,Net sales of gasoline,Litres,thousands,65358.0
+305,1992,Yukon,Gross sales of gasoline,Litres,thousands,68229.0
+306,1992,Yukon,Net sales of diesel oil,Litres,thousands,28320.0
+307,1992,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+308,1992,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,32711.0
+309,1992,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,60401.0
+310,1992,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,25760.0
+311,1992,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+312,1993,Canada,Net sales of gasoline,Litres,thousands,32337697.0
+313,1993,Canada,Gross sales of gasoline,Litres,thousands,33716465.0
+314,1993,Canada,Net sales of diesel oil,Litres,thousands,9000534.0
+315,1993,Canada,Net sales of liquefied petroleum gas,Litres,thousands,1030375.0
+316,1993,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,585091.0
+317,1993,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,604238.0
+318,1993,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,139223.0
+319,1993,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1576.0
+320,1993,Prince Edward Island,Net sales of gasoline,Litres,thousands,174007.0
+321,1993,Prince Edward Island,Gross sales of gasoline,Litres,thousands,177601.0
+322,1993,Prince Edward Island,Net sales of diesel oil,Litres,thousands,31492.0
+323,1993,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,416.0
+324,1993,Nova Scotia,Net sales of gasoline,Litres,thousands,1085350.0
+325,1993,Nova Scotia,Gross sales of gasoline,Litres,thousands,1100056.0
+326,1993,Nova Scotia,Net sales of diesel oil,Litres,thousands,274963.0
+327,1993,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5465.0
+328,1993,New Brunswick,Net sales of gasoline,Litres,thousands,961131.0
+329,1993,New Brunswick,Gross sales of gasoline,Litres,thousands,965671.0
+330,1993,New Brunswick,Net sales of diesel oil,Litres,thousands,306443.0
+331,1993,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3850.0
+332,1993,Quebec,Net sales of gasoline,Litres,thousands,7037733.0
+333,1993,Quebec,Gross sales of gasoline,Litres,thousands,7142433.0
+334,1993,Quebec,Net sales of diesel oil,Litres,thousands,2256598.0
+335,1993,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,2359.0
+336,1993,Ontario,Net sales of gasoline,Litres,thousands,12029467.0
+337,1993,Ontario,Gross sales of gasoline,Litres,thousands,12255200.0
+338,1993,Ontario,Net sales of diesel oil,Litres,thousands,2830500.0
+339,1993,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,490901.0
+340,1993,Manitoba,Net sales of gasoline,Litres,thousands,1253892.0
+341,1993,Manitoba,Gross sales of gasoline,Litres,thousands,1424174.0
+342,1993,Manitoba,Net sales of diesel oil,Litres,thousands,361542.0
+343,1993,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,30415.0
+344,1993,Saskatchewan,Net sales of gasoline,Litres,thousands,1373463.0
+345,1993,Saskatchewan,Gross sales of gasoline,Litres,thousands,1594192.0
+346,1993,Saskatchewan,Net sales of diesel oil,Litres,thousands,512268.0
+347,1993,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,68593.0
+348,1993,Alberta,Net sales of gasoline,Litres,thousands,3873700.0
+349,1993,Alberta,Gross sales of gasoline,Litres,thousands,4295500.0
+350,1993,Alberta,Net sales of diesel oil,Litres,thousands,1250900.0
+351,1993,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,426800.0
+352,1993,British Columbia,Net sales of gasoline,Litres,thousands,3869461.0
+353,1993,British Columbia,Gross sales of gasoline,Litres,thousands,4028083.0
+354,1993,British Columbia,Net sales of diesel oil,Litres,thousands,989618.0
+355,1993,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+356,1993,Yukon,Net sales of gasoline,Litres,thousands,61276.0
+357,1993,Yukon,Gross sales of gasoline,Litres,thousands,64260.0
+358,1993,Yukon,Net sales of diesel oil,Litres,thousands,23269.0
+359,1993,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+360,1993,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,33126.0
+361,1993,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,65057.0
+362,1993,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,23717.0
+363,1993,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+364,1994,Canada,Net sales of gasoline,Litres,thousands,33297035.0
+365,1994,Canada,Gross sales of gasoline,Litres,thousands,34571130.0
+366,1994,Canada,Net sales of diesel oil,Litres,thousands,9936354.0
+367,1994,Canada,Net sales of liquefied petroleum gas,Litres,thousands,903152.0
+368,1994,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,591489.0
+369,1994,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,602046.0
+370,1994,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,151045.0
+371,1994,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2125.0
+372,1994,Prince Edward Island,Net sales of gasoline,Litres,thousands,182350.0
+373,1994,Prince Edward Island,Gross sales of gasoline,Litres,thousands,187334.0
+374,1994,Prince Edward Island,Net sales of diesel oil,Litres,thousands,34061.0
+375,1994,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,490.0
+376,1994,Nova Scotia,Net sales of gasoline,Litres,thousands,1104480.0
+377,1994,Nova Scotia,Gross sales of gasoline,Litres,thousands,1167657.0
+378,1994,Nova Scotia,Net sales of diesel oil,Litres,thousands,281733.0
+379,1994,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5462.0
+380,1994,New Brunswick,Net sales of gasoline,Litres,thousands,1001019.0
+381,1994,New Brunswick,Gross sales of gasoline,Litres,thousands,1004792.0
+382,1994,New Brunswick,Net sales of diesel oil,Litres,thousands,337180.0
+383,1994,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3822.0
+384,1994,Quebec,Net sales of gasoline,Litres,thousands,7199940.0
+385,1994,Quebec,Gross sales of gasoline,Litres,thousands,7287653.0
+386,1994,Quebec,Net sales of diesel oil,Litres,thousands,2394880.0
+387,1994,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,2045.0
+388,1994,Ontario,Net sales of gasoline,Litres,thousands,12530021.0
+389,1994,Ontario,Gross sales of gasoline,Litres,thousands,12764898.0
+390,1994,Ontario,Net sales of diesel oil,Litres,thousands,3070400.0
+391,1994,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,421200.0
+392,1994,Manitoba,Net sales of gasoline,Litres,thousands,1278402.0
+393,1994,Manitoba,Gross sales of gasoline,Litres,thousands,1442982.0
+394,1994,Manitoba,Net sales of diesel oil,Litres,thousands,387555.0
+395,1994,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,18907.0
+396,1994,Saskatchewan,Net sales of gasoline,Litres,thousands,1297605.0
+397,1994,Saskatchewan,Gross sales of gasoline,Litres,thousands,1605316.0
+398,1994,Saskatchewan,Net sales of diesel oil,Litres,thousands,601605.0
+399,1994,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,66102.0
+400,1994,Alberta,Net sales of gasoline,Litres,thousands,3924600.0
+401,1994,Alberta,Gross sales of gasoline,Litres,thousands,4113500.0
+402,1994,Alberta,Net sales of diesel oil,Litres,thousands,1526000.0
+403,1994,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,383000.0
+404,1994,British Columbia,Net sales of gasoline,Litres,thousands,4082964.0
+405,1994,British Columbia,Gross sales of gasoline,Litres,thousands,4254591.0
+406,1994,British Columbia,Net sales of diesel oil,Litres,thousands,1080544.0
+407,1994,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+408,1994,Yukon,Net sales of gasoline,Litres,thousands,66373.0
+409,1994,Yukon,Gross sales of gasoline,Litres,thousands,69433.0
+410,1994,Yukon,Net sales of diesel oil,Litres,thousands,39501.0
+411,1994,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+412,1994,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,37791.0
+413,1994,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,70928.0
+414,1994,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,31851.0
+415,1994,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+416,1995,Canada,Net sales of gasoline,Litres,thousands,33657943.0
+417,1995,Canada,Gross sales of gasoline,Litres,thousands,34765828.0
+418,1995,Canada,Net sales of diesel oil,Litres,thousands,10533567.0
+419,1995,Canada,Net sales of liquefied petroleum gas,Litres,thousands,930337.0
+420,1995,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,582317.0
+421,1995,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,595362.0
+422,1995,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,142912.0
+423,1995,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2548.0
+424,1995,Prince Edward Island,Net sales of gasoline,Litres,thousands,183610.0
+425,1995,Prince Edward Island,Gross sales of gasoline,Litres,thousands,186700.0
+426,1995,Prince Edward Island,Net sales of diesel oil,Litres,thousands,32985.0
+427,1995,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,546.0
+428,1995,Nova Scotia,Net sales of gasoline,Litres,thousands,1123568.0
+429,1995,Nova Scotia,Gross sales of gasoline,Litres,thousands,1138189.0
+430,1995,Nova Scotia,Net sales of diesel oil,Litres,thousands,290766.0
+431,1995,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4959.0
+432,1995,New Brunswick,Net sales of gasoline,Litres,thousands,1000675.0
+433,1995,New Brunswick,Gross sales of gasoline,Litres,thousands,1006162.0
+434,1995,New Brunswick,Net sales of diesel oil,Litres,thousands,368065.0
+435,1995,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3611.0
+436,1995,Quebec,Net sales of gasoline,Litres,thousands,7442203.0
+437,1995,Quebec,Gross sales of gasoline,Litres,thousands,7503657.0
+438,1995,Quebec,Net sales of diesel oil,Litres,thousands,2602754.0
+439,1995,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,1940.0
+440,1995,Ontario,Net sales of gasoline,Litres,thousands,12482988.0
+441,1995,Ontario,Gross sales of gasoline,Litres,thousands,12775651.0
+442,1995,Ontario,Net sales of diesel oil,Litres,thousands,3321300.0
+443,1995,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,395300.0
+444,1995,Manitoba,Net sales of gasoline,Litres,thousands,1267701.0
+445,1995,Manitoba,Gross sales of gasoline,Litres,thousands,1456323.0
+446,1995,Manitoba,Net sales of diesel oil,Litres,thousands,404763.0
+447,1995,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,20428.0
+448,1995,Saskatchewan,Net sales of gasoline,Litres,thousands,1423221.0
+449,1995,Saskatchewan,Gross sales of gasoline,Litres,thousands,1561838.0
+450,1995,Saskatchewan,Net sales of diesel oil,Litres,thousands,596404.0
+451,1995,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,84804.0
+452,1995,Alberta,Net sales of gasoline,Litres,thousands,3910900.0
+453,1995,Alberta,Gross sales of gasoline,Litres,thousands,4085800.0
+454,1995,Alberta,Net sales of diesel oil,Litres,thousands,1555300.0
+455,1995,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,416200.0
+456,1995,British Columbia,Net sales of gasoline,Litres,thousands,4134983.0
+457,1995,British Columbia,Gross sales of gasoline,Litres,thousands,4318614.0
+458,1995,British Columbia,Net sales of diesel oil,Litres,thousands,1126368.0
+459,1995,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+460,1995,Yukon,Net sales of gasoline,Litres,thousands,68531.0
+461,1995,Yukon,Gross sales of gasoline,Litres,thousands,72815.0
+462,1995,Yukon,Net sales of diesel oil,Litres,thousands,48013.0
+463,1995,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+464,1995,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,37245.0
+465,1995,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,64716.0
+466,1995,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,43937.0
+467,1995,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+468,1996,Canada,Net sales of gasoline,Litres,thousands,33872646.0
+469,1996,Canada,Gross sales of gasoline,Litres,thousands,35355189.0
+470,1996,Canada,Net sales of diesel oil,Litres,thousands,11097198.0
+471,1996,Canada,Net sales of liquefied petroleum gas,Litres,thousands,924874.0
+472,1996,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,557149.0
+473,1996,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,569668.0
+474,1996,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,141611.0
+475,1996,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2842.0
+476,1996,Prince Edward Island,Net sales of gasoline,Litres,thousands,187175.0
+477,1996,Prince Edward Island,Gross sales of gasoline,Litres,thousands,191567.0
+478,1996,Prince Edward Island,Net sales of diesel oil,Litres,thousands,35730.0
+479,1996,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,563.0
+480,1996,Nova Scotia,Net sales of gasoline,Litres,thousands,1132802.0
+481,1996,Nova Scotia,Gross sales of gasoline,Litres,thousands,1145919.0
+482,1996,Nova Scotia,Net sales of diesel oil,Litres,thousands,315285.0
+483,1996,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5865.0
+484,1996,New Brunswick,Net sales of gasoline,Litres,thousands,1005236.0
+485,1996,New Brunswick,Gross sales of gasoline,Litres,thousands,1008484.0
+486,1996,New Brunswick,Net sales of diesel oil,Litres,thousands,369005.0
+487,1996,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3720.0
+488,1996,Quebec,Net sales of gasoline,Litres,thousands,7510245.0
+489,1996,Quebec,Gross sales of gasoline,Litres,thousands,7580490.0
+490,1996,Quebec,Net sales of diesel oil,Litres,thousands,2697172.0
+491,1996,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,2334.0
+492,1996,Ontario,Net sales of gasoline,Litres,thousands,12605546.0
+493,1996,Ontario,Gross sales of gasoline,Litres,thousands,12888132.0
+494,1996,Ontario,Net sales of diesel oil,Litres,thousands,3452600.0
+495,1996,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,450500.0
+496,1996,Manitoba,Net sales of gasoline,Litres,thousands,1271675.0
+497,1996,Manitoba,Gross sales of gasoline,Litres,thousands,1458477.0
+498,1996,Manitoba,Net sales of diesel oil,Litres,thousands,435218.0
+499,1996,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,20949.0
+500,1996,Saskatchewan,Net sales of gasoline,Litres,thousands,1300639.0
+501,1996,Saskatchewan,Gross sales of gasoline,Litres,thousands,1609309.0
+502,1996,Saskatchewan,Net sales of diesel oil,Litres,thousands,666350.0
+503,1996,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,84801.0
+504,1996,Alberta,Net sales of gasoline,Litres,thousands,4024600.0
+505,1996,Alberta,Gross sales of gasoline,Litres,thousands,4400300.0
+506,1996,Alberta,Net sales of diesel oil,Litres,thousands,1711700.0
+507,1996,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,353300.0
+508,1996,British Columbia,Net sales of gasoline,Litres,thousands,4172348.0
+509,1996,British Columbia,Gross sales of gasoline,Litres,thousands,4360595.0
+510,1996,British Columbia,Net sales of diesel oil,Litres,thousands,1173583.0
+511,1996,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+512,1996,Yukon,Net sales of gasoline,Litres,thousands,69310.0
+513,1996,Yukon,Gross sales of gasoline,Litres,thousands,73561.0
+514,1996,Yukon,Net sales of diesel oil,Litres,thousands,46158.0
+515,1996,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+516,1996,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,35922.0
+517,1996,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,68686.0
+518,1996,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,52786.0
+519,1996,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+520,1997,Canada,Net sales of gasoline,Litres,thousands,34829563.0
+521,1997,Canada,Gross sales of gasoline,Litres,thousands,36144051.0
+522,1997,Canada,Net sales of diesel oil,Litres,thousands,12189205.0
+523,1997,Canada,Net sales of liquefied petroleum gas,Litres,thousands,843316.0
+524,1997,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,568234.0
+525,1997,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,578707.0
+526,1997,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,147363.0
+527,1997,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2807.0
+528,1997,Prince Edward Island,Net sales of gasoline,Litres,thousands,190371.0
+529,1997,Prince Edward Island,Gross sales of gasoline,Litres,thousands,193578.0
+530,1997,Prince Edward Island,Net sales of diesel oil,Litres,thousands,36925.0
+531,1997,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,585.0
+532,1997,Nova Scotia,Net sales of gasoline,Litres,thousands,1143416.0
+533,1997,Nova Scotia,Gross sales of gasoline,Litres,thousands,1164517.0
+534,1997,Nova Scotia,Net sales of diesel oil,Litres,thousands,304915.0
+535,1997,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5436.0
+536,1997,New Brunswick,Net sales of gasoline,Litres,thousands,983167.0
+537,1997,New Brunswick,Gross sales of gasoline,Litres,thousands,988649.0
+538,1997,New Brunswick,Net sales of diesel oil,Litres,thousands,391080.0
+539,1997,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3476.0
+540,1997,Quebec,Net sales of gasoline,Litres,thousands,7552241.0
+541,1997,Quebec,Gross sales of gasoline,Litres,thousands,7664448.0
+542,1997,Quebec,Net sales of diesel oil,Litres,thousands,2962338.0
+543,1997,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,488.0
+544,1997,Ontario,Net sales of gasoline,Litres,thousands,13043000.0
+545,1997,Ontario,Gross sales of gasoline,Litres,thousands,13356000.0
+546,1997,Ontario,Net sales of diesel oil,Litres,thousands,3785600.0
+547,1997,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,414700.0
+548,1997,Manitoba,Net sales of gasoline,Litres,thousands,1300119.0
+549,1997,Manitoba,Gross sales of gasoline,Litres,thousands,1482550.0
+550,1997,Manitoba,Net sales of diesel oil,Litres,thousands,435316.0
+551,1997,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,17236.0
+552,1997,Saskatchewan,Net sales of gasoline,Litres,thousands,1479544.0
+553,1997,Saskatchewan,Gross sales of gasoline,Litres,thousands,1586593.0
+554,1997,Saskatchewan,Net sales of diesel oil,Litres,thousands,874091.0
+555,1997,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,92186.0
+556,1997,Alberta,Net sales of gasoline,Litres,thousands,4214800.0
+557,1997,Alberta,Gross sales of gasoline,Litres,thousands,4547100.0
+558,1997,Alberta,Net sales of diesel oil,Litres,thousands,1969500.0
+559,1997,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,306400.0
+560,1997,British Columbia,Net sales of gasoline,Litres,thousands,4251691.0
+561,1997,British Columbia,Gross sales of gasoline,Litres,thousands,4444947.0
+562,1997,British Columbia,Net sales of diesel oil,Litres,thousands,1203370.0
+563,1997,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+564,1997,Yukon,Net sales of gasoline,Litres,thousands,67929.0
+565,1997,Yukon,Gross sales of gasoline,Litres,thousands,71731.0
+566,1997,Yukon,Net sales of diesel oil,Litres,thousands,30746.0
+567,1997,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+568,1997,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,35051.0
+569,1997,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,65232.0
+570,1997,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,47959.0
+571,1997,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+572,1998,Canada,Net sales of gasoline,Litres,thousands,35310985.0
+573,1998,Canada,Gross sales of gasoline,Litres,thousands,37151638.0
+574,1998,Canada,Net sales of diesel oil,Litres,thousands,12117457.0
+575,1998,Canada,Net sales of liquefied petroleum gas,Litres,thousands,750533.0
+576,1998,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,560892.0
+577,1998,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,571420.0
+578,1998,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,149750.0
+579,1998,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2726.0
+580,1998,Prince Edward Island,Net sales of gasoline,Litres,thousands,196093.0
+581,1998,Prince Edward Island,Gross sales of gasoline,Litres,thousands,198383.0
+582,1998,Prince Edward Island,Net sales of diesel oil,Litres,thousands,41883.0
+583,1998,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,593.0
+584,1998,Nova Scotia,Net sales of gasoline,Litres,thousands,1169653.0
+585,1998,Nova Scotia,Gross sales of gasoline,Litres,thousands,1242119.0
+586,1998,Nova Scotia,Net sales of diesel oil,Litres,thousands,328250.0
+587,1998,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,3808.0
+588,1998,New Brunswick,Net sales of gasoline,Litres,thousands,1019099.0
+589,1998,New Brunswick,Gross sales of gasoline,Litres,thousands,1026426.0
+590,1998,New Brunswick,Net sales of diesel oil,Litres,thousands,383899.0
+591,1998,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3401.0
+592,1998,Quebec,Net sales of gasoline,Litres,thousands,7811707.0
+593,1998,Quebec,Gross sales of gasoline,Litres,thousands,7871177.0
+594,1998,Quebec,Net sales of diesel oil,Litres,thousands,2990116.0
+595,1998,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+596,1998,Ontario,Net sales of gasoline,Litres,thousands,13060801.0
+597,1998,Ontario,Gross sales of gasoline,Litres,thousands,13745331.0
+598,1998,Ontario,Net sales of diesel oil,Litres,thousands,3772900.0
+599,1998,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,384400.0
+600,1998,Manitoba,Net sales of gasoline,Litres,thousands,1261374.0
+601,1998,Manitoba,Gross sales of gasoline,Litres,thousands,1437655.0
+602,1998,Manitoba,Net sales of diesel oil,Litres,thousands,439040.0
+603,1998,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,15120.0
+604,1998,Saskatchewan,Net sales of gasoline,Litres,thousands,1316353.0
+605,1998,Saskatchewan,Gross sales of gasoline,Litres,thousands,1599962.0
+606,1998,Saskatchewan,Net sales of diesel oil,Litres,thousands,774161.0
+607,1998,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,62186.0
+608,1998,Alberta,Net sales of gasoline,Litres,thousands,4406400.0
+609,1998,Alberta,Gross sales of gasoline,Litres,thousands,4743500.0
+610,1998,Alberta,Net sales of diesel oil,Litres,thousands,1934600.0
+611,1998,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,278300.0
+612,1998,British Columbia,Net sales of gasoline,Litres,thousands,4400672.0
+613,1998,British Columbia,Gross sales of gasoline,Litres,thousands,4581349.0
+614,1998,British Columbia,Net sales of diesel oil,Litres,thousands,1173724.0
+615,1998,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+616,1998,Yukon,Net sales of gasoline,Litres,thousands,65435.0
+617,1998,Yukon,Gross sales of gasoline,Litres,thousands,68446.0
+618,1998,Yukon,Net sales of diesel oil,Litres,thousands,32192.0
+619,1998,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+620,1998,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,42506.0
+621,1998,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,65869.0
+622,1998,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,96943.0
+623,1998,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+624,1999,Canada,Net sales of gasoline,Litres,thousands,36219491.0
+625,1999,Canada,Gross sales of gasoline,Litres,thousands,37912424.0
+626,1999,Canada,Net sales of diesel oil,Litres,thousands,12838327.0
+627,1999,Canada,Net sales of liquefied petroleum gas,Litres,thousands,551790.0
+628,1999,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,587784.0
+629,1999,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,601082.0
+630,1999,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,167693.0
+631,1999,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2825.0
+632,1999,Prince Edward Island,Net sales of gasoline,Litres,thousands,209466.0
+633,1999,Prince Edward Island,Gross sales of gasoline,Litres,thousands,211631.0
+634,1999,Prince Edward Island,Net sales of diesel oil,Litres,thousands,43448.0
+635,1999,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,565.0
+636,1999,Nova Scotia,Net sales of gasoline,Litres,thousands,1157551.0
+637,1999,Nova Scotia,Gross sales of gasoline,Litres,thousands,1168058.0
+638,1999,Nova Scotia,Net sales of diesel oil,Litres,thousands,344394.0
+639,1999,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4415.0
+640,1999,New Brunswick,Net sales of gasoline,Litres,thousands,1053862.0
+641,1999,New Brunswick,Gross sales of gasoline,Litres,thousands,1059736.0
+642,1999,New Brunswick,Net sales of diesel oil,Litres,thousands,474232.0
+643,1999,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3596.0
+644,1999,Quebec,Net sales of gasoline,Litres,thousands,7717499.0
+645,1999,Quebec,Gross sales of gasoline,Litres,thousands,7772208.0
+646,1999,Quebec,Net sales of diesel oil,Litres,thousands,3075109.0
+647,1999,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+648,1999,Ontario,Net sales of gasoline,Litres,thousands,13734980.0
+649,1999,Ontario,Gross sales of gasoline,Litres,thousands,14374872.0
+650,1999,Ontario,Net sales of diesel oil,Litres,thousands,4028500.0
+651,1999,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,264453.0
+652,1999,Manitoba,Net sales of gasoline,Litres,thousands,1296423.0
+653,1999,Manitoba,Gross sales of gasoline,Litres,thousands,1479682.0
+654,1999,Manitoba,Net sales of diesel oil,Litres,thousands,457772.0
+655,1999,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,15036.0
+656,1999,Saskatchewan,Net sales of gasoline,Litres,thousands,1366647.0
+657,1999,Saskatchewan,Gross sales of gasoline,Litres,thousands,1617272.0
+658,1999,Saskatchewan,Net sales of diesel oil,Litres,thousands,811645.0
+659,1999,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,61200.0
+660,1999,Alberta,Net sales of gasoline,Litres,thousands,4491300.0
+661,1999,Alberta,Gross sales of gasoline,Litres,thousands,4831000.0
+662,1999,Alberta,Net sales of diesel oil,Litres,thousands,1973800.0
+663,1999,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,199700.0
+664,1999,British Columbia,Net sales of gasoline,Litres,thousands,4489276.0
+665,1999,British Columbia,Gross sales of gasoline,Litres,thousands,4668249.0
+666,1999,British Columbia,Net sales of diesel oil,Litres,thousands,1319012.0
+667,1999,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+668,1999,Yukon,Net sales of gasoline,Litres,thousands,67853.0
+669,1999,Yukon,Gross sales of gasoline,Litres,thousands,70128.0
+670,1999,Yukon,Net sales of diesel oil,Litres,thousands,40410.0
+671,1999,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+672,1999,Northwest Territories,Net sales of gasoline,Litres,thousands,39260.0
+673,1999,Northwest Territories,Gross sales of gasoline,Litres,thousands,50913.0
+674,1999,Northwest Territories,Net sales of diesel oil,Litres,thousands,99851.0
+675,1999,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+676,1999,Nunavut,Net sales of gasoline,Litres,thousands,7591.0
+677,1999,Nunavut,Gross sales of gasoline,Litres,thousands,7591.0
+678,1999,Nunavut,Net sales of diesel oil,Litres,thousands,2461.0
+679,1999,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+680,2000,Canada,Net sales of gasoline,Litres,thousands,36375338.0
+681,2000,Canada,Gross sales of gasoline,Litres,thousands,38176681.0
+682,2000,Canada,Net sales of diesel oil,Litres,thousands,13179694.0
+683,2000,Canada,Net sales of liquefied petroleum gas,Litres,thousands,445322.0
+684,2000,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,574110.0
+685,2000,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,595545.0
+686,2000,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,186856.0
+687,2000,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2856.0
+688,2000,Prince Edward Island,Net sales of gasoline,Litres,thousands,205235.0
+689,2000,Prince Edward Island,Gross sales of gasoline,Litres,thousands,208380.0
+690,2000,Prince Edward Island,Net sales of diesel oil,Litres,thousands,44756.0
+691,2000,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,568.0
+692,2000,Nova Scotia,Net sales of gasoline,Litres,thousands,1191306.0
+693,2000,Nova Scotia,Gross sales of gasoline,Litres,thousands,1206114.0
+694,2000,Nova Scotia,Net sales of diesel oil,Litres,thousands,352916.0
+695,2000,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5075.0
+696,2000,New Brunswick,Net sales of gasoline,Litres,thousands,1019441.0
+697,2000,New Brunswick,Gross sales of gasoline,Litres,thousands,1047380.0
+698,2000,New Brunswick,Net sales of diesel oil,Litres,thousands,453306.0
+699,2000,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3479.0
+700,2000,Quebec,Net sales of gasoline,Litres,thousands,7858795.0
+701,2000,Quebec,Gross sales of gasoline,Litres,thousands,7928058.0
+702,2000,Quebec,Net sales of diesel oil,Litres,thousands,2922047.0
+703,2000,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+704,2000,Ontario,Net sales of gasoline,Litres,thousands,13868131.0
+705,2000,Ontario,Gross sales of gasoline,Litres,thousands,14553798.0
+706,2000,Ontario,Net sales of diesel oil,Litres,thousands,4335000.0
+707,2000,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,177000.0
+708,2000,Manitoba,Net sales of gasoline,Litres,thousands,1304807.0
+709,2000,Manitoba,Gross sales of gasoline,Litres,thousands,1496909.0
+710,2000,Manitoba,Net sales of diesel oil,Litres,thousands,459958.0
+711,2000,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,14051.0
+712,2000,Saskatchewan,Net sales of gasoline,Litres,thousands,1292392.0
+713,2000,Saskatchewan,Gross sales of gasoline,Litres,thousands,1551799.0
+714,2000,Saskatchewan,Net sales of diesel oil,Litres,thousands,833144.0
+715,2000,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,79493.0
+716,2000,Alberta,Net sales of gasoline,Litres,thousands,4548300.0
+717,2000,Alberta,Gross sales of gasoline,Litres,thousands,4856800.0
+718,2000,Alberta,Net sales of diesel oil,Litres,thousands,2173500.0
+719,2000,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,162800.0
+720,2000,British Columbia,Net sales of gasoline,Litres,thousands,4406399.0
+721,2000,British Columbia,Gross sales of gasoline,Litres,thousands,4614710.0
+722,2000,British Columbia,Net sales of diesel oil,Litres,thousands,1370074.0
+723,2000,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+724,2000,Yukon,Net sales of gasoline,Litres,thousands,62121.0
+725,2000,Yukon,Gross sales of gasoline,Litres,thousands,63661.0
+726,2000,Yukon,Net sales of diesel oil,Litres,thousands,43621.0
+727,2000,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+728,2000,Northwest Territories,Net sales of gasoline,Litres,thousands,34431.0
+729,2000,Northwest Territories,Gross sales of gasoline,Litres,thousands,43657.0
+730,2000,Northwest Territories,Net sales of diesel oil,Litres,thousands,1574.0
+731,2000,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+732,2000,Nunavut,Net sales of gasoline,Litres,thousands,9869.0
+733,2000,Nunavut,Gross sales of gasoline,Litres,thousands,9869.0
+734,2000,Nunavut,Net sales of diesel oil,Litres,thousands,2942.0
+735,2000,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+736,2001,Canada,Net sales of gasoline,Litres,thousands,36552556.0
+737,2001,Canada,Gross sales of gasoline,Litres,thousands,38126164.0
+738,2001,Canada,Net sales of diesel oil,Litres,thousands,13336346.0
+739,2001,Canada,Net sales of liquefied petroleum gas,Litres,thousands,398686.0
+740,2001,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,580576.0
+741,2001,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,605177.0
+742,2001,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,182501.0
+743,2001,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,9165.0
+744,2001,Prince Edward Island,Net sales of gasoline,Litres,thousands,200192.0
+745,2001,Prince Edward Island,Gross sales of gasoline,Litres,thousands,203095.0
+746,2001,Prince Edward Island,Net sales of diesel oil,Litres,thousands,44524.0
+747,2001,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,558.0
+748,2001,Nova Scotia,Net sales of gasoline,Litres,thousands,1179199.0
+749,2001,Nova Scotia,Gross sales of gasoline,Litres,thousands,1206604.0
+750,2001,Nova Scotia,Net sales of diesel oil,Litres,thousands,360323.0
+751,2001,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4965.0
+752,2001,New Brunswick,Net sales of gasoline,Litres,thousands,1041519.0
+753,2001,New Brunswick,Gross sales of gasoline,Litres,thousands,1063630.0
+754,2001,New Brunswick,Net sales of diesel oil,Litres,thousands,409974.0
+755,2001,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,2945.0
+756,2001,Quebec,Net sales of gasoline,Litres,thousands,7621810.0
+757,2001,Quebec,Gross sales of gasoline,Litres,thousands,7735416.0
+758,2001,Quebec,Net sales of diesel oil,Litres,thousands,2899166.0
+759,2001,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+760,2001,Ontario,Net sales of gasoline,Litres,thousands,14342128.0
+761,2001,Ontario,Gross sales of gasoline,Litres,thousands,14520878.0
+762,2001,Ontario,Net sales of diesel oil,Litres,thousands,4355105.0
+763,2001,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,121209.0
+764,2001,Manitoba,Net sales of gasoline,Litres,thousands,1322522.0
+765,2001,Manitoba,Gross sales of gasoline,Litres,thousands,1499917.0
+766,2001,Manitoba,Net sales of diesel oil,Litres,thousands,469804.0
+767,2001,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,12244.0
+768,2001,Saskatchewan,Net sales of gasoline,Litres,thousands,1054694.0
+769,2001,Saskatchewan,Gross sales of gasoline,Litres,thousands,1572399.0
+770,2001,Saskatchewan,Net sales of diesel oil,Litres,thousands,854377.0
+771,2001,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,74301.0
+772,2001,Alberta,Net sales of gasoline,Litres,thousands,4646200.0
+773,2001,Alberta,Gross sales of gasoline,Litres,thousands,4959700.0
+774,2001,Alberta,Net sales of diesel oil,Litres,thousands,2293900.0
+775,2001,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,173300.0
+776,2001,British Columbia,Net sales of gasoline,Litres,thousands,4460565.0
+777,2001,British Columbia,Gross sales of gasoline,Litres,thousands,4647147.0
+778,2001,British Columbia,Net sales of diesel oil,Litres,thousands,1329901.0
+779,2001,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+780,2001,Yukon,Net sales of gasoline,Litres,thousands,60731.0
+781,2001,Yukon,Gross sales of gasoline,Litres,thousands,62833.0
+782,2001,Yukon,Net sales of diesel oil,Litres,thousands,39127.0
+783,2001,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+784,2001,Northwest Territories,Net sales of gasoline,Litres,thousands,32936.0
+785,2001,Northwest Territories,Gross sales of gasoline,Litres,thousands,39885.0
+786,2001,Northwest Territories,Net sales of diesel oil,Litres,thousands,94313.0
+787,2001,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+788,2001,Nunavut,Net sales of gasoline,Litres,thousands,9482.0
+789,2001,Nunavut,Gross sales of gasoline,Litres,thousands,9482.0
+790,2001,Nunavut,Net sales of diesel oil,Litres,thousands,3331.0
+791,2001,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+792,2002,Canada,Net sales of gasoline,Litres,thousands,37949600.0
+793,2002,Canada,Gross sales of gasoline,Litres,thousands,39245969.0
+794,2002,Canada,Net sales of diesel oil,Litres,thousands,13737648.0
+795,2002,Canada,Net sales of liquefied petroleum gas,Litres,thousands,308345.0
+796,2002,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,587295.0
+797,2002,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,606755.0
+798,2002,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,187045.0
+799,2002,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2005.0
+800,2002,Prince Edward Island,Net sales of gasoline,Litres,thousands,210701.0
+801,2002,Prince Edward Island,Gross sales of gasoline,Litres,thousands,213294.0
+802,2002,Prince Edward Island,Net sales of diesel oil,Litres,thousands,43554.0
+803,2002,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,475.0
+804,2002,Nova Scotia,Net sales of gasoline,Litres,thousands,1202711.0
+805,2002,Nova Scotia,Gross sales of gasoline,Litres,thousands,1216679.0
+806,2002,Nova Scotia,Net sales of diesel oil,Litres,thousands,365077.0
+807,2002,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4936.0
+808,2002,New Brunswick,Net sales of gasoline,Litres,thousands,1065779.0
+809,2002,New Brunswick,Gross sales of gasoline,Litres,thousands,1078608.0
+810,2002,New Brunswick,Net sales of diesel oil,Litres,thousands,431026.0
+811,2002,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3558.0
+812,2002,Quebec,Net sales of gasoline,Litres,thousands,7885344.0
+813,2002,Quebec,Gross sales of gasoline,Litres,thousands,7976879.0
+814,2002,Quebec,Net sales of diesel oil,Litres,thousands,3002660.0
+815,2002,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+816,2002,Ontario,Net sales of gasoline,Litres,thousands,14943145.0
+817,2002,Ontario,Gross sales of gasoline,Litres,thousands,15135135.0
+818,2002,Ontario,Net sales of diesel oil,Litres,thousands,4561028.0
+819,2002,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,85297.0
+820,2002,Manitoba,Net sales of gasoline,Litres,thousands,1360651.0
+821,2002,Manitoba,Gross sales of gasoline,Litres,thousands,1528499.0
+822,2002,Manitoba,Net sales of diesel oil,Litres,thousands,486941.0
+823,2002,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,11793.0
+824,2002,Saskatchewan,Net sales of gasoline,Litres,thousands,1269309.0
+825,2002,Saskatchewan,Gross sales of gasoline,Litres,thousands,1557924.0
+826,2002,Saskatchewan,Net sales of diesel oil,Litres,thousands,819207.0
+827,2002,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,63281.0
+828,2002,Alberta,Net sales of gasoline,Litres,thousands,4778900.0
+829,2002,Alberta,Gross sales of gasoline,Litres,thousands,5089400.0
+830,2002,Alberta,Net sales of diesel oil,Litres,thousands,2285900.0
+831,2002,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,137000.0
+832,2002,British Columbia,Net sales of gasoline,Litres,thousands,4532446.0
+833,2002,British Columbia,Gross sales of gasoline,Litres,thousands,4722426.0
+834,2002,British Columbia,Net sales of diesel oil,Litres,thousands,1418915.0
+835,2002,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+836,2002,Yukon,Net sales of gasoline,Litres,thousands,64722.0
+837,2002,Yukon,Gross sales of gasoline,Litres,thousands,66682.0
+838,2002,Yukon,Net sales of diesel oil,Litres,thousands,41786.0
+839,2002,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+840,2002,Northwest Territories,Net sales of gasoline,Litres,thousands,37654.0
+841,2002,Northwest Territories,Gross sales of gasoline,Litres,thousands,42748.0
+842,2002,Northwest Territories,Net sales of diesel oil,Litres,thousands,90190.0
+843,2002,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+844,2002,Nunavut,Net sales of gasoline,Litres,thousands,10941.0
+845,2002,Nunavut,Gross sales of gasoline,Litres,thousands,10941.0
+846,2002,Nunavut,Net sales of diesel oil,Litres,thousands,4318.0
+847,2002,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+848,2003,Canada,Net sales of gasoline,Litres,thousands,38421608.0
+849,2003,Canada,Gross sales of gasoline,Litres,thousands,39797315.0
+850,2003,Canada,Net sales of diesel oil,Litres,thousands,14720634.0
+851,2003,Canada,Net sales of liquefied petroleum gas,Litres,thousands,299714.0
+852,2003,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,600614.0
+853,2003,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,612540.0
+854,2003,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,191870.0
+855,2003,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2465.0
+856,2003,Prince Edward Island,Net sales of gasoline,Litres,thousands,206374.0
+857,2003,Prince Edward Island,Gross sales of gasoline,Litres,thousands,208876.0
+858,2003,Prince Edward Island,Net sales of diesel oil,Litres,thousands,47743.0
+859,2003,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,556.0
+860,2003,Nova Scotia,Net sales of gasoline,Litres,thousands,1214712.0
+861,2003,Nova Scotia,Gross sales of gasoline,Litres,thousands,1220905.0
+862,2003,Nova Scotia,Net sales of diesel oil,Litres,thousands,396459.0
+863,2003,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5063.0
+864,2003,New Brunswick,Net sales of gasoline,Litres,thousands,1027076.0
+865,2003,New Brunswick,Gross sales of gasoline,Litres,thousands,1054882.0
+866,2003,New Brunswick,Net sales of diesel oil,Litres,thousands,458788.0
+867,2003,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,4406.0
+868,2003,Quebec,Net sales of gasoline,Litres,thousands,7958452.0
+869,2003,Quebec,Gross sales of gasoline,Litres,thousands,8168659.0
+870,2003,Quebec,Net sales of diesel oil,Litres,thousands,3111707.0
+871,2003,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+872,2003,Ontario,Net sales of gasoline,Litres,thousands,15381530.0
+873,2003,Ontario,Gross sales of gasoline,Litres,thousands,15549036.0
+874,2003,Ontario,Net sales of diesel oil,Litres,thousands,5029839.0
+875,2003,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,86358.0
+876,2003,Manitoba,Net sales of gasoline,Litres,thousands,1363185.0
+877,2003,Manitoba,Gross sales of gasoline,Litres,thousands,1536297.0
+878,2003,Manitoba,Net sales of diesel oil,Litres,thousands,488185.0
+879,2003,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,9471.0
+880,2003,Saskatchewan,Net sales of gasoline,Litres,thousands,1271865.0
+881,2003,Saskatchewan,Gross sales of gasoline,Litres,thousands,1543043.0
+882,2003,Saskatchewan,Net sales of diesel oil,Litres,thousands,856147.0
+883,2003,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,69596.0
+884,2003,Alberta,Net sales of gasoline,Litres,thousands,4770900.0
+885,2003,Alberta,Gross sales of gasoline,Litres,thousands,5065600.0
+886,2003,Alberta,Net sales of diesel oil,Litres,thousands,2496100.0
+887,2003,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,121800.0
+888,2003,British Columbia,Net sales of gasoline,Litres,thousands,4512548.0
+889,2003,British Columbia,Gross sales of gasoline,Litres,thousands,4712238.0
+890,2003,British Columbia,Net sales of diesel oil,Litres,thousands,1515135.0
+891,2003,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+892,2003,Yukon,Net sales of gasoline,Litres,thousands,63844.0
+893,2003,Yukon,Gross sales of gasoline,Litres,thousands,65787.0
+894,2003,Yukon,Net sales of diesel oil,Litres,thousands,37448.0
+895,2003,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+896,2003,Northwest Territories,Net sales of gasoline,Litres,thousands,39699.0
+897,2003,Northwest Territories,Gross sales of gasoline,Litres,thousands,48644.0
+898,2003,Northwest Territories,Net sales of diesel oil,Litres,thousands,86890.0
+899,2003,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+900,2003,Nunavut,Net sales of gasoline,Litres,thousands,10809.0
+901,2003,Nunavut,Gross sales of gasoline,Litres,thousands,10809.0
+902,2003,Nunavut,Net sales of diesel oil,Litres,thousands,4323.0
+903,2003,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+904,2004,Canada,Net sales of gasoline,Litres,thousands,38911752.0
+905,2004,Canada,Gross sales of gasoline,Litres,thousands,40146013.0
+906,2004,Canada,Net sales of diesel oil,Litres,thousands,15671144.0
+907,2004,Canada,Net sales of liquefied petroleum gas,Litres,thousands,346050.0
+908,2004,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,599162.0
+909,2004,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,613916.0
+910,2004,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,201565.0
+911,2004,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2231.0
+912,2004,Prince Edward Island,Net sales of gasoline,Litres,thousands,200296.0
+913,2004,Prince Edward Island,Gross sales of gasoline,Litres,thousands,201572.0
+914,2004,Prince Edward Island,Net sales of diesel oil,Litres,thousands,53785.0
+915,2004,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,465.0
+916,2004,Nova Scotia,Net sales of gasoline,Litres,thousands,1208913.0
+917,2004,Nova Scotia,Gross sales of gasoline,Litres,thousands,1214597.0
+918,2004,Nova Scotia,Net sales of diesel oil,Litres,thousands,418771.0
+919,2004,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4495.0
+920,2004,New Brunswick,Net sales of gasoline,Litres,thousands,1024339.0
+921,2004,New Brunswick,Gross sales of gasoline,Litres,thousands,1040150.0
+922,2004,New Brunswick,Net sales of diesel oil,Litres,thousands,457890.0
+923,2004,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,4244.0
+924,2004,Quebec,Net sales of gasoline,Litres,thousands,8309692.0
+925,2004,Quebec,Gross sales of gasoline,Litres,thousands,8366904.0
+926,2004,Quebec,Net sales of diesel oil,Litres,thousands,3293206.0
+927,2004,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+928,2004,Ontario,Net sales of gasoline,Litres,thousands,15505570.0
+929,2004,Ontario,Gross sales of gasoline,Litres,thousands,15693065.0
+930,2004,Ontario,Net sales of diesel oil,Litres,thousands,5303501.0
+931,2004,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,86991.0
+932,2004,Manitoba,Net sales of gasoline,Litres,thousands,1347594.0
+933,2004,Manitoba,Gross sales of gasoline,Litres,thousands,1520802.0
+934,2004,Manitoba,Net sales of diesel oil,Litres,thousands,525835.0
+935,2004,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,44927.0
+936,2004,Saskatchewan,Net sales of gasoline,Litres,thousands,1227099.0
+937,2004,Saskatchewan,Gross sales of gasoline,Litres,thousands,1501549.0
+938,2004,Saskatchewan,Net sales of diesel oil,Litres,thousands,905789.0
+939,2004,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,84798.0
+940,2004,Alberta,Net sales of gasoline,Litres,thousands,4831900.0
+941,2004,Alberta,Gross sales of gasoline,Litres,thousands,5115800.0
+942,2004,Alberta,Net sales of diesel oil,Litres,thousands,2715800.0
+943,2004,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,117900.0
+944,2004,British Columbia,Net sales of gasoline,Litres,thousands,4543450.0
+945,2004,British Columbia,Gross sales of gasoline,Litres,thousands,4751290.0
+946,2004,British Columbia,Net sales of diesel oil,Litres,thousands,1647352.0
+947,2004,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+948,2004,Yukon,Net sales of gasoline,Litres,thousands,62306.0
+949,2004,Yukon,Gross sales of gasoline,Litres,thousands,64264.0
+950,2004,Yukon,Net sales of diesel oil,Litres,thousands,41453.0
+951,2004,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+952,2004,Northwest Territories,Net sales of gasoline,Litres,thousands,39955.0
+953,2004,Northwest Territories,Gross sales of gasoline,Litres,thousands,50626.0
+954,2004,Northwest Territories,Net sales of diesel oil,Litres,thousands,101291.0
+955,2004,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+956,2004,Nunavut,Net sales of gasoline,Litres,thousands,11478.0
+957,2004,Nunavut,Gross sales of gasoline,Litres,thousands,11478.0
+958,2004,Nunavut,Net sales of diesel oil,Litres,thousands,4906.0
+959,2004,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+960,2005,Canada,Net sales of gasoline,Litres,thousands,38484324.0
+961,2005,Canada,Gross sales of gasoline,Litres,thousands,39845934.0
+962,2005,Canada,Net sales of diesel oil,Litres,thousands,16216420.0
+963,2005,Canada,Net sales of liquefied petroleum gas,Litres,thousands,312063.0
+964,2005,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,587439.0
+965,2005,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,601803.0
+966,2005,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,224357.0
+967,2005,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1965.0
+968,2005,Prince Edward Island,Net sales of gasoline,Litres,thousands,207675.0
+969,2005,Prince Edward Island,Gross sales of gasoline,Litres,thousands,209866.0
+970,2005,Prince Edward Island,Net sales of diesel oil,Litres,thousands,46368.0
+971,2005,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,601.0
+972,2005,Nova Scotia,Net sales of gasoline,Litres,thousands,1188259.0
+973,2005,Nova Scotia,Gross sales of gasoline,Litres,thousands,1194195.0
+974,2005,Nova Scotia,Net sales of diesel oil,Litres,thousands,417863.0
+975,2005,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,3931.0
+976,2005,New Brunswick,Net sales of gasoline,Litres,thousands,956802.0
+977,2005,New Brunswick,Gross sales of gasoline,Litres,thousands,979326.0
+978,2005,New Brunswick,Net sales of diesel oil,Litres,thousands,480374.0
+979,2005,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,5820.0
+980,2005,Quebec,Net sales of gasoline,Litres,thousands,8186886.0
+981,2005,Quebec,Gross sales of gasoline,Litres,thousands,8289887.0
+982,2005,Quebec,Net sales of diesel oil,Litres,thousands,3242833.0
+983,2005,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+984,2005,Ontario,Net sales of gasoline,Litres,thousands,15338069.0
+985,2005,Ontario,Gross sales of gasoline,Litres,thousands,15576477.0
+986,2005,Ontario,Net sales of diesel oil,Litres,thousands,5430385.0
+987,2005,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,69451.0
+988,2005,Manitoba,Net sales of gasoline,Litres,thousands,1328805.0
+989,2005,Manitoba,Gross sales of gasoline,Litres,thousands,1497624.0
+990,2005,Manitoba,Net sales of diesel oil,Litres,thousands,545585.0
+991,2005,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,58733.0
+992,2005,Saskatchewan,Net sales of gasoline,Litres,thousands,1176858.0
+993,2005,Saskatchewan,Gross sales of gasoline,Litres,thousands,1513504.0
+994,2005,Saskatchewan,Net sales of diesel oil,Litres,thousands,955799.0
+995,2005,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,78061.0
+996,2005,Alberta,Net sales of gasoline,Litres,thousands,4884300.0
+997,2005,Alberta,Gross sales of gasoline,Litres,thousands,5146600.0
+998,2005,Alberta,Net sales of diesel oil,Litres,thousands,3008500.0
+999,2005,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,93500.0
+1000,2005,British Columbia,Net sales of gasoline,Litres,thousands,4507834.0
+1001,2005,British Columbia,Gross sales of gasoline,Litres,thousands,4701388.0
+1002,2005,British Columbia,Net sales of diesel oil,Litres,thousands,1681135.0
+1003,2005,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1004,2005,Yukon,Net sales of gasoline,Litres,thousands,61025.0
+1005,2005,Yukon,Gross sales of gasoline,Litres,thousands,63290.0
+1006,2005,Yukon,Net sales of diesel oil,Litres,thousands,44772.0
+1007,2005,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1008,2005,Northwest Territories,Net sales of gasoline,Litres,thousands,37005.0
+1009,2005,Northwest Territories,Gross sales of gasoline,Litres,thousands,48608.0
+1010,2005,Northwest Territories,Net sales of diesel oil,Litres,thousands,133768.0
+1011,2005,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1012,2005,Nunavut,Net sales of gasoline,Litres,thousands,23367.0
+1013,2005,Nunavut,Gross sales of gasoline,Litres,thousands,23367.0
+1014,2005,Nunavut,Net sales of diesel oil,Litres,thousands,4682.0
+1015,2005,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1016,2006,Canada,Net sales of gasoline,Litres,thousands,38653955.0
+1017,2006,Canada,Gross sales of gasoline,Litres,thousands,39918335.0
+1018,2006,Canada,Net sales of diesel oil,Litres,thousands,16611819.0
+1019,2006,Canada,Net sales of liquefied petroleum gas,Litres,thousands,311161.0
+1020,2006,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,589155.0
+1021,2006,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,600955.0
+1022,2006,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,238703.0
+1023,2006,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2843.0
+1024,2006,Prince Edward Island,Net sales of gasoline,Litres,thousands,194312.0
+1025,2006,Prince Edward Island,Gross sales of gasoline,Litres,thousands,195660.0
+1026,2006,Prince Edward Island,Net sales of diesel oil,Litres,thousands,46265.0
+1027,2006,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,301.0
+1028,2006,Nova Scotia,Net sales of gasoline,Litres,thousands,1192608.0
+1029,2006,Nova Scotia,Gross sales of gasoline,Litres,thousands,1194984.0
+1030,2006,Nova Scotia,Net sales of diesel oil,Litres,thousands,456929.0
+1031,2006,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,6187.0
+1032,2006,New Brunswick,Net sales of gasoline,Litres,thousands,983830.0
+1033,2006,New Brunswick,Gross sales of gasoline,Litres,thousands,1007062.0
+1034,2006,New Brunswick,Net sales of diesel oil,Litres,thousands,466058.0
+1035,2006,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,6856.0
+1036,2006,Quebec,Net sales of gasoline,Litres,thousands,8159065.0
+1037,2006,Quebec,Gross sales of gasoline,Litres,thousands,8230895.0
+1038,2006,Quebec,Net sales of diesel oil,Litres,thousands,3193472.0
+1039,2006,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1040,2006,Ontario,Net sales of gasoline,Litres,thousands,15268667.0
+1041,2006,Ontario,Gross sales of gasoline,Litres,thousands,15507629.0
+1042,2006,Ontario,Net sales of diesel oil,Litres,thousands,5384342.0
+1043,2006,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,67068.0
+1044,2006,Manitoba,Net sales of gasoline,Litres,thousands,1331046.0
+1045,2006,Manitoba,Gross sales of gasoline,Litres,thousands,1469050.0
+1046,2006,Manitoba,Net sales of diesel oil,Litres,thousands,560428.0
+1047,2006,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,59990.0
+1048,2006,Saskatchewan,Net sales of gasoline,Litres,thousands,1160399.0
+1049,2006,Saskatchewan,Gross sales of gasoline,Litres,thousands,1502063.0
+1050,2006,Saskatchewan,Net sales of diesel oil,Litres,thousands,1009216.0
+1051,2006,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,70116.0
+1052,2006,Alberta,Net sales of gasoline,Litres,thousands,5139600.0
+1053,2006,Alberta,Gross sales of gasoline,Litres,thousands,5368100.0
+1054,2006,Alberta,Net sales of diesel oil,Litres,thousands,3373400.0
+1055,2006,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,97800.0
+1056,2006,British Columbia,Net sales of gasoline,Litres,thousands,4524469.0
+1057,2006,British Columbia,Gross sales of gasoline,Litres,thousands,4719356.0
+1058,2006,British Columbia,Net sales of diesel oil,Litres,thousands,1721635.0
+1059,2006,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1060,2006,Yukon,Net sales of gasoline,Litres,thousands,61536.0
+1061,2006,Yukon,Gross sales of gasoline,Litres,thousands,63839.0
+1062,2006,Yukon,Net sales of diesel oil,Litres,thousands,43137.0
+1063,2006,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1064,2006,Northwest Territories,Net sales of gasoline,Litres,thousands,37250.0
+1065,2006,Northwest Territories,Gross sales of gasoline,Litres,thousands,46724.0
+1066,2006,Northwest Territories,Net sales of diesel oil,Litres,thousands,113045.0
+1067,2006,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1068,2006,Nunavut,Net sales of gasoline,Litres,thousands,12016.0
+1069,2006,Nunavut,Gross sales of gasoline,Litres,thousands,12016.0
+1070,2006,Nunavut,Net sales of diesel oil,Litres,thousands,5188.0
+1071,2006,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1072,2007,Canada,Net sales of gasoline,Litres,thousands,39635182.0
+1073,2007,Canada,Gross sales of gasoline,Litres,thousands,40848495.0
+1074,2007,Canada,Net sales of diesel oil,Litres,thousands,17133467.0
+1075,2007,Canada,Net sales of liquefied petroleum gas,Litres,thousands,299436.0
+1076,2007,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,604949.0
+1077,2007,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,616872.0
+1078,2007,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,245690.0
+1079,2007,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1508.0
+1080,2007,Prince Edward Island,Net sales of gasoline,Litres,thousands,196120.0
+1081,2007,Prince Edward Island,Gross sales of gasoline,Litres,thousands,200511.0
+1082,2007,Prince Edward Island,Net sales of diesel oil,Litres,thousands,46931.0
+1083,2007,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,199.0
+1084,2007,Nova Scotia,Net sales of gasoline,Litres,thousands,1182790.0
+1085,2007,Nova Scotia,Gross sales of gasoline,Litres,thousands,1190856.0
+1086,2007,Nova Scotia,Net sales of diesel oil,Litres,thousands,435338.0
+1087,2007,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,3234.0
+1088,2007,New Brunswick,Net sales of gasoline,Litres,thousands,1033704.0
+1089,2007,New Brunswick,Gross sales of gasoline,Litres,thousands,1059780.0
+1090,2007,New Brunswick,Net sales of diesel oil,Litres,thousands,480268.0
+1091,2007,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,2954.0
+1092,2007,Quebec,Net sales of gasoline,Litres,thousands,8361886.0
+1093,2007,Quebec,Gross sales of gasoline,Litres,thousands,8441464.0
+1094,2007,Quebec,Net sales of diesel oil,Litres,thousands,3176610.0
+1095,2007,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1096,2007,Ontario,Net sales of gasoline,Litres,thousands,15702107.0
+1097,2007,Ontario,Gross sales of gasoline,Litres,thousands,15840468.0
+1098,2007,Ontario,Net sales of diesel oil,Litres,thousands,5380481.0
+1099,2007,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,62581.0
+1100,2007,Manitoba,Net sales of gasoline,Litres,thousands,1364554.0
+1101,2007,Manitoba,Gross sales of gasoline,Litres,thousands,1514653.0
+1102,2007,Manitoba,Net sales of diesel oil,Litres,thousands,692065.0
+1103,2007,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,69754.0
+1104,2007,Saskatchewan,Net sales of gasoline,Litres,thousands,1219892.0
+1105,2007,Saskatchewan,Gross sales of gasoline,Litres,thousands,1570195.0
+1106,2007,Saskatchewan,Net sales of diesel oil,Litres,thousands,1086998.0
+1107,2007,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,60406.0
+1108,2007,Alberta,Net sales of gasoline,Litres,thousands,5298000.0
+1109,2007,Alberta,Gross sales of gasoline,Litres,thousands,5536200.0
+1110,2007,Alberta,Net sales of diesel oil,Litres,thousands,3580000.0
+1111,2007,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,98800.0
+1112,2007,British Columbia,Net sales of gasoline,Litres,thousands,4554406.0
+1113,2007,British Columbia,Gross sales of gasoline,Litres,thousands,4749604.0
+1114,2007,British Columbia,Net sales of diesel oil,Litres,thousands,1796611.0
+1115,2007,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1116,2007,Yukon,Net sales of gasoline,Litres,thousands,60741.0
+1117,2007,Yukon,Gross sales of gasoline,Litres,thousands,62816.0
+1118,2007,Yukon,Net sales of diesel oil,Litres,thousands,43789.0
+1119,2007,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1120,2007,Northwest Territories,Net sales of gasoline,Litres,thousands,38855.0
+1121,2007,Northwest Territories,Gross sales of gasoline,Litres,thousands,47898.0
+1122,2007,Northwest Territories,Net sales of diesel oil,Litres,thousands,162327.0
+1123,2007,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1124,2007,Nunavut,Net sales of gasoline,Litres,thousands,17179.0
+1125,2007,Nunavut,Gross sales of gasoline,Litres,thousands,17179.0
+1126,2007,Nunavut,Net sales of diesel oil,Litres,thousands,6360.0
+1127,2007,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1128,2008,Canada,Net sales of gasoline,Litres,thousands,39148560.0
+1129,2008,Canada,Gross sales of gasoline,Litres,thousands,40496036.0
+1130,2008,Canada,Net sales of diesel oil,Litres,thousands,16555321.0
+1131,2008,Canada,Net sales of liquefied petroleum gas,Litres,thousands,263728.0
+1132,2008,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,617143.0
+1133,2008,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,630257.0
+1134,2008,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,264232.0
+1135,2008,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1562.0
+1136,2008,Prince Edward Island,Net sales of gasoline,Litres,thousands,194003.0
+1137,2008,Prince Edward Island,Gross sales of gasoline,Litres,thousands,196645.0
+1138,2008,Prince Edward Island,Net sales of diesel oil,Litres,thousands,43906.0
+1139,2008,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,1085.0
+1140,2008,Nova Scotia,Net sales of gasoline,Litres,thousands,1157968.0
+1141,2008,Nova Scotia,Gross sales of gasoline,Litres,thousands,1164705.0
+1142,2008,Nova Scotia,Net sales of diesel oil,Litres,thousands,418907.0
+1143,2008,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,1924.0
+1144,2008,New Brunswick,Net sales of gasoline,Litres,thousands,1012067.0
+1145,2008,New Brunswick,Gross sales of gasoline,Litres,thousands,1055531.0
+1146,2008,New Brunswick,Net sales of diesel oil,Litres,thousands,468689.0
+1147,2008,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,2606.0
+1148,2008,Quebec,Net sales of gasoline,Litres,thousands,8191537.0
+1149,2008,Quebec,Gross sales of gasoline,Litres,thousands,8287272.0
+1150,2008,Quebec,Net sales of diesel oil,Litres,thousands,2929446.0
+1151,2008,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1152,2008,Ontario,Net sales of gasoline,Litres,thousands,15443375.0
+1153,2008,Ontario,Gross sales of gasoline,Litres,thousands,15667959.0
+1154,2008,Ontario,Net sales of diesel oil,Litres,thousands,5132435.0
+1155,2008,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,52964.0
+1156,2008,Manitoba,Net sales of gasoline,Litres,thousands,1375752.0
+1157,2008,Manitoba,Gross sales of gasoline,Litres,thousands,1527789.0
+1158,2008,Manitoba,Net sales of diesel oil,Litres,thousands,737729.0
+1159,2008,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,68642.0
+1160,2008,Saskatchewan,Net sales of gasoline,Litres,thousands,1254365.0
+1161,2008,Saskatchewan,Gross sales of gasoline,Litres,thousands,1608250.0
+1162,2008,Saskatchewan,Net sales of diesel oil,Litres,thousands,1191964.0
+1163,2008,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,67245.0
+1164,2008,Alberta,Net sales of gasoline,Litres,thousands,5317300.0
+1165,2008,Alberta,Gross sales of gasoline,Litres,thousands,5608400.0
+1166,2008,Alberta,Net sales of diesel oil,Litres,thousands,3488800.0
+1167,2008,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,67700.0
+1168,2008,British Columbia,Net sales of gasoline,Litres,thousands,4467255.0
+1169,2008,British Columbia,Gross sales of gasoline,Litres,thousands,4619653.0
+1170,2008,British Columbia,Net sales of diesel oil,Litres,thousands,1714031.0
+1171,2008,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,
+1172,2008,Yukon,Net sales of gasoline,Litres,thousands,62797.0
+1173,2008,Yukon,Gross sales of gasoline,Litres,thousands,64950.0
+1174,2008,Yukon,Net sales of diesel oil,Litres,thousands,46827.0
+1175,2008,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1176,2008,Northwest Territories,Net sales of gasoline,Litres,thousands,37312.0
+1177,2008,Northwest Territories,Gross sales of gasoline,Litres,thousands,46939.0
+1178,2008,Northwest Territories,Net sales of diesel oil,Litres,thousands,112391.0
+1179,2008,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1180,2008,Nunavut,Net sales of gasoline,Litres,thousands,17687.0
+1181,2008,Nunavut,Gross sales of gasoline,Litres,thousands,17687.0
+1182,2008,Nunavut,Net sales of diesel oil,Litres,thousands,5966.0
+1183,2008,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1184,2009,Canada,Net sales of gasoline,Litres,thousands,39708461.0
+1185,2009,Canada,Gross sales of gasoline,Litres,thousands,41028454.0
+1186,2009,Canada,Net sales of diesel oil,Litres,thousands,16188394.0
+1187,2009,Canada,Net sales of liquefied petroleum gas,Litres,thousands,271838.0
+1188,2009,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,634637.0
+1189,2009,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,644852.0
+1190,2009,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,239501.0
+1191,2009,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,996.0
+1192,2009,Prince Edward Island,Net sales of gasoline,Litres,thousands,201323.0
+1193,2009,Prince Edward Island,Gross sales of gasoline,Litres,thousands,204522.0
+1194,2009,Prince Edward Island,Net sales of diesel oil,Litres,thousands,58738.0
+1195,2009,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1196,2009,Nova Scotia,Net sales of gasoline,Litres,thousands,1192779.0
+1197,2009,Nova Scotia,Gross sales of gasoline,Litres,thousands,1200587.0
+1198,2009,Nova Scotia,Net sales of diesel oil,Litres,thousands,407387.0
+1199,2009,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4215.0
+1200,2009,New Brunswick,Net sales of gasoline,Litres,thousands,1086509.0
+1201,2009,New Brunswick,Gross sales of gasoline,Litres,thousands,1116036.0
+1202,2009,New Brunswick,Net sales of diesel oil,Litres,thousands,452303.0
+1203,2009,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,4569.0
+1204,2009,Quebec,Net sales of gasoline,Litres,thousands,8110994.0
+1205,2009,Quebec,Gross sales of gasoline,Litres,thousands,8388442.0
+1206,2009,Quebec,Net sales of diesel oil,Litres,thousands,2948481.0
+1207,2009,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1208,2009,Ontario,Net sales of gasoline,Litres,thousands,15699670.0
+1209,2009,Ontario,Gross sales of gasoline,Litres,thousands,15849943.0
+1210,2009,Ontario,Net sales of diesel oil,Litres,thousands,4760095.0
+1211,2009,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,49030.0
+1212,2009,Manitoba,Net sales of gasoline,Litres,thousands,1412998.0
+1213,2009,Manitoba,Gross sales of gasoline,Litres,thousands,1572473.0
+1214,2009,Manitoba,Net sales of diesel oil,Litres,thousands,727478.0
+1215,2009,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,93996.0
+1216,2009,Saskatchewan,Net sales of gasoline,Litres,thousands,1354844.0
+1217,2009,Saskatchewan,Gross sales of gasoline,Litres,thousands,1696273.0
+1218,2009,Saskatchewan,Net sales of diesel oil,Litres,thousands,1172376.0
+1219,2009,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,57332.0
+1220,2009,Alberta,Net sales of gasoline,Litres,thousands,5350400.0
+1221,2009,Alberta,Gross sales of gasoline,Litres,thousands,5569300.0
+1222,2009,Alberta,Net sales of diesel oil,Litres,thousands,3632700.0
+1223,2009,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,61700.0
+1224,2009,British Columbia,Net sales of gasoline,Litres,thousands,4536112.0
+1225,2009,British Columbia,Gross sales of gasoline,Litres,thousands,4646008.0
+1226,2009,British Columbia,Net sales of diesel oil,Litres,thousands,1647876.0
+1227,2009,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,
+1228,2009,Yukon,Net sales of gasoline,Litres,thousands,67053.0
+1229,2009,Yukon,Gross sales of gasoline,Litres,thousands,69738.0
+1230,2009,Yukon,Net sales of diesel oil,Litres,thousands,50197.0
+1231,2009,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1232,2009,Northwest Territories,Net sales of gasoline,Litres,thousands,38149.0
+1233,2009,Northwest Territories,Gross sales of gasoline,Litres,thousands,47289.0
+1234,2009,Northwest Territories,Net sales of diesel oil,Litres,thousands,86013.0
+1235,2009,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1236,2009,Nunavut,Net sales of gasoline,Litres,thousands,22992.0
+1237,2009,Nunavut,Gross sales of gasoline,Litres,thousands,22991.0
+1238,2009,Nunavut,Net sales of diesel oil,Litres,thousands,5248.0
+1239,2009,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1240,2010,Canada,Net sales of gasoline,Litres,thousands,40101125.0
+1241,2010,Canada,Gross sales of gasoline,Litres,thousands,41452699.0
+1242,2010,Canada,Net sales of diesel oil,Litres,thousands,16778508.0
+1243,2010,Canada,Net sales of liquefied petroleum gas,Litres,thousands,286202.0
+1244,2010,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,655049.0
+1245,2010,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,668102.0
+1246,2010,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,276546.0
+1247,2010,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1150.0
+1248,2010,Prince Edward Island,Net sales of gasoline,Litres,thousands,202006.0
+1249,2010,Prince Edward Island,Gross sales of gasoline,Litres,thousands,205349.0
+1250,2010,Prince Edward Island,Net sales of diesel oil,Litres,thousands,45768.0
+1251,2010,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1252,2010,Nova Scotia,Net sales of gasoline,Litres,thousands,1213016.0
+1253,2010,Nova Scotia,Gross sales of gasoline,Litres,thousands,1217768.0
+1254,2010,Nova Scotia,Net sales of diesel oil,Litres,thousands,424334.0
+1255,2010,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4264.0
+1256,2010,New Brunswick,Net sales of gasoline,Litres,thousands,1107484.0
+1257,2010,New Brunswick,Gross sales of gasoline,Litres,thousands,1132432.0
+1258,2010,New Brunswick,Net sales of diesel oil,Litres,thousands,478245.0
+1259,2010,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,2373.0
+1260,2010,Quebec,Net sales of gasoline,Litres,thousands,8269968.0
+1261,2010,Quebec,Gross sales of gasoline,Litres,thousands,8550071.0
+1262,2010,Quebec,Net sales of diesel oil,Litres,thousands,2953111.0
+1263,2010,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1264,2010,Ontario,Net sales of gasoline,Litres,thousands,15780676.0
+1265,2010,Ontario,Gross sales of gasoline,Litres,thousands,15948319.0
+1266,2010,Ontario,Net sales of diesel oil,Litres,thousands,4986523.0
+1267,2010,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,43045.0
+1268,2010,Manitoba,Net sales of gasoline,Litres,thousands,1422310.0
+1269,2010,Manitoba,Gross sales of gasoline,Litres,thousands,1586063.0
+1270,2010,Manitoba,Net sales of diesel oil,Litres,thousands,784956.0
+1271,2010,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,117015.0
+1272,2010,Saskatchewan,Net sales of gasoline,Litres,thousands,1353666.0
+1273,2010,Saskatchewan,Gross sales of gasoline,Litres,thousands,1677169.0
+1274,2010,Saskatchewan,Net sales of diesel oil,Litres,thousands,1231752.0
+1275,2010,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,67654.0
+1276,2010,Alberta,Net sales of gasoline,Litres,thousands,5410900.0
+1277,2010,Alberta,Gross sales of gasoline,Litres,thousands,5618300.0
+1278,2010,Alberta,Net sales of diesel oil,Litres,thousands,3629600.0
+1279,2010,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,50700.0
+1280,2010,British Columbia,Net sales of gasoline,Litres,thousands,4560666.0
+1281,2010,British Columbia,Gross sales of gasoline,Litres,thousands,4715626.0
+1282,2010,British Columbia,Net sales of diesel oil,Litres,thousands,1838578.0
+1283,2010,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,
+1284,2010,Yukon,Net sales of gasoline,Litres,thousands,70133.0
+1285,2010,Yukon,Gross sales of gasoline,Litres,thousands,71502.0
+1286,2010,Yukon,Net sales of diesel oil,Litres,thousands,55958.0
+1287,2010,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1288,2010,Northwest Territories,Net sales of gasoline,Litres,thousands,42959.0
+1289,2010,Northwest Territories,Gross sales of gasoline,Litres,thousands,49706.0
+1290,2010,Northwest Territories,Net sales of diesel oil,Litres,thousands,65588.0
+1291,2010,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1292,2010,Nunavut,Net sales of gasoline,Litres,thousands,12291.0
+1293,2010,Nunavut,Gross sales of gasoline,Litres,thousands,12291.0
+1294,2010,Nunavut,Net sales of diesel oil,Litres,thousands,7548.0
+1295,2010,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1296,2011,Canada,Net sales of gasoline,Litres,thousands,40412210.0
+1297,2011,Canada,Gross sales of gasoline,Litres,thousands,42076411.0
+1298,2011,Canada,Net sales of diesel oil,Litres,thousands,17797512.0
+1299,2011,Canada,Net sales of liquefied petroleum gas,Litres,thousands,304464.0
+1300,2011,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,663160.0
+1301,2011,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,670082.0
+1302,2011,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,289985.0
+1303,2011,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1167.0
+1304,2011,Prince Edward Island,Net sales of gasoline,Litres,thousands,204928.0
+1305,2011,Prince Edward Island,Gross sales of gasoline,Litres,thousands,208674.0
+1306,2011,Prince Edward Island,Net sales of diesel oil,Litres,thousands,48647.0
+1307,2011,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1308,2011,Nova Scotia,Net sales of gasoline,Litres,thousands,1197281.0
+1309,2011,Nova Scotia,Gross sales of gasoline,Litres,thousands,1205599.0
+1310,2011,Nova Scotia,Net sales of diesel oil,Litres,thousands,415427.0
+1311,2011,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,6300.0
+1312,2011,New Brunswick,Net sales of gasoline,Litres,thousands,1068631.0
+1313,2011,New Brunswick,Gross sales of gasoline,Litres,thousands,1102869.0
+1314,2011,New Brunswick,Net sales of diesel oil,Litres,thousands,472237.0
+1315,2011,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,5309.0
+1316,2011,Quebec,Net sales of gasoline,Litres,thousands,8362093.0
+1317,2011,Quebec,Gross sales of gasoline,Litres,thousands,8735461.0
+1318,2011,Quebec,Net sales of diesel oil,Litres,thousands,3117994.0
+1319,2011,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1320,2011,Ontario,Net sales of gasoline,Litres,thousands,15613137.0
+1321,2011,Ontario,Gross sales of gasoline,Litres,thousands,15966493.0
+1322,2011,Ontario,Net sales of diesel oil,Litres,thousands,5020838.0
+1323,2011,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,58025.0
+1324,2011,Manitoba,Net sales of gasoline,Litres,thousands,1444079.0
+1325,2011,Manitoba,Gross sales of gasoline,Litres,thousands,1607160.0
+1326,2011,Manitoba,Net sales of diesel oil,Litres,thousands,781078.0
+1327,2011,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,114799.0
+1328,2011,Saskatchewan,Net sales of gasoline,Litres,thousands,1414017.0
+1329,2011,Saskatchewan,Gross sales of gasoline,Litres,thousands,1726192.0
+1330,2011,Saskatchewan,Net sales of diesel oil,Litres,thousands,1390009.0
+1331,2011,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,54564.0
+1332,2011,Alberta,Net sales of gasoline,Litres,thousands,5774000.0
+1333,2011,Alberta,Gross sales of gasoline,Litres,thousands,5973000.0
+1334,2011,Alberta,Net sales of diesel oil,Litres,thousands,3863300.0
+1335,2011,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,64300.0
+1336,2011,British Columbia,Net sales of gasoline,Litres,thousands,4537496.0
+1337,2011,British Columbia,Gross sales of gasoline,Litres,thousands,4741085.0
+1338,2011,British Columbia,Net sales of diesel oil,Litres,thousands,2221338.0
+1339,2011,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,
+1340,2011,Yukon,Net sales of gasoline,Litres,thousands,71641.0
+1341,2011,Yukon,Gross sales of gasoline,Litres,thousands,72336.0
+1342,2011,Yukon,Net sales of diesel oil,Litres,thousands,63585.0
+1343,2011,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1344,2011,Northwest Territories,Net sales of gasoline,Litres,thousands,42415.0
+1345,2011,Northwest Territories,Gross sales of gasoline,Litres,thousands,48129.0
+1346,2011,Northwest Territories,Net sales of diesel oil,Litres,thousands,104541.0
+1347,2011,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1348,2011,Nunavut,Net sales of gasoline,Litres,thousands,19332.0
+1349,2011,Nunavut,Gross sales of gasoline,Litres,thousands,19332.0
+1350,2011,Nunavut,Net sales of diesel oil,Litres,thousands,8533.0
+1351,2011,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1352,2012,Canada,Net sales of gasoline,Litres,thousands,40444101.0
+1353,2012,Canada,Gross sales of gasoline,Litres,thousands,42032522.0
+1354,2012,Canada,Net sales of diesel oil,Litres,thousands,17455650.0
+1355,2012,Canada,Net sales of liquefied petroleum gas,Litres,thousands,299342.0
+1356,2012,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,700449.0
+1357,2012,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,710752.0
+1358,2012,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,266750.0
+1359,2012,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1138.0
+1360,2012,Prince Edward Island,Net sales of gasoline,Litres,thousands,203670.0
+1361,2012,Prince Edward Island,Gross sales of gasoline,Litres,thousands,208586.0
+1362,2012,Prince Edward Island,Net sales of diesel oil,Litres,thousands,40938.0
+1363,2012,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1364,2012,Nova Scotia,Net sales of gasoline,Litres,thousands,1174963.0
+1365,2012,Nova Scotia,Gross sales of gasoline,Litres,thousands,1203213.0
+1366,2012,Nova Scotia,Net sales of diesel oil,Litres,thousands,387458.0
+1367,2012,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4038.0
+1368,2012,New Brunswick,Net sales of gasoline,Litres,thousands,1070276.0
+1369,2012,New Brunswick,Gross sales of gasoline,Litres,thousands,1111923.0
+1370,2012,New Brunswick,Net sales of diesel oil,Litres,thousands,427456.0
+1371,2012,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,-195.0
+1372,2012,Quebec,Net sales of gasoline,Litres,thousands,8342269.0
+1373,2012,Quebec,Gross sales of gasoline,Litres,thousands,8628479.0
+1374,2012,Quebec,Net sales of diesel oil,Litres,thousands,3127333.0
+1375,2012,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1376,2012,Ontario,Net sales of gasoline,Litres,thousands,15575798.0
+1377,2012,Ontario,Gross sales of gasoline,Litres,thousands,15792909.0
+1378,2012,Ontario,Net sales of diesel oil,Litres,thousands,5043892.0
+1379,2012,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,59141.0
+1380,2012,Manitoba,Net sales of gasoline,Litres,thousands,1478441.0
+1381,2012,Manitoba,Gross sales of gasoline,Litres,thousands,1586801.0
+1382,2012,Manitoba,Net sales of diesel oil,Litres,thousands,777907.0
+1383,2012,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,102938.0
+1384,2012,Saskatchewan,Net sales of gasoline,Litres,thousands,1403561.0
+1385,2012,Saskatchewan,Gross sales of gasoline,Litres,thousands,1733074.0
+1386,2012,Saskatchewan,Net sales of diesel oil,Litres,thousands,1404366.0
+1387,2012,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,78082.0
+1388,2012,Alberta,Net sales of gasoline,Litres,thousands,6001700.0
+1389,2012,Alberta,Gross sales of gasoline,Litres,thousands,6221400.0
+1390,2012,Alberta,Net sales of diesel oil,Litres,thousands,4054000.0
+1391,2012,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,54200.0
+1392,2012,British Columbia,Net sales of gasoline,Litres,thousands,4348707.0
+1393,2012,British Columbia,Gross sales of gasoline,Litres,thousands,4682115.0
+1394,2012,British Columbia,Net sales of diesel oil,Litres,thousands,1761637.0
+1395,2012,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,
+1396,2012,Yukon,Net sales of gasoline,Litres,thousands,68821.0
+1397,2012,Yukon,Gross sales of gasoline,Litres,thousands,69513.0
+1398,2012,Yukon,Net sales of diesel oil,Litres,thousands,60227.0
+1399,2012,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1400,2012,Northwest Territories,Net sales of gasoline,Litres,thousands,40751.0
+1401,2012,Northwest Territories,Gross sales of gasoline,Litres,thousands,49061.0
+1402,2012,Northwest Territories,Net sales of diesel oil,Litres,thousands,93260.0
+1403,2012,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1404,2012,Nunavut,Net sales of gasoline,Litres,thousands,34697.0
+1405,2012,Nunavut,Gross sales of gasoline,Litres,thousands,34697.0
+1406,2012,Nunavut,Net sales of diesel oil,Litres,thousands,10424.0
+1407,2012,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1408,2013,Canada,Net sales of gasoline,Litres,thousands,41449632.0
+1409,2013,Canada,Gross sales of gasoline,Litres,thousands,42902507.0
+1410,2013,Canada,Net sales of diesel oil,Litres,thousands,17893224.0
+1411,2013,Canada,Net sales of liquefied petroleum gas,Litres,thousands,510168.0
+1412,2013,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,700063.0
+1413,2013,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,709837.0
+1414,2013,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,312260.0
+1415,2013,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1327.0
+1416,2013,Prince Edward Island,Net sales of gasoline,Litres,thousands,198920.0
+1417,2013,Prince Edward Island,Gross sales of gasoline,Litres,thousands,202122.0
+1418,2013,Prince Edward Island,Net sales of diesel oil,Litres,thousands,37611.0
+1419,2013,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1420,2013,Nova Scotia,Net sales of gasoline,Litres,thousands,1182460.0
+1421,2013,Nova Scotia,Gross sales of gasoline,Litres,thousands,1187817.0
+1422,2013,Nova Scotia,Net sales of diesel oil,Litres,thousands,401030.0
+1423,2013,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,5109.0
+1424,2013,New Brunswick,Net sales of gasoline,Litres,thousands,1058603.0
+1425,2013,New Brunswick,Gross sales of gasoline,Litres,thousands,1109314.0
+1426,2013,New Brunswick,Net sales of diesel oil,Litres,thousands,370677.0
+1427,2013,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,4651.0
+1428,2013,Quebec,Net sales of gasoline,Litres,thousands,8188958.0
+1429,2013,Quebec,Gross sales of gasoline,Litres,thousands,8607609.0
+1430,2013,Quebec,Net sales of diesel oil,Litres,thousands,2958876.0
+1431,2013,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1432,2013,Ontario,Net sales of gasoline,Litres,thousands,16410257.0
+1433,2013,Ontario,Gross sales of gasoline,Litres,thousands,16656023.0
+1434,2013,Ontario,Net sales of diesel oil,Litres,thousands,5171298.0
+1435,2013,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,54860.0
+1436,2013,Manitoba,Net sales of gasoline,Litres,thousands,1524455.0
+1437,2013,Manitoba,Gross sales of gasoline,Litres,thousands,1609000.0
+1438,2013,Manitoba,Net sales of diesel oil,Litres,thousands,788827.0
+1439,2013,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,97053.0
+1440,2013,Saskatchewan,Net sales of gasoline,Litres,thousands,1532344.0
+1441,2013,Saskatchewan,Gross sales of gasoline,Litres,thousands,1818614.0
+1442,2013,Saskatchewan,Net sales of diesel oil,Litres,thousands,1356060.0
+1443,2013,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,86687.0
+1444,2013,Alberta,Net sales of gasoline,Litres,thousands,6199500.0
+1445,2013,Alberta,Gross sales of gasoline,Litres,thousands,6369700.0
+1446,2013,Alberta,Net sales of diesel oil,Litres,thousands,4204500.0
+1447,2013,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,63800.0
+1448,2013,British Columbia,Net sales of gasoline,Litres,thousands,4336807.0
+1449,2013,British Columbia,Gross sales of gasoline,Litres,thousands,4504633.0
+1450,2013,British Columbia,Net sales of diesel oil,Litres,thousands,2145516.0
+1451,2013,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,196681.0
+1452,2013,Yukon,Net sales of gasoline,Litres,thousands,63744.0
+1453,2013,Yukon,Gross sales of gasoline,Litres,thousands,64190.0
+1454,2013,Yukon,Net sales of diesel oil,Litres,thousands,52852.0
+1455,2013,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1456,2013,Northwest Territories,Net sales of gasoline,Litres,thousands,39618.0
+1457,2013,Northwest Territories,Gross sales of gasoline,Litres,thousands,49744.0
+1458,2013,Northwest Territories,Net sales of diesel oil,Litres,thousands,84550.0
+1459,2013,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1460,2013,Nunavut,Net sales of gasoline,Litres,thousands,13903.0
+1461,2013,Nunavut,Gross sales of gasoline,Litres,thousands,13903.0
+1462,2013,Nunavut,Net sales of diesel oil,Litres,thousands,9168.0
+1463,2013,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1464,2014,Canada,Net sales of gasoline,Litres,thousands,41418428.0
+1465,2014,Canada,Gross sales of gasoline,Litres,thousands,42651789.0
+1466,2014,Canada,Net sales of diesel oil,Litres,thousands,18118660.0
+1467,2014,Canada,Net sales of liquefied petroleum gas,Litres,thousands,635009.0
+1468,2014,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,741509.0
+1469,2014,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,753748.0
+1470,2014,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,316566.0
+1471,2014,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1192.0
+1472,2014,Prince Edward Island,Net sales of gasoline,Litres,thousands,199500.0
+1473,2014,Prince Edward Island,Gross sales of gasoline,Litres,thousands,201891.0
+1474,2014,Prince Edward Island,Net sales of diesel oil,Litres,thousands,39880.0
+1475,2014,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1476,2014,Nova Scotia,Net sales of gasoline,Litres,thousands,1183836.0
+1477,2014,Nova Scotia,Gross sales of gasoline,Litres,thousands,1197193.0
+1478,2014,Nova Scotia,Net sales of diesel oil,Litres,thousands,401662.0
+1479,2014,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,2649.0
+1480,2014,New Brunswick,Net sales of gasoline,Litres,thousands,1054921.0
+1481,2014,New Brunswick,Gross sales of gasoline,Litres,thousands,1107392.0
+1482,2014,New Brunswick,Net sales of diesel oil,Litres,thousands,381275.0
+1483,2014,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,-1437.0
+1484,2014,Quebec,Net sales of gasoline,Litres,thousands,8217102.0
+1485,2014,Quebec,Gross sales of gasoline,Litres,thousands,8342505.0
+1486,2014,Quebec,Net sales of diesel oil,Litres,thousands,3207281.0
+1487,2014,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1488,2014,Ontario,Net sales of gasoline,Litres,thousands,15991007.0
+1489,2014,Ontario,Gross sales of gasoline,Litres,thousands,16178215.0
+1490,2014,Ontario,Net sales of diesel oil,Litres,thousands,4942571.0
+1491,2014,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,54210.0
+1492,2014,Manitoba,Net sales of gasoline,Litres,thousands,1550600.0
+1493,2014,Manitoba,Gross sales of gasoline,Litres,thousands,1633533.0
+1494,2014,Manitoba,Net sales of diesel oil,Litres,thousands,814767.0
+1495,2014,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,94760.0
+1496,2014,Saskatchewan,Net sales of gasoline,Litres,thousands,1533884.0
+1497,2014,Saskatchewan,Gross sales of gasoline,Litres,thousands,1851356.0
+1498,2014,Saskatchewan,Net sales of diesel oil,Litres,thousands,1471550.0
+1499,2014,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,91176.0
+1500,2014,Alberta,Net sales of gasoline,Litres,thousands,6401100.0
+1501,2014,Alberta,Gross sales of gasoline,Litres,thousands,6566200.0
+1502,2014,Alberta,Net sales of diesel oil,Litres,thousands,4461400.0
+1503,2014,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,49400.0
+1504,2014,British Columbia,Net sales of gasoline,Litres,thousands,4422297.0
+1505,2014,British Columbia,Gross sales of gasoline,Litres,thousands,4687564.0
+1506,2014,British Columbia,Net sales of diesel oil,Litres,thousands,1922523.0
+1507,2014,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,343060.0
+1508,2014,Yukon,Net sales of gasoline,Litres,thousands,63621.0
+1509,2014,Yukon,Gross sales of gasoline,Litres,thousands,64184.0
+1510,2014,Yukon,Net sales of diesel oil,Litres,thousands,54899.0
+1511,2014,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1512,2014,Northwest Territories,Net sales of gasoline,Litres,thousands,38396.0
+1513,2014,Northwest Territories,Gross sales of gasoline,Litres,thousands,47355.0
+1514,2014,Northwest Territories,Net sales of diesel oil,Litres,thousands,95019.0
+1515,2014,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1516,2014,Nunavut,Net sales of gasoline,Litres,thousands,20655.0
+1517,2014,Nunavut,Gross sales of gasoline,Litres,thousands,20655.0
+1518,2014,Nunavut,Net sales of diesel oil,Litres,thousands,9266.0
+1519,2014,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1520,2015,Canada,Net sales of gasoline,Litres,thousands,42559552.0
+1521,2015,Canada,Gross sales of gasoline,Litres,thousands,44576655.0
+1522,2015,Canada,Net sales of diesel oil,Litres,thousands,17993880.0
+1523,2015,Canada,Net sales of liquefied petroleum gas,Litres,thousands,598095.0
+1524,2015,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,717483.0
+1525,2015,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,731608.0
+1526,2015,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,360213.0
+1527,2015,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2905.0
+1528,2015,Prince Edward Island,Net sales of gasoline,Litres,thousands,201838.0
+1529,2015,Prince Edward Island,Gross sales of gasoline,Litres,thousands,207399.0
+1530,2015,Prince Edward Island,Net sales of diesel oil,Litres,thousands,48447.0
+1531,2015,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1532,2015,Nova Scotia,Net sales of gasoline,Litres,thousands,1200200.0
+1533,2015,Nova Scotia,Gross sales of gasoline,Litres,thousands,1228092.0
+1534,2015,Nova Scotia,Net sales of diesel oil,Litres,thousands,389215.0
+1535,2015,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4672.0
+1536,2015,New Brunswick,Net sales of gasoline,Litres,thousands,1088993.0
+1537,2015,New Brunswick,Gross sales of gasoline,Litres,thousands,1154578.0
+1538,2015,New Brunswick,Net sales of diesel oil,Litres,thousands,428083.0
+1539,2015,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3418.0
+1540,2015,Quebec,Net sales of gasoline,Litres,thousands,8816261.0
+1541,2015,Quebec,Gross sales of gasoline,Litres,thousands,9035470.0
+1542,2015,Quebec,Net sales of diesel oil,Litres,thousands,3176703.0
+1543,2015,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1544,2015,Ontario,Net sales of gasoline,Litres,thousands,16261317.0
+1545,2015,Ontario,Gross sales of gasoline,Litres,thousands,16513973.0
+1546,2015,Ontario,Net sales of diesel oil,Litres,thousands,5432052.0
+1547,2015,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,68244.0
+1548,2015,Manitoba,Net sales of gasoline,Litres,thousands,1566091.0
+1549,2015,Manitoba,Gross sales of gasoline,Litres,thousands,1665760.0
+1550,2015,Manitoba,Net sales of diesel oil,Litres,thousands,794019.0
+1551,2015,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,68721.0
+1552,2015,Saskatchewan,Net sales of gasoline,Litres,thousands,1518898.0
+1553,2015,Saskatchewan,Gross sales of gasoline,Litres,thousands,1842055.0
+1554,2015,Saskatchewan,Net sales of diesel oil,Litres,thousands,1314643.0
+1555,2015,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,71506.0
+1556,2015,Alberta,Net sales of gasoline,Litres,thousands,6402500.0
+1557,2015,Alberta,Gross sales of gasoline,Litres,thousands,6579700.0
+1558,2015,Alberta,Net sales of diesel oil,Litres,thousands,4019200.0
+1559,2015,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,57800.0
+1560,2015,British Columbia,Net sales of gasoline,Litres,thousands,4656988.0
+1561,2015,British Columbia,Gross sales of gasoline,Litres,thousands,5481062.0
+1562,2015,British Columbia,Net sales of diesel oil,Litres,thousands,1852896.0
+1563,2015,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,320829.0
+1564,2015,Yukon,Net sales of gasoline,Litres,thousands,68507.0
+1565,2015,Yukon,Gross sales of gasoline,Litres,thousands,68931.0
+1566,2015,Yukon,Net sales of diesel oil,Litres,thousands,57247.0
+1567,2015,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1568,2015,Northwest Territories,Net sales of gasoline,Litres,thousands,40193.0
+1569,2015,Northwest Territories,Gross sales of gasoline,Litres,thousands,47743.0
+1570,2015,Northwest Territories,Net sales of diesel oil,Litres,thousands,109688.0
+1571,2015,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1572,2015,Nunavut,Net sales of gasoline,Litres,thousands,20283.0
+1573,2015,Nunavut,Gross sales of gasoline,Litres,thousands,20283.0
+1574,2015,Nunavut,Net sales of diesel oil,Litres,thousands,11474.0
+1575,2015,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1576,2016,Canada,Net sales of gasoline,Litres,thousands,42781270.0
+1577,2016,Canada,Gross sales of gasoline,Litres,thousands,45086441.0
+1578,2016,Canada,Net sales of diesel oil,Litres,thousands,17019229.0
+1579,2016,Canada,Net sales of liquefied petroleum gas,Litres,thousands,530171.0
+1580,2016,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,783282.0
+1581,2016,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,835017.0
+1582,2016,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,349145.0
+1583,2016,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1135.0
+1584,2016,Prince Edward Island,Net sales of gasoline,Litres,thousands,211439.0
+1585,2016,Prince Edward Island,Gross sales of gasoline,Litres,thousands,215642.0
+1586,2016,Prince Edward Island,Net sales of diesel oil,Litres,thousands,46616.0
+1587,2016,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1588,2016,Nova Scotia,Net sales of gasoline,Litres,thousands,1237405.0
+1589,2016,Nova Scotia,Gross sales of gasoline,Litres,thousands,1275784.0
+1590,2016,Nova Scotia,Net sales of diesel oil,Litres,thousands,384649.0
+1591,2016,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4705.0
+1592,2016,New Brunswick,Net sales of gasoline,Litres,thousands,1100832.0
+1593,2016,New Brunswick,Gross sales of gasoline,Litres,thousands,1183883.0
+1594,2016,New Brunswick,Net sales of diesel oil,Litres,thousands,405455.0
+1595,2016,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,3627.0
+1596,2016,Quebec,Net sales of gasoline,Litres,thousands,8323117.0
+1597,2016,Quebec,Gross sales of gasoline,Litres,thousands,8703110.0
+1598,2016,Quebec,Net sales of diesel oil,Litres,thousands,2780097.0
+1599,2016,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1600,2016,Ontario,Net sales of gasoline,Litres,thousands,16622835.0
+1601,2016,Ontario,Gross sales of gasoline,Litres,thousands,16891060.0
+1602,2016,Ontario,Net sales of diesel oil,Litres,thousands,5459048.0
+1603,2016,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,64175.0
+1604,2016,Manitoba,Net sales of gasoline,Litres,thousands,1588529.0
+1605,2016,Manitoba,Gross sales of gasoline,Litres,thousands,1702545.0
+1606,2016,Manitoba,Net sales of diesel oil,Litres,thousands,774002.0
+1607,2016,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,68512.0
+1608,2016,Saskatchewan,Net sales of gasoline,Litres,thousands,1581651.0
+1609,2016,Saskatchewan,Gross sales of gasoline,Litres,thousands,1891523.0
+1610,2016,Saskatchewan,Net sales of diesel oil,Litres,thousands,1255995.0
+1611,2016,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,58282.0
+1612,2016,Alberta,Net sales of gasoline,Litres,thousands,6297500.0
+1613,2016,Alberta,Gross sales of gasoline,Litres,thousands,6467100.0
+1614,2016,Alberta,Net sales of diesel oil,Litres,thousands,3525100.0
+1615,2016,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,51600.0
+1616,2016,British Columbia,Net sales of gasoline,Litres,thousands,4893207.0
+1617,2016,British Columbia,Gross sales of gasoline,Litres,thousands,5770067.0
+1618,2016,British Columbia,Net sales of diesel oil,Litres,thousands,1837722.0
+1619,2016,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,278136.0
+1620,2016,Yukon,Net sales of gasoline,Litres,thousands,70766.0
+1621,2016,Yukon,Gross sales of gasoline,Litres,thousands,71816.0
+1622,2016,Yukon,Net sales of diesel oil,Litres,thousands,55802.0
+1623,2016,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1624,2016,Northwest Territories,Net sales of gasoline,Litres,thousands,45588.0
+1625,2016,Northwest Territories,Gross sales of gasoline,Litres,thousands,53776.0
+1626,2016,Northwest Territories,Net sales of diesel oil,Litres,thousands,125682.0
+1627,2016,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1628,2016,Nunavut,Net sales of gasoline,Litres,thousands,25118.0
+1629,2016,Nunavut,Gross sales of gasoline,Litres,thousands,25118.0
+1630,2016,Nunavut,Net sales of diesel oil,Litres,thousands,19916.0
+1631,2016,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1632,2017,Canada,Net sales of gasoline,Litres,thousands,43652612.0
+1633,2017,Canada,Gross sales of gasoline,Litres,thousands,44966853.0
+1634,2017,Canada,Net sales of diesel oil,Litres,thousands,18056530.0
+1635,2017,Canada,Net sales of liquefied petroleum gas,Litres,thousands,343405.0
+1636,2017,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,749758.0
+1637,2017,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,782768.0
+1638,2017,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,347145.0
+1639,2017,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,916.0
+1640,2017,Prince Edward Island,Net sales of gasoline,Litres,thousands,216552.0
+1641,2017,Prince Edward Island,Gross sales of gasoline,Litres,thousands,220468.0
+1642,2017,Prince Edward Island,Net sales of diesel oil,Litres,thousands,47583.0
+1643,2017,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1644,2017,Nova Scotia,Net sales of gasoline,Litres,thousands,1252000.0
+1645,2017,Nova Scotia,Gross sales of gasoline,Litres,thousands,1283649.0
+1646,2017,Nova Scotia,Net sales of diesel oil,Litres,thousands,411252.0
+1647,2017,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4840.0
+1648,2017,New Brunswick,Net sales of gasoline,Litres,thousands,1128764.0
+1649,2017,New Brunswick,Gross sales of gasoline,Litres,thousands,1179831.0
+1650,2017,New Brunswick,Net sales of diesel oil,Litres,thousands,478696.0
+1651,2017,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,5473.0
+1652,2017,Quebec,Net sales of gasoline,Litres,thousands,8820509.0
+1653,2017,Quebec,Gross sales of gasoline,Litres,thousands,9097393.0
+1654,2017,Quebec,Net sales of diesel oil,Litres,thousands,3042434.0
+1655,2017,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1656,2017,Ontario,Net sales of gasoline,Litres,thousands,16705650.0
+1657,2017,Ontario,Gross sales of gasoline,Litres,thousands,16928389.0
+1658,2017,Ontario,Net sales of diesel oil,Litres,thousands,5501338.0
+1659,2017,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,64166.0
+1660,2017,Manitoba,Net sales of gasoline,Litres,thousands,1614445.0
+1661,2017,Manitoba,Gross sales of gasoline,Litres,thousands,1716933.0
+1662,2017,Manitoba,Net sales of diesel oil,Litres,thousands,799760.0
+1663,2017,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,69858.0
+1664,2017,Saskatchewan,Net sales of gasoline,Litres,thousands,1730149.0
+1665,2017,Saskatchewan,Gross sales of gasoline,Litres,thousands,1874594.0
+1666,2017,Saskatchewan,Net sales of diesel oil,Litres,thousands,1439862.0
+1667,2017,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,69283.0
+1668,2017,Alberta,Net sales of gasoline,Litres,thousands,6368800.0
+1669,2017,Alberta,Gross sales of gasoline,Litres,thousands,6554600.0
+1670,2017,Alberta,Net sales of diesel oil,Litres,thousands,3862500.0
+1671,2017,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,43200.0
+1672,2017,British Columbia,Net sales of gasoline,Litres,thousands,4935834.0
+1673,2017,British Columbia,Gross sales of gasoline,Litres,thousands,5182517.0
+1674,2017,British Columbia,Net sales of diesel oil,Litres,thousands,1910156.0
+1675,2017,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,85669.0
+1676,2017,Yukon,Net sales of gasoline,Litres,thousands,72077.0
+1677,2017,Yukon,Gross sales of gasoline,Litres,thousands,76438.0
+1678,2017,Yukon,Net sales of diesel oil,Litres,thousands,54879.0
+1679,2017,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1680,2017,Northwest Territories,Net sales of gasoline,Litres,thousands,42568.0
+1681,2017,Northwest Territories,Gross sales of gasoline,Litres,thousands,53766.0
+1682,2017,Northwest Territories,Net sales of diesel oil,Litres,thousands,137931.0
+1683,2017,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1684,2017,Nunavut,Net sales of gasoline,Litres,thousands,15507.0
+1685,2017,Nunavut,Gross sales of gasoline,Litres,thousands,15507.0
+1686,2017,Nunavut,Net sales of diesel oil,Litres,thousands,22994.0
+1687,2017,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1688,2018,Canada,Net sales of gasoline,Litres,thousands,43532052.0
+1689,2018,Canada,Gross sales of gasoline,Litres,thousands,44796754.0
+1690,2018,Canada,Net sales of diesel oil,Litres,thousands,18257318.0
+1691,2018,Canada,Net sales of liquefied petroleum gas,Litres,thousands,441549.0
+1692,2018,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,584634.0
+1693,2018,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,602747.0
+1694,2018,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,196538.0
+1695,2018,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,975.0
+1696,2018,Prince Edward Island,Net sales of gasoline,Litres,thousands,220569.0
+1697,2018,Prince Edward Island,Gross sales of gasoline,Litres,thousands,223591.0
+1698,2018,Prince Edward Island,Net sales of diesel oil,Litres,thousands,50093.0
+1699,2018,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1700,2018,Nova Scotia,Net sales of gasoline,Litres,thousands,1281702.0
+1701,2018,Nova Scotia,Gross sales of gasoline,Litres,thousands,1287213.0
+1702,2018,Nova Scotia,Net sales of diesel oil,Litres,thousands,421581.0
+1703,2018,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,2390.0
+1704,2018,New Brunswick,Net sales of gasoline,Litres,thousands,1113470.0
+1705,2018,New Brunswick,Gross sales of gasoline,Litres,thousands,1169329.0
+1706,2018,New Brunswick,Net sales of diesel oil,Litres,thousands,411031.0
+1707,2018,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,2481.0
+1708,2018,Quebec,Net sales of gasoline,Litres,thousands,8727383.0
+1709,2018,Quebec,Gross sales of gasoline,Litres,thousands,8942883.0
+1710,2018,Quebec,Net sales of diesel oil,Litres,thousands,3201096.0
+1711,2018,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1712,2018,Ontario,Net sales of gasoline,Litres,thousands,16888708.0
+1713,2018,Ontario,Gross sales of gasoline,Litres,thousands,17313103.0
+1714,2018,Ontario,Net sales of diesel oil,Litres,thousands,5545020.0
+1715,2018,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,59176.0
+1716,2018,Manitoba,Net sales of gasoline,Litres,thousands,1626591.0
+1717,2018,Manitoba,Gross sales of gasoline,Litres,thousands,1725928.0
+1718,2018,Manitoba,Net sales of diesel oil,Litres,thousands,790024.0
+1719,2018,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,63999.0
+1720,2018,Saskatchewan,Net sales of gasoline,Litres,thousands,1831446.0
+1721,2018,Saskatchewan,Gross sales of gasoline,Litres,thousands,1831446.0
+1722,2018,Saskatchewan,Net sales of diesel oil,Litres,thousands,1333818.0
+1723,2018,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,62545.0
+1724,2018,Alberta,Net sales of gasoline,Litres,thousands,6337100.0
+1725,2018,Alberta,Gross sales of gasoline,Litres,thousands,6524800.0
+1726,2018,Alberta,Net sales of diesel oil,Litres,thousands,4137300.0
+1727,2018,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,41100.0
+1728,2018,British Columbia,Net sales of gasoline,Litres,thousands,4789165.0
+1729,2018,British Columbia,Gross sales of gasoline,Litres,thousands,5024318.0
+1730,2018,British Columbia,Net sales of diesel oil,Litres,thousands,1963507.0
+1731,2018,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,208883.0
+1732,2018,Yukon,Net sales of gasoline,Litres,thousands,73699.0
+1733,2018,Yukon,Gross sales of gasoline,Litres,thousands,85930.0
+1734,2018,Yukon,Net sales of diesel oil,Litres,thousands,61373.0
+1735,2018,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1736,2018,Northwest Territories including Nunavut,Net sales of gasoline,Litres,thousands,
+1737,2018,Northwest Territories including Nunavut,Gross sales of gasoline,Litres,thousands,
+1738,2018,Northwest Territories including Nunavut,Net sales of diesel oil,Litres,thousands,
+1739,2018,Northwest Territories including Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,
+1740,2018,Northwest Territories,Net sales of gasoline,Litres,thousands,41853.0
+1741,2018,Northwest Territories,Gross sales of gasoline,Litres,thousands,49734.0
+1742,2018,Northwest Territories,Net sales of diesel oil,Litres,thousands,133353.0
+1743,2018,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1744,2018,Nunavut,Net sales of gasoline,Litres,thousands,15732.0
+1745,2018,Nunavut,Gross sales of gasoline,Litres,thousands,15732.0
+1746,2018,Nunavut,Net sales of diesel oil,Litres,thousands,12583.0
+1747,2018,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1748,2019,Canada,Net sales of gasoline,Litres,thousands,43335319.0
+1749,2019,Canada,Gross sales of gasoline,Litres,thousands,44806199.0
+1750,2019,Canada,Net sales of diesel oil,Litres,thousands,17836573.0
+1751,2019,Canada,Net sales of liquefied petroleum gas,Litres,thousands,435879.0
+1752,2019,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,701778.0
+1753,2019,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,724898.0
+1754,2019,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,293453.0
+1755,2019,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,-93444.0
+1756,2019,Prince Edward Island,Net sales of gasoline,Litres,thousands,226120.0
+1757,2019,Prince Edward Island,Gross sales of gasoline,Litres,thousands,229554.0
+1758,2019,Prince Edward Island,Net sales of diesel oil,Litres,thousands,51861.0
+1759,2019,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1760,2019,Nova Scotia,Net sales of gasoline,Litres,thousands,1272758.0
+1761,2019,Nova Scotia,Gross sales of gasoline,Litres,thousands,1283311.0
+1762,2019,Nova Scotia,Net sales of diesel oil,Litres,thousands,390520.0
+1763,2019,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,4504.0
+1764,2019,New Brunswick,Net sales of gasoline,Litres,thousands,1112598.0
+1765,2019,New Brunswick,Gross sales of gasoline,Litres,thousands,1164351.0
+1766,2019,New Brunswick,Net sales of diesel oil,Litres,thousands,443042.0
+1767,2019,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,5382.0
+1768,2019,Quebec,Net sales of gasoline,Litres,thousands,8621760.0
+1769,2019,Quebec,Gross sales of gasoline,Litres,thousands,9009471.0
+1770,2019,Quebec,Net sales of diesel oil,Litres,thousands,3359760.0
+1771,2019,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1772,2019,Ontario,Net sales of gasoline,Litres,thousands,16842931.0
+1773,2019,Ontario,Gross sales of gasoline,Litres,thousands,17171743.0
+1774,2019,Ontario,Net sales of diesel oil,Litres,thousands,5569736.0
+1775,2019,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,57356.0
+1776,2019,Manitoba,Net sales of gasoline,Litres,thousands,1627412.0
+1777,2019,Manitoba,Gross sales of gasoline,Litres,thousands,1736239.0
+1778,2019,Manitoba,Net sales of diesel oil,Litres,thousands,771768.0
+1779,2019,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,64003.0
+1780,2019,Saskatchewan,Net sales of gasoline,Litres,thousands,1759737.0
+1781,2019,Saskatchewan,Gross sales of gasoline,Litres,thousands,1852609.0
+1782,2019,Saskatchewan,Net sales of diesel oil,Litres,thousands,1326923.0
+1783,2019,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,74320.0
+1784,2019,Alberta,Net sales of gasoline,Litres,thousands,6215900.0
+1785,2019,Alberta,Gross sales of gasoline,Litres,thousands,6405600.0
+1786,2019,Alberta,Net sales of diesel oil,Litres,thousands,3623500.0
+1787,2019,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,52800.0
+1788,2019,British Columbia,Net sales of gasoline,Litres,thousands,4822252.0
+1789,2019,British Columbia,Gross sales of gasoline,Litres,thousands,5060063.0
+1790,2019,British Columbia,Net sales of diesel oil,Litres,thousands,1819262.0
+1791,2019,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,270958.0
+1792,2019,Yukon,Net sales of gasoline,Litres,thousands,73174.0
+1793,2019,Yukon,Gross sales of gasoline,Litres,thousands,98801.0
+1794,2019,Yukon,Net sales of diesel oil,Litres,thousands,61280.0
+1795,2019,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1796,2019,Northwest Territories,Net sales of gasoline,Litres,thousands,43341.0
+1797,2019,Northwest Territories,Gross sales of gasoline,Litres,thousands,54001.0
+1798,2019,Northwest Territories,Net sales of diesel oil,Litres,thousands,113024.0
+1799,2019,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1800,2019,Nunavut,Net sales of gasoline,Litres,thousands,15558.0
+1801,2019,Nunavut,Gross sales of gasoline,Litres,thousands,15558.0
+1802,2019,Nunavut,Net sales of diesel oil,Litres,thousands,12444.0
+1803,2019,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1804,2020,Canada,Net sales of gasoline,Litres,thousands,36894411.0
+1805,2020,Canada,Gross sales of gasoline,Litres,thousands,38597569.0
+1806,2020,Canada,Net sales of diesel oil,Litres,thousands,16222705.0
+1807,2020,Canada,Net sales of liquefied petroleum gas,Litres,thousands,503848.0
+1808,2020,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,640706.0
+1809,2020,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,673312.0
+1810,2020,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,286458.0
+1811,2020,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,1510.0
+1812,2020,Prince Edward Island,Net sales of gasoline,Litres,thousands,201892.0
+1813,2020,Prince Edward Island,Gross sales of gasoline,Litres,thousands,204880.0
+1814,2020,Prince Edward Island,Net sales of diesel oil,Litres,thousands,50171.0
+1815,2020,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1816,2020,Nova Scotia,Net sales of gasoline,Litres,thousands,1110841.0
+1817,2020,Nova Scotia,Gross sales of gasoline,Litres,thousands,1119443.0
+1818,2020,Nova Scotia,Net sales of diesel oil,Litres,thousands,351151.0
+1819,2020,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,3939.0
+1820,2020,New Brunswick,Net sales of gasoline,Litres,thousands,986048.0
+1821,2020,New Brunswick,Gross sales of gasoline,Litres,thousands,1039307.0
+1822,2020,New Brunswick,Net sales of diesel oil,Litres,thousands,403224.0
+1823,2020,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,5079.0
+1824,2020,Quebec,Net sales of gasoline,Litres,thousands,7241361.0
+1825,2020,Quebec,Gross sales of gasoline,Litres,thousands,7993371.0
+1826,2020,Quebec,Net sales of diesel oil,Litres,thousands,2962120.0
+1827,2020,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,30953.0
+1828,2020,Ontario,Net sales of gasoline,Litres,thousands,13896087.0
+1829,2020,Ontario,Gross sales of gasoline,Litres,thousands,14087968.0
+1830,2020,Ontario,Net sales of diesel oil,Litres,thousands,5182354.0
+1831,2020,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,64131.0
+1832,2020,Manitoba,Net sales of gasoline,Litres,thousands,1434375.0
+1833,2020,Manitoba,Gross sales of gasoline,Litres,thousands,1546863.0
+1834,2020,Manitoba,Net sales of diesel oil,Litres,thousands,726194.0
+1835,2020,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,62422.0
+1836,2020,Saskatchewan,Net sales of gasoline,Litres,thousands,1469529.0
+1837,2020,Saskatchewan,Gross sales of gasoline,Litres,thousands,1614308.0
+1838,2020,Saskatchewan,Net sales of diesel oil,Litres,thousands,1086577.0
+1839,2020,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,40880.0
+1840,2020,Alberta,Net sales of gasoline,Litres,thousands,5430400.0
+1841,2020,Alberta,Gross sales of gasoline,Litres,thousands,5601500.0
+1842,2020,Alberta,Net sales of diesel oil,Litres,thousands,3153900.0
+1843,2020,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,54900.0
+1844,2020,British Columbia,Net sales of gasoline,Litres,thousands,4344971.0
+1845,2020,British Columbia,Gross sales of gasoline,Litres,thousands,4571720.0
+1846,2020,British Columbia,Net sales of diesel oil,Litres,thousands,1850987.0
+1847,2020,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,240036.0
+1848,2020,Yukon,Net sales of gasoline,Litres,thousands,84870.0
+1849,2020,Yukon,Gross sales of gasoline,Litres,thousands,84870.0
+1850,2020,Yukon,Net sales of diesel oil,Litres,thousands,57821.0
+1851,2020,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1852,2020,Northwest Territories,Net sales of gasoline,Litres,thousands,39966.0
+1853,2020,Northwest Territories,Gross sales of gasoline,Litres,thousands,46663.0
+1854,2020,Northwest Territories,Net sales of diesel oil,Litres,thousands,100363.0
+1855,2020,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1856,2020,Nunavut,Net sales of gasoline,Litres,thousands,13365.0
+1857,2020,Nunavut,Gross sales of gasoline,Litres,thousands,13365.0
+1858,2020,Nunavut,Net sales of diesel oil,Litres,thousands,11386.0
+1859,2020,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1860,2021,Canada,Net sales of gasoline,Litres,thousands,38457491.0
+1861,2021,Canada,Gross sales of gasoline,Litres,thousands,40191256.0
+1862,2021,Canada,Net sales of diesel oil,Litres,thousands,17885992.0
+1863,2021,Canada,Net sales of liquefied petroleum gas,Litres,thousands,683740.0
+1864,2021,Newfoundland and Labrador,Net sales of gasoline,Litres,thousands,664687.0
+1865,2021,Newfoundland and Labrador,Gross sales of gasoline,Litres,thousands,678578.0
+1866,2021,Newfoundland and Labrador,Net sales of diesel oil,Litres,thousands,286017.0
+1867,2021,Newfoundland and Labrador,Net sales of liquefied petroleum gas,Litres,thousands,2449.0
+1868,2021,Prince Edward Island,Net sales of gasoline,Litres,thousands,215654.0
+1869,2021,Prince Edward Island,Gross sales of gasoline,Litres,thousands,218888.0
+1870,2021,Prince Edward Island,Net sales of diesel oil,Litres,thousands,52033.0
+1871,2021,Prince Edward Island,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1872,2021,Nova Scotia,Net sales of gasoline,Litres,thousands,1208100.0
+1873,2021,Nova Scotia,Gross sales of gasoline,Litres,thousands,1222495.0
+1874,2021,Nova Scotia,Net sales of diesel oil,Litres,thousands,398219.0
+1875,2021,Nova Scotia,Net sales of liquefied petroleum gas,Litres,thousands,6054.0
+1876,2021,New Brunswick,Net sales of gasoline,Litres,thousands,1045739.0
+1877,2021,New Brunswick,Gross sales of gasoline,Litres,thousands,1098831.0
+1878,2021,New Brunswick,Net sales of diesel oil,Litres,thousands,400895.0
+1879,2021,New Brunswick,Net sales of liquefied petroleum gas,Litres,thousands,5037.0
+1880,2021,Quebec,Net sales of gasoline,Litres,thousands,7878877.0
+1881,2021,Quebec,Gross sales of gasoline,Litres,thousands,8677423.0
+1882,2021,Quebec,Net sales of diesel oil,Litres,thousands,3629139.0
+1883,2021,Quebec,Net sales of liquefied petroleum gas,Litres,thousands,74836.0
+1884,2021,Ontario,Net sales of gasoline,Litres,thousands,13943943.0
+1885,2021,Ontario,Gross sales of gasoline,Litres,thousands,14160316.0
+1886,2021,Ontario,Net sales of diesel oil,Litres,thousands,5507779.0
+1887,2021,Ontario,Net sales of liquefied petroleum gas,Litres,thousands,42333.0
+1888,2021,Manitoba,Net sales of gasoline,Litres,thousands,1495759.0
+1889,2021,Manitoba,Gross sales of gasoline,Litres,thousands,1602872.0
+1890,2021,Manitoba,Net sales of diesel oil,Litres,thousands,751117.0
+1891,2021,Manitoba,Net sales of liquefied petroleum gas,Litres,thousands,143073.0
+1892,2021,Saskatchewan,Net sales of gasoline,Litres,thousands,1673155.0
+1893,2021,Saskatchewan,Gross sales of gasoline,Litres,thousands,1777366.0
+1894,2021,Saskatchewan,Net sales of diesel oil,Litres,thousands,1310955.0
+1895,2021,Saskatchewan,Net sales of liquefied petroleum gas,Litres,thousands,42437.0
+1896,2021,Alberta,Net sales of gasoline,Litres,thousands,5501100.0
+1897,2021,Alberta,Gross sales of gasoline,Litres,thousands,5678800.0
+1898,2021,Alberta,Net sales of diesel oil,Litres,thousands,3244700.0
+1899,2021,Alberta,Net sales of liquefied petroleum gas,Litres,thousands,37700.0
+1900,2021,British Columbia,Net sales of gasoline,Litres,thousands,4699080.0
+1901,2021,British Columbia,Gross sales of gasoline,Litres,thousands,4928709.0
+1902,2021,British Columbia,Net sales of diesel oil,Litres,thousands,2086759.0
+1903,2021,British Columbia,Net sales of liquefied petroleum gas,Litres,thousands,329821.0
+1904,2021,Yukon,Net sales of gasoline,Litres,thousands,66629.0
+1905,2021,Yukon,Gross sales of gasoline,Litres,thousands,76131.0
+1906,2021,Yukon,Net sales of diesel oil,Litres,thousands,60561.0
+1907,2021,Yukon,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1908,2021,Northwest Territories,Net sales of gasoline,Litres,thousands,41846.0
+1909,2021,Northwest Territories,Gross sales of gasoline,Litres,thousands,47923.0
+1910,2021,Northwest Territories,Net sales of diesel oil,Litres,thousands,117237.0
+1911,2021,Northwest Territories,Net sales of liquefied petroleum gas,Litres,thousands,0.0
+1912,2021,Nunavut,Net sales of gasoline,Litres,thousands,22922.0
+1913,2021,Nunavut,Gross sales of gasoline,Litres,thousands,22922.0
+1914,2021,Nunavut,Net sales of diesel oil,Litres,thousands,40581.0
+1915,2021,Nunavut,Net sales of liquefied petroleum gas,Litres,thousands,0.0
