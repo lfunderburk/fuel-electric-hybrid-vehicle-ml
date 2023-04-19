@@ -11,3 +11,4 @@ requests
 pytest
 soopervisor
 apache-airflow
+python-dotenv
