@@ -33,6 +33,31 @@ From command line at the project root directory level
 ploomber build
 ```
 
+This command will execute the following data pipeline
+
+```
+tasks:
+  - source: src/data/data_extraction.py
+    product:
+      nb: notebooks/data_extraction.ipynb
+  - source: src/models/train_model.py
+    product:
+      nb: notebooks/train_model.ipynb
+  - source: src/models/predict_model.py
+    product:
+      nb: notebooks/predict_model.ipynb
+```
+
+Sample output
+
+```
+name             Ran?      Elapsed (s)    Percentage
+---------------  ------  -------------  ------------
+data_extraction  True          13.0449       13.2142
+train_model      True          39.0849       39.5921
+predict_model    True          46.5889       47.1936
+```
+
 ## Running tests
 
 From command line at the project root directory level
