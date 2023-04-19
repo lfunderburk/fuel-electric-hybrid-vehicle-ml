@@ -2,7 +2,18 @@ import requests
 import os
 import tempfile
 import pandas as pd
-from src.data.data_extraction import extract_raw_data, save_raw_data, read_and_clean_csv_file
+from src.data.data_extraction import extract_raw_data, save_raw_data, read_and_clean_csv_file, \
+    fuel_consumption_metadata_extraction
+
+def test_fuel_consumption_metadata_extraction():
+    result = fuel_consumption_metadata_extraction()
+    
+    assert isinstance(result, pd.DataFrame)
+    assert not result.empty
+    assert 'name' in result.columns
+    assert 'url' in result.columns
+    assert result['name'].notnull().all()
+    assert result['url'].notnull().all()
 
 def test_extract_raw_data():
     test_url = "https://www.nrcan.gc.ca/sites/nrcan/files/oee/files/csv/MY2022%20Fuel%20Consumption%20Ratings.csv"

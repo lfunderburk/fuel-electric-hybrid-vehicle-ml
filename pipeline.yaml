@@ -5,3 +5,6 @@ tasks:
   - source: src/models/train_model.py
     product:
       nb: notebooks/train_model.ipynb
+  - source: src/models/predict_model.py
+    product:
+      nb: notebooks/predict_model.ipynb
