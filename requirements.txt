@@ -6,6 +6,5 @@ matplotlib
 imbalanced-learn
 xgboost
 joblib
-zipfile
 urllib
 requests

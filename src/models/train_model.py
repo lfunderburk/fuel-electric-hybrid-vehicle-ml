@@ -15,12 +15,10 @@ from sklearn.metrics import confusion_matrix, \
                             balanced_accuracy_score,\
                             ConfusionMatrixDisplay
 from sklearn.metrics import DetCurveDisplay, RocCurveDisplay
-from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import VotingClassifier, RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 import matplotlib.pyplot as plt
-from xgboost import XGBClassifier
 from imblearn.over_sampling import SMOTE
 import joblib
 import utils
