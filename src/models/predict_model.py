@@ -60,7 +60,7 @@ if __name__=="__main__":
     raw_data_path = os.path.join(PROJECT_DIR, 'data', 'raw')
     clean_data_path = os.path.join(PROJECT_DIR, 'data', 'processed')
     predicted_data_path = os.path.join(PROJECT_DIR, 'data', 'predicted-data')
-    model = os.path.join(PROJECT_DIR, 'models', 'hard_voting_classifier_co2_fuel.pkl')
+    model_path = os.path.join(PROJECT_DIR, 'models', 'hard_voting_classifier_co2_fuel.pkl')
 
     # Load data
     fuel_df, electric_df, hybrid_df = utils.read_data(clean_data_path)
@@ -70,7 +70,7 @@ if __name__=="__main__":
     na_rating_class.rename(columns={'co2_rating': 'original_co2r'}, inplace=True)
 
     # Load model
-    best_dtc = joblib.load(model)
+    best_dtc = joblib.load(model_path)
     
     # Use model to make predictions
     non_na_pred = predict_co2_rating(non_na_rating_class, utils.var_list, best_dtc)

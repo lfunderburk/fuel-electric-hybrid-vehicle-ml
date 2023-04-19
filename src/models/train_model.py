@@ -126,7 +126,7 @@ if __name__=="__main__":
     raw_data_path = os.path.join(PROJECT_DIR, 'data', 'raw')
     clean_data_path = os.path.join(PROJECT_DIR, 'data', 'processed')
     predicted_data_path = os.path.join(PROJECT_DIR, 'data', 'predicted-data')
-    model = os.path.join(PROJECT_DIR, 'models', 'hard_voting_classifier_co2_fuel.pkl')
+    model_path = os.path.join(PROJECT_DIR, 'models', 'hard_voting_classifier_co2_fuel.pkl')
 
 
     # Read data
@@ -177,4 +177,4 @@ if __name__=="__main__":
     best_dtc, dtc_score = classify_grid_search_cv_tuning(model, params, X_train, X_test, y_train, y_test, n_folds=10, scoring='balanced_accuracy')
 
     # Save model
-    joblib.dump(best_dtc, model)
+    joblib.dump(best_dtc, model_path)
