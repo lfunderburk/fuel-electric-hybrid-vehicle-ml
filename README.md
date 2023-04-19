@@ -3,14 +3,24 @@ ml-vehicle-classification
 
 Classifying data from hybrid, fuel only and electric vehicles
 
-## Setting up
-
 Clone the repo
 
 ```
 git clone https://github.com/lfunderburk/fuel-electric-hybrid-vehicle-ml.git
 cd fuel-electric-hybrid-vehicle-ml
 ```
+
+## Setting up, with Docker
+
+Ensure you have Docker installed
+
+```
+docker build -t my_pipeline .
+docker run -it --rm -p 5000:5000 my_pipeline
+```
+
+## Setting up - locally
+
 
 Create and activate a virtual environment
 

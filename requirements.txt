@@ -9,3 +9,5 @@ joblib
 urllib3
 requests
 pytest
+soopervisor
+apache-airflow
