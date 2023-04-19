@@ -1,8 +1,7 @@
 import requests
-from src.data.data_extraction import extract_raw_data
 import os
 import tempfile
-from src.data.data_extraction import save_raw_data
+from src.data.data_extraction import extract_raw_data, save_raw_data, rename_fuel_data_columns
 
 def test_extract_raw_data():
     test_url = "https://www.nrcan.gc.ca/sites/nrcan/files/oee/files/csv/MY2022%20Fuel%20Consumption%20Ratings.csv"

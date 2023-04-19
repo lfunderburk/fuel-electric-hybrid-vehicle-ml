@@ -3,8 +3,47 @@ ml-vehicle-classification
 
 Classifying data from hybrid, fuel only and electric vehicles
 
-Project Organization
-------------
+## Setting up
+
+Clone the repo
+
+```
+git clone https://github.com/lfunderburk/fuel-electric-hybrid-vehicle-ml.git
+cd fuel-electric-hybrid-vehicle-ml
+```
+
+Create and activate a virtual environment
+
+```
+conda create --name mlenv python==3.10
+conda activate mlenv
+```
+
+Install dependencies
+
+```
+pip install -r requrements.txt
+```
+
+## Executing the data pipeline - locally
+
+From command line at the project root directory level
+
+```
+ploomber build
+```
+
+## Running tests
+
+From command line at the project root directory level
+
+```
+pytest
+```
+
+
+#### Project Organization
+
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
