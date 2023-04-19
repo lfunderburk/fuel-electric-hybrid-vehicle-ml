@@ -9,8 +9,8 @@ import sys, os
 import joblib
 import utils
 from sklearn.impute import KNNImputer
-
-
+from dotenv import load_dotenv
+from pathlib import Path
 # +
 def predict_co2_rating(df, list_of_vars, model):
     # Preprocess the original data (fuel_df)
@@ -52,19 +52,25 @@ def impute_data(numeric_features, df, target):
 
 if __name__=="__main__":
 
-    # Set up paths
-    sys.path.append(os.path.abspath(os.path.join('./data/', './processed/')))
-    sys.path.append(os.path.abspath(os.path.join('./models/')))
+    load_dotenv()  # load environment variables from .env file
+    PROJECT_DIR = os.getenv('PROJECT_DIR')
+
+
+    # Variable initialization
+    raw_data_path = os.path.join(PROJECT_DIR, 'data', 'raw')
+    clean_data_path = os.path.join(PROJECT_DIR, 'data', 'processed')
+    predicted_data_path = os.path.join(PROJECT_DIR, 'data', 'predicted-data')
+    model = os.path.join(PROJECT_DIR, 'models', 'hard_voting_classifier_co2_fuel.pkl')
 
     # Load data
-    fuel_df, electric_df, hybrid_df = utils.read_data("./data/processed/")
+    fuel_df, electric_df, hybrid_df = utils.read_data(clean_data_path)
     
     non_na_rating_class, na_rating_class = utils.remove_missing_values(fuel_df, drop_smog=False)
     non_na_rating_class.rename(columns={'co2_rating': 'original_co2r'}, inplace=True)
     na_rating_class.rename(columns={'co2_rating': 'original_co2r'}, inplace=True)
 
     # Load model
-    best_dtc = joblib.load('./models/hard_voting_classifier_co2_fuel.pkl')
+    best_dtc = joblib.load(model)
     
     # Use model to make predictions
     non_na_pred = predict_co2_rating(non_na_rating_class, utils.var_list, best_dtc)
@@ -77,7 +83,7 @@ if __name__=="__main__":
     fuel_df_pred = impute_data(utils.numeric_features, fuel_df_pred, 'smog_rating')
     
     # Save the data
-    fuel_df_pred.to_csv('./data/predicted-data/predicted_co2_rating.csv', index=False)
+    fuel_df_pred.to_csv(Path(predicted_data_path,'predicted_co2_rating.csv'), index=False)
 
     # Predict missing "co2_rating" values in hybrid_df
     hybrid_df_pred = impute_data(utils.numeric_features, hybrid_df, 'co2_rating')
@@ -86,7 +92,7 @@ if __name__=="__main__":
     hybrid_df_pred = impute_data(utils.numeric_features, hybrid_df_pred, 'smog_rating')
 
     # Save the data
-    hybrid_df_pred.to_csv('./data/predicted-data/predicted_co2_rating_hybrid.csv', index=False)
+    hybrid_df_pred.to_csv(Path(predicted_data_path,'predicted_co2_rating_hybrid.csv'), index=False)
 
     num_e = ['model_year','consumption_city(kwh/100km)',
             'fuelconsumption_hwy(kwh/100km)', 'fuelconsumption_comb(kwh/100km)',
@@ -101,4 +107,4 @@ if __name__=="__main__":
     electric_df_pred = impute_data(num_e, electric_df_pred, 'smog_rating')
 
     # Save the data
-    electric_df_pred.to_csv('./data/predicted-data/predicted_co2_rating_electric.csv', index=False)
+    electric_df_pred.to_csv(Path(predicted_data_path, 'predicted_co2_rating_electric.csv'), index=False)

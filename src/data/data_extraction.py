@@ -12,6 +12,7 @@ import re
 from io import BytesIO
 from zipfile import ZipFile
 from urllib.request import urlopen
+from dotenv import load_dotenv
 
 global model_dict
 global transmission_dict
@@ -357,11 +358,14 @@ def process_json_car_sales(json_filen_name, path) -> list():
 
 
 if __name__=='__main__':
-    # Set up relative paths
-    
+
+    load_dotenv()  # load environment variables from .env file
+    PROJECT_DIR = os.getenv('PROJECT_DIR')
+
+
     # Variable initialization
-    raw_data_path = os.path.abspath(os.path.join(os.getcwd(), 'data', 'raw'))
-    clean_data_path = os.path.abspath(os.path.join(os.getcwd(), 'data', 'processed'))
+    raw_data_path = os.path.join(PROJECT_DIR, 'data', 'raw')
+    clean_data_path = os.path.join(PROJECT_DIR, 'data', 'processed')
     
     # Master dataframe initialization
     fuel_based_df = []

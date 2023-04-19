@@ -6,6 +6,7 @@ upstream = None
 # +
 import pandas as pd
 import sys, os
+from dotenv import load_dotenv
 from pathlib import Path
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV, train_test_split
@@ -117,13 +118,19 @@ def classify_grid_search_cv_tuning(model, parameters, X_train, X_test, y_train, 
 
 if __name__=="__main__":
 
-    # Set up paths
-    sys.path.append(os.path.abspath(os.path.join('./data/', './processed/')))
-    sys.path.append(os.path.abspath(os.path.join('./models/')))
+    load_dotenv()  # load environment variables from .env file
+    PROJECT_DIR = os.getenv('PROJECT_DIR')
+
+
+    # Variable initialization
+    raw_data_path = os.path.join(PROJECT_DIR, 'data', 'raw')
+    clean_data_path = os.path.join(PROJECT_DIR, 'data', 'processed')
+    predicted_data_path = os.path.join(PROJECT_DIR, 'data', 'predicted-data')
+    model = os.path.join(PROJECT_DIR, 'models', 'hard_voting_classifier_co2_fuel.pkl')
 
 
     # Read data
-    fuel_df, electric_df, hybrid_df = utils.read_data("./data/processed/")
+    fuel_df, electric_df, hybrid_df = utils.read_data(clean_data_path)
     non_na_rating_class, na_rating_class = utils.remove_missing_values(fuel_df, drop_smog=False)
     
     # Set X and Y variables 
@@ -170,4 +177,4 @@ if __name__=="__main__":
     best_dtc, dtc_score = classify_grid_search_cv_tuning(model, params, X_train, X_test, y_train, y_test, n_folds=10, scoring='balanced_accuracy')
 
     # Save model
-    joblib.dump(best_dtc, './models/hard_voting_classifier_co2_fuel.pkl')
+    joblib.dump(best_dtc, model)
