@@ -2,12 +2,16 @@
 # declare a list tasks whose products you want to use as inputs
 upstream = None
 
-
-# +
-import pandas as pd
-import sys, os
 from dotenv import load_dotenv
-from pathlib import Path
+import sys, os
+
+load_dotenv()  # load environment variables from .env file
+PROJECT_DIR = os.getenv('PROJECT_DIR')
+parent_dir = os.path.abspath(os.path.join(PROJECT_DIR, os.pardir))
+sys.path.append(parent_dir)
+# +
+
+from dotenv import load_dotenv
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.metrics import confusion_matrix, \
@@ -22,8 +26,8 @@ from sklearn.svm import SVC
 import matplotlib.pyplot as plt
 from imblearn.over_sampling import SMOTE
 import joblib
-import utils
-
+from utils import read_data, remove_missing_values, var_list, numeric_features,\
+                    preprocessor, categorical_features, categorical_transformer, numeric_transformer
 
 # -
 
@@ -70,10 +74,7 @@ def train_and_evaluate_model(X_train, y_train, X_test, y_test, model_pipeline, m
         f"Confusion Matrix for {model_name}"
     )
     
-    # save image to file
-    fig.savefig(f"./reports/{model_name}_confusion_matrix.png")
-    
-    print(report, sep=',')
+    return fig
 
 # +
 def classify_grid_search_cv_tuning(model, parameters, X_train, X_test, y_train, y_test, n_folds = 5, scoring='accuracy'):
@@ -118,10 +119,6 @@ def classify_grid_search_cv_tuning(model, parameters, X_train, X_test, y_train, 
 
 if __name__=="__main__":
 
-    load_dotenv()  # load environment variables from .env file
-    PROJECT_DIR = os.getenv('PROJECT_DIR')
-
-
     # Variable initialization
     raw_data_path = os.path.join(PROJECT_DIR, 'data', 'raw')
     clean_data_path = os.path.join(PROJECT_DIR, 'data', 'processed')
@@ -130,15 +127,15 @@ if __name__=="__main__":
 
 
     # Read data
-    fuel_df, electric_df, hybrid_df = utils.read_data(clean_data_path)
-    non_na_rating_class, na_rating_class = utils.remove_missing_values(fuel_df, drop_smog=False)
+    fuel_df, electric_df, hybrid_df = read_data(clean_data_path)
+    non_na_rating_class, na_rating_class = remove_missing_values(fuel_df, drop_smog=False)
     
     # Set X and Y variables 
     # Response variable
     Y = non_na_rating_class[['co2_rating']]
 
     # Dependent variables
-    X = non_na_rating_class[utils.var_list]
+    X = non_na_rating_class[var_list]
 
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
@@ -146,15 +143,15 @@ if __name__=="__main__":
     
     # Set up pipeline
     # Set up parameters for the model - numerical and categorical
-    numeric_features =  utils.numeric_features
-    categorical_features = utils.categorical_features
+    numeric_features =  numeric_features
+    categorical_features = categorical_features
 
     # Use smote to balance the data
     smote = SMOTE(random_state=42)
     X_train, y_train = smote.fit_resample(X_train[numeric_features], y_train)
 
     # Set up preprocessor
-    preprocessor = utils.preprocessor
+    preprocessor = preprocessor
 
     # Set up model pipeline
     clf1 = KNeighborsClassifier(3,)
@@ -171,7 +168,9 @@ if __name__=="__main__":
             steps=[("preprocessor", preprocessor), 
                     ("hard Voting", eclf1 )] #colsample  by tree, n estimators, max depth
                                                                         )
-    train_and_evaluate_model(X_train, y_train, X_test, y_test, model,"Voting")
+    fig = train_and_evaluate_model(X_train, y_train, X_test, y_test, model,"Voting")
+    fig.savefig(os.path.join(PROJECT_DIR, 'reports', 'figures', 'hard_voting_classifier_co2_fuel.png'))
+
 
     params = {}
     best_dtc, dtc_score = classify_grid_search_cv_tuning(model, params, X_train, X_test, y_train, y_test, n_folds=10, scoring='balanced_accuracy')
