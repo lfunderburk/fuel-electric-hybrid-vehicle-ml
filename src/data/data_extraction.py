@@ -372,7 +372,6 @@ if __name__=='__main__':
     # Iterate over entries
     for item in data_entries_english.iterrows():
         name, url = item[1]["name"], item[1]["url"]
-        print(name)
         
         if "Original" in name:
             continue
