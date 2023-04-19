@@ -438,15 +438,15 @@ if __name__=='__main__':
     for keys in stats_can_dict:
         extract_stats_can_data(stats_can_dict[keys], clean_data_path, f'{keys}.csv')
 
-    # Extract car sales data
-    long_format_2021_sep,df_2021 =  process_json_car_sales("2021_canada_vehicle_sales.json", raw_data_path)
-    long_format_2020_sep,df_2020 =  process_json_car_sales("2020_canada_vehicle_sales.json", raw_data_path)
-    long_format_2019_sep,df_2019 =  process_json_car_sales("2019_canada_vehicle_sales.json", raw_data_path)
+    # # Extract car sales data
+    # long_format_2021_sep,df_2021 =  process_json_car_sales("2021_canada_vehicle_sales.json", raw_data_path)
+    # long_format_2020_sep,df_2020 =  process_json_car_sales("2020_canada_vehicle_sales.json", raw_data_path)
+    # long_format_2019_sep,df_2019 =  process_json_car_sales("2019_canada_vehicle_sales.json", raw_data_path)
 
-    # Concatenate car sales data 
-    long_format_car_sales = pd.concat([long_format_2019_sep, long_format_2020_sep, long_format_2021_sep])
-    wide_format_car_sales = pd.concat([df_2019, df_2020, df_2021])
+    # # Concatenate car sales data 
+    # long_format_car_sales = pd.concat([long_format_2019_sep, long_format_2020_sep, long_format_2021_sep])
+    # wide_format_car_sales = pd.concat([df_2019, df_2020, df_2021])
 
-    # Save car sales data
-    long_format_car_sales.to_csv(Path(clean_data_path,"long_format_car_sales.csv"), index=False)
-    wide_format_car_sales.to_csv(Path(clean_data_path,"wide_format_car_sales.csv"), index=False)
+    # # Save car sales data
+    # long_format_car_sales.to_csv(Path(clean_data_path,"long_format_car_sales.csv"), index=False)
+    # wide_format_car_sales.to_csv(Path(clean_data_path,"wide_format_car_sales.csv"), index=False)

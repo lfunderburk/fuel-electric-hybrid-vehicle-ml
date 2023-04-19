@@ -2,3 +2,6 @@ tasks:
   - source: src/data/data_extraction.py
     product:
       nb: notebooks/data_extraction.ipynb
+  - source: src/models/train_model.py
+    product:
+      nb: notebooks/train_model.ipynb
