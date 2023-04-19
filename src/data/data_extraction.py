@@ -141,7 +141,7 @@ def extract_raw_data(url:str):
         print("OOps: Something Else",err)
 
 # +
-def save_raw_data(folder_path: str, url_content: str) -> None:
+def save_raw_data(folder_path: str, url_content: str, file_name: str) -> None:
     """
     This function saves the raw data obtained using extract_raw_data() into a CSV file
     
@@ -151,15 +151,18 @@ def save_raw_data(folder_path: str, url_content: str) -> None:
         Path to the folder where the data will be saved
     url_content : str
         Content of the URL to be saved
+    file_name : str
+        Name of the file to save the data
 
     Returns
     -------
     None.
     """
     # Save content into file
-    csv_file = open(Path(folder_path,file_name), 'wb')
+    csv_file = open(Path(folder_path, file_name), 'wb')
     csv_file.write(url_content.content)
     csv_file.close()
+
 
 def rename_fuel_data_columns(folder_path, csv_file_name)-> pd.DataFrame:
     """
@@ -369,6 +372,7 @@ if __name__=='__main__':
     # Iterate over entries
     for item in data_entries_english.iterrows():
         name, url = item[1]["name"], item[1]["url"]
+        print(name)
         
         if "Original" in name:
             continue
@@ -381,7 +385,7 @@ if __name__=='__main__':
         item_based_url  = extract_raw_data(url)
 
         # Save raw data into a csv file
-        save_raw_data(raw_data_path,item_based_url)
+        save_raw_data(raw_data_path,item_based_url, file_name)
         
         # Read and clean csv file
         final_df = read_and_clean_csv_file(raw_data_path, name.replace(" ","_")+".csv")
