@@ -8,3 +8,4 @@ xgboost
 joblib
 urllib3
 requests
+pytest
