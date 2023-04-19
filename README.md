@@ -3,6 +3,8 @@ ml-vehicle-classification
 
 Classifying data from hybrid, fuel only and electric vehicles
 
+# Set up 
+
 Clone the repo
 
 ```
@@ -75,6 +77,12 @@ From command line at the project root directory level
 ```
 pytest
 ```
+
+## Deployment methods:
+
+1. This application consists of a Dash app with a dashboard that allows the user to visualize trends in different kinds of vehicles and consumer trends with a time component. 
+
+2. The data pipeline is scheduled to refresh and retrain the model in batches, and saves the model's results to a database/api for easier retrieval. 
 
 
 #### Project Organization
