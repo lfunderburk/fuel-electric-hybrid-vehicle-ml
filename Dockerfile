@@ -20,7 +20,11 @@ RUN pip install ploomber
 # Remove files ending in .metadata from the notebooks folder
 RUN find notebooks -type f -name "*.metadata" -exec rm -f {} \;
 
-# Execute the pipeline when the container starts
-CMD ["ploomber", "build"]
+# Create a shell script to run the commands in sequence
+RUN echo '#!/bin/sh' > run.sh && \
+    echo 'ploomber build' >> run.sh && \
+    echo 'python app.py' >> run.sh && \
+    chmod +x run.sh
 
-CMD ['python', 'app.py']
+# Execute the script when the container starts
+CMD ["./run.sh"]
