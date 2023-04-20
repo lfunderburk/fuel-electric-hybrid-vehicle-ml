@@ -1,7 +1,7 @@
 # + tags=["parameters"]
 # declare a list tasks whose products you want to use as inputs
 upstream = None
-import sys, os
+import os
 from pathlib import Path
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV, train_test_split
@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix, \
                             accuracy_score,\
                             balanced_accuracy_score,\
                             ConfusionMatrixDisplay
-from sklearn.metrics import DetCurveDisplay, RocCurveDisplay
+#from sklearn.metrics import DetCurveDisplay, RocCurveDisplay
 from sklearn.ensemble import VotingClassifier, RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC

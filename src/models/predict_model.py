@@ -3,7 +3,7 @@
 upstream = None
 
 # -
-import sys, os
+import os
 import pandas as pd
 import joblib
 from utils import read_data, remove_missing_values, var_list, numeric_features

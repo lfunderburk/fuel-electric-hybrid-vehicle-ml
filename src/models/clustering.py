@@ -20,7 +20,6 @@ from sklearn import metrics
 from sklearn.feature_selection import RFE
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.cluster import AgglomerativeClustering
-from sklearn.model_selection import cross_val_score
 # -
 
 
