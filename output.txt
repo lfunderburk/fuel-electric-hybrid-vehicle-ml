@@ -1,0 +1,33 @@
+ 
+Starting pipeline execution
+ 
+Starting data extraction
+Raw data path:  /Users/macpro/Documents/GitHub/fuel-electric-hybrid-vehicle-ml/data/raw
+Clean data path:  /Users/macpro/Documents/GitHub/fuel-electric-hybrid-vehicle-ml/data/processed
+ 
+Starting training model and evaluation
+accuracy is 0.9495955196017424
+score for training set 0.9947121034077556 score for testing set 0.9495955196017424
+Balanced accuracy score 0.9261658848413624
+Best parameters: {}
+Cross-validated f1 weighted score on training data: 0.9832
+
+              precision    recall  f1-score   support
+
+           1       1.00      0.92      0.96        25
+           2       0.93      0.99      0.96        82
+           3       0.96      0.95      0.96       263
+           4       0.96      0.95      0.95       375
+           5       0.96      0.96      0.96       455
+           6       0.93      0.94      0.93       198
+           7       0.94      0.94      0.94       139
+           8       0.90      0.78      0.84        36
+           9       0.86      0.90      0.88        21
+          10       1.00      0.92      0.96        13
+
+    accuracy                           0.95      1607
+   macro avg       0.94      0.93      0.93      1607
+weighted avg       0.95      0.95      0.95      1607
+
+ 
+Starting data prediction

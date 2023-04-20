@@ -43,7 +43,6 @@ clustering_percentage=$(echo "($clustering_time / $total_time) * 100" | bc -l)
 
 # Print the table
 printf "name\t\tRan?\tElapsed (s)\tPercentage\n"
-printf "---------------\t------\t-------------\t------------\n"
 printf "predict_model\t%s\t%d\t\t%.3f\n" $predict_model_success $predict_model_time $predict_model_percentage
 printf "data_extraction\t%s\t%d\t\t%.3f\n" $data_extraction_success $data_extraction_time $data_extraction_percentage
 printf "train_model\t%s\t%d\t\t%.3f\n" $train_model_success $train_model_time $train_model_percentage
