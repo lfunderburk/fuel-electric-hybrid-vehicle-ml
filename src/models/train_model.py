@@ -100,7 +100,7 @@ def classify_grid_search_cv_tuning(model, parameters, X_train, X_test, y_train, 
     
     # Printing results
     print("Best parameters:", tune_model.best_params_)
-    print("Cross-validated accuracy score on training data: {:0.4f}".format(tune_model.best_score_))
+    print("Cross-validated f1 weighted score on training data: {:0.4f}".format(tune_model.best_score_))
     print()
 
     print(classification_report(y_test, y_pred))
@@ -167,7 +167,22 @@ if __name__=="__main__":
 
 
     params = {}
-    best_dtc, dtc_score = classify_grid_search_cv_tuning(model, params, X_train, X_test, y_train, y_test, n_folds=10, scoring='balanced_accuracy')
+    best_dtc, dtc_score = classify_grid_search_cv_tuning(model, params, X_train, X_test, y_train, y_test, n_folds=10, scoring='f1_weighted')
+
+    # generate roc curve
+
+    # fig, [ax_roc, ax_det] = plt.subplots(1, 2, figsize=(11, 5))
+
+    # RocCurveDisplay.from_estimator(best_dtc, X_test, y_test, ax=ax_roc)
+    # DetCurveDisplay.from_estimator(best_dtc, X_test, y_test, ax=ax_det)
+
+    # ax_roc.set_title("Receiver Operating Characteristic (ROC) curves")
+    # ax_det.set_title("Detection Error Tradeoff (DET) curves")
+
+    # plt.legend()
+
+    # # save the plot as a file
+    # plt.savefig(os.path.abspath(os.path.join(os.getcwd(), 'reports', 'figures')))
 
     # Save model
     joblib.dump(best_dtc, model_path)

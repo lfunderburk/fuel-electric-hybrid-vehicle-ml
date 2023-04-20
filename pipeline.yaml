@@ -9,3 +9,6 @@ tasks:
   - source: src/models/predict_model.py
     product:
       nb: notebooks/predict_model.ipynb
+  - source: src/models/clustering.py
+    product:
+      nb: notebooks/clustering.ipynb
