@@ -21,4 +21,4 @@ RUN pip install ploomber
 RUN find notebooks -type f -name "*.metadata" -exec rm -f {} \;
 
 # Execute the script when the container starts
-CMD ['ploomber', 'build']
+CMD ["ploomber", "build"]
