@@ -20,11 +20,5 @@ RUN pip install ploomber
 # Remove files ending in .metadata from the notebooks folder
 RUN find notebooks -type f -name "*.metadata" -exec rm -f {} \;
 
-# Create a shell script to run the commands in sequence
-RUN echo '#!/bin/sh' > run.sh && \
-    echo 'ploomber build' >> run.sh && \
-    echo 'python app.py' >> run.sh && \
-    chmod +x run.sh
-
 # Execute the script when the container starts
-CMD ["./run.sh"]
+CMD ['ploomber', 'build']
