@@ -17,5 +17,8 @@ EXPOSE 5000
 # Install ploomber
 RUN pip install ploomber
 
+# Remove files ending in .metadata from the notebooks folder
+RUN find notebooks -type f -name "*.metadata" -exec rm -f {} \;
+
 # Execute the pipeline when the container starts
 CMD ["ploomber", "build"]

@@ -1,17 +1,8 @@
 # + tags=["parameters"]
 # declare a list tasks whose products you want to use as inputs
 upstream = None
-
-from dotenv import load_dotenv
 import sys, os
-
-load_dotenv()  # load environment variables from .env file
-PROJECT_DIR = os.getenv('PROJECT_DIR')
-parent_dir = os.path.abspath(os.path.join(PROJECT_DIR, os.pardir))
-sys.path.append(parent_dir)
-# +
-
-from dotenv import load_dotenv
+from pathlib import Path
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.metrics import confusion_matrix, \
@@ -29,11 +20,13 @@ import joblib
 from utils import read_data, remove_missing_values, var_list, numeric_features,\
                     preprocessor, categorical_features, categorical_transformer, numeric_transformer
 
-# -
 
-# TO DO: follow this tutorial to complete both smog and co2 ratings https://machinelearningmastery.com/knn-imputation-for-missing-values-in-machine-learning/
+# Get the current working directory
+current_working_directory = os.getcwd()
 
-# +
+# Convert the current working directory to a Path object
+script_dir = Path(current_working_directory)
+
 def train_and_evaluate_model(X_train, y_train, X_test, y_test, model_pipeline, model_name):
     """
     This function trains and evaluates model, and generates confusion matrix, classification report, and accuracy score
@@ -120,11 +113,12 @@ def classify_grid_search_cv_tuning(model, parameters, X_train, X_test, y_train, 
 if __name__=="__main__":
 
     # Variable initialization
-    raw_data_path = os.path.join(PROJECT_DIR, 'data', 'raw')
-    clean_data_path = os.path.join(PROJECT_DIR, 'data', 'processed')
-    predicted_data_path = os.path.join(PROJECT_DIR, 'data', 'predicted-data')
-    model_path = os.path.join(PROJECT_DIR, 'models', 'hard_voting_classifier_co2_fuel.pkl')
-
+    raw_data_path = script_dir / 'data' / 'raw'
+    clean_data_path = script_dir / 'data' / 'processed'
+    predicted_data_path = script_dir / 'data' / 'predicted-data'
+    model_path = script_dir / 'models' / 'hard_voting_classifier_co2_fuel.pkl'
+    reports = script_dir / 'reports'/ 'figures'
+    
 
     # Read data
     fuel_df, electric_df, hybrid_df = read_data(clean_data_path)
@@ -169,7 +163,7 @@ if __name__=="__main__":
                     ("hard Voting", eclf1 )] #colsample  by tree, n estimators, max depth
                                                                         )
     fig = train_and_evaluate_model(X_train, y_train, X_test, y_test, model,"Voting")
-    fig.savefig(os.path.join(PROJECT_DIR, 'reports', 'figures', 'hard_voting_classifier_co2_fuel.png'))
+    fig.savefig(os.path.join(reports, 'hard_voting_classifier_co2_fuel.png'))
 
 
     params = {}

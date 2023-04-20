@@ -3,19 +3,19 @@
 upstream = None
 
 # -
-from dotenv import load_dotenv
 import sys, os
-
-load_dotenv()  # load environment variables from .env file
-PROJECT_DIR = os.getenv('PROJECT_DIR')
-parent_dir = os.path.abspath(os.path.join(PROJECT_DIR, os.pardir))
-sys.path.append(parent_dir)
-
 import pandas as pd
 import joblib
 from utils import read_data, remove_missing_values, var_list, numeric_features
 from sklearn.impute import KNNImputer
 from pathlib import Path
+
+# Get the current working directory
+current_working_directory = os.getcwd()
+
+# Convert the current working directory to a Path object
+script_dir = Path(current_working_directory)
+
 # +
 def predict_co2_rating(df, list_of_vars, model):
     # Preprocess the original data (fuel_df)
@@ -57,14 +57,11 @@ def impute_data(numeric_features, df, target):
 
 if __name__=="__main__":
 
-    
-
-
     # Variable initialization
-    raw_data_path = os.path.join(PROJECT_DIR, 'data', 'raw')
-    clean_data_path = os.path.join(PROJECT_DIR, 'data', 'processed')
-    predicted_data_path = os.path.join(PROJECT_DIR, 'data', 'predicted-data')
-    model_path = os.path.join(PROJECT_DIR, 'models', 'hard_voting_classifier_co2_fuel.pkl')
+    raw_data_path = script_dir / 'data' / 'raw'
+    clean_data_path = script_dir / 'data' / 'processed'
+    predicted_data_path = script_dir / 'data' / 'predicted-data'
+    model_path = script_dir / 'models' / 'hard_voting_classifier_co2_fuel.pkl'
 
     # Load data
     fuel_df, electric_df, hybrid_df = read_data(clean_data_path)
