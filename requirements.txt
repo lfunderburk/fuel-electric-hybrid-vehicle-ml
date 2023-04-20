@@ -12,3 +12,5 @@ pytest
 soopervisor
 apache-airflow
 python-dotenv
+dash
+dash-bootstrap-components

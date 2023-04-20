@@ -22,3 +22,5 @@ RUN find notebooks -type f -name "*.metadata" -exec rm -f {} \;
 
 # Execute the pipeline when the container starts
 CMD ["ploomber", "build"]
+
+CMD ['python', 'app.py']
