@@ -36,10 +36,10 @@ clustering_time=$SECONDS
 total_time=$((data_extraction_time + train_model_time + predict_model_time + clustering_time))
 
 # Calculate percentage
-data_extraction_percentage=$(echo "($data_extraction_time / $total_time) * 100" | bc -l)
-train_model_percentage=$(echo "($train_model_time / $total_time) * 100" | bc -l)
-predict_model_percentage=$(echo "($predict_model_time / $total_time) * 100" | bc -l)
-clustering_percentage=$(echo "($clustering_time / $total_time) * 100" | bc -l)
+data_extraction_percentage=$(awk "BEGIN {print ($data_extraction_time / $total_time) * 100}")
+train_model_percentage=$(awk "BEGIN {print ($train_model_time / $total_time) * 100}")
+predict_model_percentage=$(awk "BEGIN {print ($predict_model_time / $total_time) * 100}")
+clustering_percentage=$(awk "BEGIN {print ($clustering_time / $total_time) * 100}")
 
 # Print the table
 printf "name\t\tRan?\tElapsed (s)\tPercentage\n"
@@ -47,3 +47,5 @@ printf "predict_model\t%s\t%d\t\t%.3f\n" $predict_model_success $predict_model_t
 printf "data_extraction\t%s\t%d\t\t%.3f\n" $data_extraction_success $data_extraction_time $data_extraction_percentage
 printf "train_model\t%s\t%d\t\t%.3f\n" $train_model_success $train_model_time $train_model_percentage
 printf "clustering\t%s\t%d\t\t%.3f\n" $clustering_success $clustering_time $clustering_percentage
+
+
