@@ -55,9 +55,13 @@ tasks:
   - source: src/models/train_model.py
     product:
       nb: notebooks/train_model.ipynb
+      model: models/hard_voting_classifier_co2_fuel.pkl
   - source: src/models/predict_model.py
     product:
       nb: notebooks/predict_model.ipynb
+  - source: src/models/clustering.py
+    product:
+      nb: notebooks/clustering.ipynb
 ```
 
 Sample output
