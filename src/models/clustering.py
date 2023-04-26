@@ -20,6 +20,8 @@ from sklearn import metrics
 from sklearn.feature_selection import RFE
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.cluster import AgglomerativeClustering
+from scipy.cluster.hierarchy import dendrogram, linkage
+
 # -
 
 
@@ -247,18 +249,50 @@ def plot_elbow_method(silhouette_scores, silhouette_scores_cl, inertia_scores,\
     plt.clf()
 
 # +
-def perform_clustering(X_scaled, n_clusters, model):
+def perform_clustering(X, n_clusters, model):
+    # Standardize the data
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
 
-    
-    # fit the model
-    model.fit(X_scaled)
-    # predict the clusters
-    y_pred = model.predict(X_scaled)
+    if hasattr(model, 'predict'):
+        y_pred = model.fit(X_scaled).predict(X_scaled)
+    else:
+        y_pred = model.fit_predict(X_scaled)
+
     labels = model.labels_
-    
-
     return y_pred, labels
+
+def clean_feature_name(feature_name):
+    return feature_name.replace('(', '').replace(')', '').replace('/', '').replace(' ', '_')
+
 # -
+def plot_kmeans_clustering(df, x_feature, y_feature, labels_kmeans, n_clusters, reports_path, x_feature_clean, y_feature_clean):
+    plt.figure(figsize=(10, 6))
+    colors = plt.cm.Spectral(np.linspace(0, 1, n_clusters))
+
+    for k, col in zip(range(n_clusters), colors):
+        cluster_data = df[df['kmeans_labels'] == k]
+        plt.scatter(cluster_data[x_feature], cluster_data[y_feature], c=[col], marker='o', label=f'Cluster {k}')
+
+    plt.xlabel(x_feature)
+    plt.ylabel(y_feature)
+    plt.legend()
+    plt.title("KMeans Clustering")
+    plt.savefig(f"{reports_path}/kmeans_clustering_{x_feature_clean}_{y_feature_clean}.png")
+
+
+
+def plot_agg_clustering_dendrogram(df, X, labels_agg, reports_path):
+    plt.figure(figsize=(10, 6))
+
+    Z = linkage(X, 'ward')
+    dendrogram(Z, labels=labels_agg)
+
+    plt.xlabel('Data Points')
+    plt.ylabel('Euclidean Distance')
+    plt.title("Agglomerative Clustering Dendrogram")
+    plt.savefig(f"{reports_path}/agg_clustering_dendrogram.png")
+
 
 
 if __name__ == "__main__":
@@ -291,16 +325,16 @@ if __name__ == "__main__":
     top_features, X, y = generate_feature_importances(df_processed, reports_path, target_col)
 
     # # generate clustering
-    # range_n_clusters = range(2, 11)
+    range_n_clusters = range(2, 11)
     
-    # # generate clustering
-    # silhouette_scores, \
-    #     silhouette_scores_cl, \
-    #         inertia_scores = generate_clustering(X, top_features, range_n_clusters, reports_path)
+    # generate clustering
+    silhouette_scores, \
+        silhouette_scores_cl, \
+            inertia_scores = generate_clustering(X, top_features, range_n_clusters, reports_path)
     
-    # # plot the elbow method
-    # plot_elbow_method(silhouette_scores, silhouette_scores_cl, inertia_scores,\
-    #                       range_n_clusters, target_col, reports_path)
+    # plot the elbow method
+    plot_elbow_method(silhouette_scores, silhouette_scores_cl, inertia_scores,\
+                          range_n_clusters, target_col, reports_path)
     
 
     # perform clustering - kmeans
@@ -309,9 +343,8 @@ if __name__ == "__main__":
     y_pred_kmeans, labels_kmeans = perform_clustering(X, n_clusters, kmeans)
 
     # perform clustering - agglomerative clustering
-    n_clusters_10 = 10
-    agg_clustering = AgglomerativeClustering(n_clusters=n_clusters_10, affinity='euclidean', linkage='ward')
-    y_pred_agg, labels_agg = perform_clustering(X, n_clusters_10, agg_clustering)
+    agg_clustering = AgglomerativeClustering(n_clusters=n_clusters, affinity='euclidean', linkage='ward')
+    y_pred_agg, labels_agg = perform_clustering(X, n_clusters, agg_clustering)
 
 
     # add the labels to the dataframe
@@ -323,7 +356,17 @@ if __name__ == "__main__":
     # Transform vehicle_type to numeric
     df['vehicle_type'] = df['vehicle_type'].map({'fuel-only': 0, 'electric': 1, 'hybrid': 2})
 
+    # Plotting
+    # Call the function with the desired features for the x and y axes.
+    x_feature_clean = clean_feature_name('enginesize_(l)')
+    y_feature_clean = clean_feature_name('co2emissions_(g/km)')
+    plot_kmeans_clustering(df, 'enginesize_(l)', 'co2emissions_(g/km)', labels_kmeans, n_clusters, reports_path, x_feature_clean, y_feature_clean)
+    plot_agg_clustering_dendrogram(df, X, labels_agg, reports_path)
+
+
+
     # Asses the performance of the clustering - kmeans
+    print('KMeans Clustering Performance')
     print(confusion_matrix(df['vehicle_type'],labels_kmeans))
     print(classification_report(df['vehicle_type'],labels_kmeans))
 
@@ -331,6 +374,15 @@ if __name__ == "__main__":
     cm = confusion_matrix(df['vehicle_type'],labels_kmeans)
     cr = classification_report(df['vehicle_type'],labels_kmeans)
     with open(f'{reports_path}/clustering_performance_kmeans.txt', 'w') as f:
+        f.write(f'Confusion Matrix:\n{cm}\n\nClassification Report:\n{cr}')
+
+    print(confusion_matrix(df['vehicle_type'],labels_kmeans))
+    print(classification_report(df['vehicle_type'],labels_kmeans))
+
+    # Save confusion matrix and classification report
+    cm = confusion_matrix(df['vehicle_type'],labels_agg)
+    cr = classification_report(df['vehicle_type'],labels_agg)
+    with open(f'{reports_path}/clustering_performance_agg.txt', 'w') as f:
         f.write(f'Confusion Matrix:\n{cm}\n\nClassification Report:\n{cr}')
 
   # save the dataframe
