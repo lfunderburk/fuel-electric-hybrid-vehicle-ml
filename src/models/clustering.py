@@ -15,11 +15,14 @@ from sklearn.feature_selection import RFECV
 from pathlib import Path
 
 # +
+from imblearn.under_sampling import RandomUnderSampler
 from sklearn.metrics import silhouette_score,confusion_matrix,classification_report
 from sklearn import metrics
 from sklearn.feature_selection import RFE
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.cluster import AgglomerativeClustering
+from sklearn.manifold import TSNE
+from scipy.cluster.hierarchy import dendrogram, linkage
 # -
 
 
@@ -125,13 +128,15 @@ def generate_feature_importances(df_processed, reports_path, target_col):
     X = df_processed.drop([target_col], axis=1)
     y = df_processed[target_col]
 
+    X_scaled = StandardScaler().fit_transform(X)
+
     # set up xgboost model for classification and feature selection
     dt = DecisionTreeClassifier(random_state=42)
     rfecv = RFECV(estimator=dt, cv=10)
-    rfecv.fit(X, y)
+    rfecv.fit(X_scaled, y)
 
     # predict
-    y_pred = rfecv.predict(X)
+    y_pred = rfecv.predict(X_scaled)
 
     # Print the accuracy
     print("Accuracy:", metrics.accuracy_score(y, y_pred))
@@ -147,6 +152,7 @@ def generate_feature_importances(df_processed, reports_path, target_col):
 
     # save the plot
     plt.savefig(f'{reports_path}/feature_importances_{target_col.split("(")[0]}.png')
+    plt.clf()
 
     # Select the top 5 most important features
     threshold = feat_importances.nlargest(15).min()
@@ -247,19 +253,67 @@ def plot_elbow_method(silhouette_scores, silhouette_scores_cl, inertia_scores,\
     plt.clf()
 
 # +
-def perform_clustering(X_scaled, n_clusters, model):
+def perform_clustering(X,y, n_clusters, top_features):
 
-    
-    # fit the model
-    model.fit(X_scaled)
-    # predict the clusters
-    y_pred = model.predict(X_scaled)
-    labels = model.labels_
-    
+    # scale the data
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X[top_features])
 
-    return y_pred, labels
+    agg_clustering = AgglomerativeClustering(n_clusters=n_clusters)
+
+    # Define the undersampler and oversampler
+    undersampler = RandomUnderSampler(random_state=42)
+    
+    # Undersample the majority class
+    X_resampled, y_resampled = undersampler.fit_resample(X_scaled, y)
+        
+
+    agg_clustering.fit(X_resampled)
+    y_pred = agg_clustering.fit_predict(X_resampled)
+    cluster_labels = agg_clustering.labels_
+
+    # Perform t-SNE
+    tsne = TSNE(n_components=2, perplexity=30, learning_rate=200, random_state=42)
+    X_tsne = tsne.fit_transform(X_resampled)
+
+    # Plot the t-SNE with colors based on cluster assignments
+    plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=cluster_labels, cmap=plt.cm.get_cmap('viridis', n_clusters))
+    plt.colorbar(ticks=range(n_clusters), label='Cluster Labels')
+    plt.clim(-0.5, n_clusters - 0.5)
+    plt.savefig(f"{reports_path}/tsne_results_{n_clusters}_clusters.png")
+
+    return cluster_labels, y_pred
 # -
 
+# define a function to add a column with zero and one values, where 1 indicates a hybrid or electric vehicle and 0 indicates a fuel vehicle
+def add_hybrid_electric_col(df, fuel_attribute):
+    return df['vehicle_type'].apply(lambda x: 1 if x in ['hybrid', fuel_attribute] else 0)
+
+
+
+
+def plot_agg_clustering_dendrogram(df, X, labels_agg, reports_path):
+    plt.figure(figsize=(10, 6))
+
+    Z = linkage(X, 'ward')
+    dendrogram(Z, labels=labels_agg)
+
+    plt.xlabel('Data Points')
+    plt.ylabel('Euclidean Distance')
+    plt.title("Agglomerative Clustering Dendrogram")
+    plt.savefig(f"{reports_path}/agg_clustering_dendrogram.png")
+
+def compute_performance(df, labels_agg, reports_path, target):
+
+    name = target.replace('_',' ').title()
+    print('Classification peformance, view: ', name)
+    
+    cm = confusion_matrix(df[target],labels_agg)
+    print(cm)
+    cr = classification_report(df[target],labels_agg)
+    print(cr)
+    with open(f'{reports_path}/clustering_performance_kmeans_{target}.txt', 'w') as f:
+        f.write(f'Confusion Matrix:\n{cm}\n\nClassification Report:\n{cr}')
 
 if __name__ == "__main__":
 
@@ -283,6 +337,10 @@ if __name__ == "__main__":
     # Concatenate the dataframes
     df = concat_vehicle_data(fuel_df, hybrid_df, electric_df)
 
+    # add a column with zero and one values, where 1 indicates a hybrid or electric vehicle and 0 indicates a fuel vehicle
+    df['hybrid_in_fuel'] = add_hybrid_electric_col(df, 'electric')
+    df['hybrid_in_electric'] = add_hybrid_electric_col(df, 'fuel-only')
+
     # prepare data for feature importances
     target_col = 'predicted_co2_rating'
     df_processed = prepare_data_feature_importances(df)
@@ -290,7 +348,7 @@ if __name__ == "__main__":
     # generate feature importances
     top_features, X, y = generate_feature_importances(df_processed, reports_path, target_col)
 
-    # # generate clustering
+    # # # generate clustering
     # range_n_clusters = range(2, 11)
     
     # # generate clustering
@@ -302,36 +360,22 @@ if __name__ == "__main__":
     # plot_elbow_method(silhouette_scores, silhouette_scores_cl, inertia_scores,\
     #                       range_n_clusters, target_col, reports_path)
     
-
     # perform clustering - kmeans
-    n_clusters = 3
-    kmeans = KMeans(n_clusters=n_clusters, random_state=0,n_init=10)
-    y_pred_kmeans, labels_kmeans = perform_clustering(X, n_clusters, kmeans)
-
-    # perform clustering - agglomerative clustering
-    n_clusters_10 = 10
-    agg_clustering = AgglomerativeClustering(n_clusters=n_clusters_10, affinity='euclidean', linkage='ward')
-    y_pred_agg, labels_agg = perform_clustering(X, n_clusters_10, agg_clustering)
-
+    n_clusters = 2
+    labels_agg, y_pred = perform_clustering(X ,y, n_clusters, top_features) # X ,y,  n_clusters, top_features
 
     # add the labels to the dataframe
-    df['kmeans_labels'] = labels_kmeans
-
-    # add the labels to the dataframe
-    df['agg_labels'] = labels_agg
-
-    # Transform vehicle_type to numeric
-    df['vehicle_type'] = df['vehicle_type'].map({'fuel-only': 0, 'electric': 1, 'hybrid': 2})
-
-    # Asses the performance of the clustering - kmeans
-    print(confusion_matrix(df['vehicle_type'],labels_kmeans))
-    print(classification_report(df['vehicle_type'],labels_kmeans))
+    df['aggregate_levels'] = labels_agg
 
     # Save confusion matrix and classification report
-    cm = confusion_matrix(df['vehicle_type'],labels_kmeans)
-    cr = classification_report(df['vehicle_type'],labels_kmeans)
-    with open(f'{reports_path}/clustering_performance_kmeans.txt', 'w') as f:
-        f.write(f'Confusion Matrix:\n{cm}\n\nClassification Report:\n{cr}')
+    target_a = 'hybrid_in_fuel'
+    compute_performance(df, labels_agg, reports_path, target_a)
+
+    # plot the dendrogram
+    plot_agg_clustering_dendrogram(df, X, labels_agg, reports_path)
+
+    # Transform vehicle_type to numeric
+    df['vehicle_type_cat'] = df['vehicle_type'].map({'fuel-only': 0, 'electric': 1, 'hybrid': 2})
 
   # save the dataframe
     df.to_csv(f'{predicted_data_path}/vehicle_data_with_clusters.csv', index=False)
