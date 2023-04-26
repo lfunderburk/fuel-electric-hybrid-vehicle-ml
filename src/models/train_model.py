@@ -151,7 +151,7 @@ if __name__=="__main__":
 
     # Set up model pipeline
     clf1 = KNeighborsClassifier(3,)
-    clf2 = SVC(gamma=2, C=1, random_state=42, probability=True)
+    clf2 = SVC(gamma=2, C=1, random_state=42)
     clf3 = RandomForestClassifier(max_depth=100, n_estimators=10, max_features=1, random_state=42)
 
     classifiers = {"KNN": clf1, 
@@ -159,7 +159,7 @@ if __name__=="__main__":
                    "RFC": clf3
                 }
 
-    eclf1 = VotingClassifier(estimators=[('knn', clf1), ('svm', clf2), ('dt', clf3)], voting='soft')
+    eclf1 = VotingClassifier(estimators=[('knn', clf1), ('svm', clf2), ('dt', clf3)], voting='hard')
     model = Pipeline(
             steps=[("preprocessor", preprocessor), 
                     ("hard Voting", eclf1 )] #colsample  by tree, n estimators, max depth
