@@ -308,9 +308,17 @@ if __name__ == "__main__":
     kmeans = KMeans(n_clusters=n_clusters, random_state=0,n_init=10)
     y_pred_kmeans, labels_kmeans = perform_clustering(X, n_clusters, kmeans)
 
+    # perform clustering - agglomerative clustering
+    n_clusters_10 = 10
+    agg_clustering = AgglomerativeClustering(n_clusters=n_clusters_10, affinity='euclidean', linkage='ward')
+    y_pred_agg, labels_agg = perform_clustering(X, n_clusters_10, agg_clustering)
+
 
     # add the labels to the dataframe
     df['kmeans_labels'] = labels_kmeans
+
+    # add the labels to the dataframe
+    df['agg_labels'] = labels_agg
 
     # Transform vehicle_type to numeric
     df['vehicle_type'] = df['vehicle_type'].map({'fuel-only': 0, 'electric': 1, 'hybrid': 2})

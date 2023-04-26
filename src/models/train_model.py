@@ -9,7 +9,8 @@ from sklearn.metrics import confusion_matrix, \
                             classification_report, \
                             accuracy_score,\
                             balanced_accuracy_score,\
-                            ConfusionMatrixDisplay
+                            ConfusionMatrixDisplay,\
+                            RocCurveDisplay, DetCurveDisplay
 #from sklearn.metrics import DetCurveDisplay, RocCurveDisplay
 from sklearn.ensemble import VotingClassifier, RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
@@ -60,6 +61,7 @@ def train_and_evaluate_model(X_train, y_train, X_test, y_test, model_pipeline, m
     print("Balanced accuracy score", balanced_accuracy)
     
     report = classification_report(y_test, y_pred)
+
     
     fig, ax = plt.subplots(figsize=(10, 5))
     ConfusionMatrixDisplay.from_predictions(y_test, y_pred, ax=ax)
@@ -67,7 +69,7 @@ def train_and_evaluate_model(X_train, y_train, X_test, y_test, model_pipeline, m
         f"Confusion Matrix for {model_name}"
     )
     
-    return fig
+    return fig, report, score_train, score_test, balanced_accuracy
 
 # +
 def classify_grid_search_cv_tuning(model, parameters, X_train, X_test, y_train, y_test, n_folds = 5, scoring='accuracy'):
@@ -149,7 +151,7 @@ if __name__=="__main__":
 
     # Set up model pipeline
     clf1 = KNeighborsClassifier(3,)
-    clf2 = SVC(gamma=2, C=1, random_state=42)
+    clf2 = SVC(gamma=2, C=1, random_state=42, probability=True)
     clf3 = RandomForestClassifier(max_depth=100, n_estimators=10, max_features=1, random_state=42)
 
     classifiers = {"KNN": clf1, 
@@ -157,32 +159,26 @@ if __name__=="__main__":
                    "RFC": clf3
                 }
 
-    eclf1 = VotingClassifier(estimators=[('knn', clf1), ('svm', clf2), ('dt', clf3)], voting='hard')
+    eclf1 = VotingClassifier(estimators=[('knn', clf1), ('svm', clf2), ('dt', clf3)], voting='soft')
     model = Pipeline(
             steps=[("preprocessor", preprocessor), 
                     ("hard Voting", eclf1 )] #colsample  by tree, n estimators, max depth
                                                                         )
-    fig = train_and_evaluate_model(X_train, y_train, X_test, y_test, model,"Voting")
+    fig, report, score_train, score_test, balanced_accuracy = train_and_evaluate_model(X_train, y_train, X_test, y_test, model,"Voting")
     fig.savefig(os.path.join(reports, 'hard_voting_classifier_co2_fuel.png'))
+    # save report to file
+    with open(script_dir / 'reports' / f"{reports}_classification_report.txt", "w") as f:
+        f.write(f"Classification report for Voting Classifier (KNN, SVC, RFC):\n")
+        f.write(f"Training score: {score_train}\n")
+        f.write(f"Testing score: {score_test}\n")
+        f.write(f"Balanced accuracy score: {balanced_accuracy}\n")
+        f.write(report)
+    
 
 
     params = {}
     best_dtc, dtc_score = classify_grid_search_cv_tuning(model, params, X_train, X_test, y_train, y_test, n_folds=10, scoring='f1_weighted')
 
-    # generate roc curve
-
-    # fig, [ax_roc, ax_det] = plt.subplots(1, 2, figsize=(11, 5))
-
-    # RocCurveDisplay.from_estimator(best_dtc, X_test, y_test, ax=ax_roc)
-    # DetCurveDisplay.from_estimator(best_dtc, X_test, y_test, ax=ax_det)
-
-    # ax_roc.set_title("Receiver Operating Characteristic (ROC) curves")
-    # ax_det.set_title("Detection Error Tradeoff (DET) curves")
-
-    # plt.legend()
-
-    # # save the plot as a file
-    # plt.savefig(os.path.abspath(os.path.join(os.getcwd(), 'reports', 'figures')))
 
     # Save model
     joblib.dump(best_dtc, model_path)

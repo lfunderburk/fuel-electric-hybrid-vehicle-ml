@@ -31,3 +31,24 @@ weighted avg       0.95      0.95      0.95      1607
 
  
 Starting data prediction
+ 
+Starting data clustering
+Accuracy: 1.0
+[[12408     0     0]
+ [   42   377     0]
+ [   11     0   237]]
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     12408
+           1       1.00      0.90      0.95       419
+           2       1.00      0.96      0.98       248
+
+    accuracy                           1.00     13075
+   macro avg       1.00      0.95      0.97     13075
+weighted avg       1.00      1.00      1.00     13075
+
+name		      Ran?	   Elapsed (s)	   Percentage
+predict_model	   0	   61		         49.593
+data_extraction	0	   14		         11.382
+train_model	      0	   37		         30.081
+clustering	      0	   11		         8.943
