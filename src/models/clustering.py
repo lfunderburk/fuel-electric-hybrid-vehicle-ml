@@ -253,7 +253,7 @@ def plot_elbow_method(silhouette_scores, silhouette_scores_cl, inertia_scores,\
     plt.clf()
 
 # +
-def perform_clustering(X,y, n_clusters, top_features):
+def perform_clustering(X,n_clusters, top_features):
 
     # scale the data
     scaler = StandardScaler()
@@ -261,20 +261,13 @@ def perform_clustering(X,y, n_clusters, top_features):
 
     agg_clustering = AgglomerativeClustering(n_clusters=n_clusters)
 
-    # Define the undersampler and oversampler
-    undersampler = RandomUnderSampler(random_state=42)
-    
-    # Undersample the majority class
-    X_resampled, y_resampled = undersampler.fit_resample(X_scaled, y)
-        
-
-    agg_clustering.fit(X_resampled)
-    y_pred = agg_clustering.fit_predict(X_resampled)
+    agg_clustering.fit(X_scaled)
+    y_pred = agg_clustering.fit_predict(X_scaled)
     cluster_labels = agg_clustering.labels_
 
     # Perform t-SNE
     tsne = TSNE(n_components=2, perplexity=30, learning_rate=200, random_state=42)
-    X_tsne = tsne.fit_transform(X_resampled)
+    X_tsne = tsne.fit_transform(X_scaled)
 
     # Plot the t-SNE with colors based on cluster assignments
     plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=cluster_labels, cmap=plt.cm.get_cmap('viridis', n_clusters))
@@ -362,7 +355,7 @@ if __name__ == "__main__":
     
     # perform clustering - kmeans
     n_clusters = 2
-    labels_agg, y_pred = perform_clustering(X ,y, n_clusters, top_features) # X ,y,  n_clusters, top_features
+    labels_agg, y_pred = perform_clustering(X , n_clusters, top_features) # X ,y,  n_clusters, top_features
 
     # add the labels to the dataframe
     df['aggregate_levels'] = labels_agg
