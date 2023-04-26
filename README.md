@@ -69,9 +69,10 @@ Sample output
 ```
 name             Ran?      Elapsed (s)    Percentage
 ---------------  ------  -------------  ------------
-data_extraction  True          13.0449       13.2142
-train_model      True          39.0849       39.5921
-predict_model    True          46.5889       47.1936
+data_extraction  True          29.371        8.13723
+train_model      True         136.637       37.8553
+predict_model    True          52.2234      14.4685
+clustering       True         142.715       39.5391
 ```
 
 ## Running tests
