@@ -14,14 +14,22 @@ cd fuel-electric-hybrid-vehicle-ml
 
 ## Setting up, with Docker
 
-Ensure you have Docker installed
+Ensure you have Docker installed. Ensure you have an OpenAI API key. Create a `.env` file with the parameters
+
+`OPENAI_API_KEY=<your-api-key>`
 
 ```
-docker build -t my_pipeline .
-docker run -it --rm -p 8000:8000 my_pipeline
+docker build -t vehicle_search .
+docker run --env-file .env -p 8000:8000 vehicle_search
 ```
 
 Then visit http://localhost:8000
+
+Currently testing image works
+
+```
+docker pull lgfunderburk/vehicle_classification:search
+```
 
 ## Setting up - locally
 
