@@ -13,7 +13,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.feature_selection import RFECV
 from pathlib import Path
-
+import joblib
 # +
 from imblearn.under_sampling import RandomUnderSampler
 from sklearn.metrics import silhouette_score,confusion_matrix,classification_report
@@ -253,7 +253,7 @@ def plot_elbow_method(silhouette_scores, silhouette_scores_cl, inertia_scores,\
     plt.clf()
 
 # +
-def perform_clustering(X,n_clusters, top_features):
+def perform_clustering(X,n_clusters, top_features, model_path):
 
     # scale the data
     scaler = StandardScaler()
@@ -264,6 +264,9 @@ def perform_clustering(X,n_clusters, top_features):
     agg_clustering.fit(X_scaled)
     y_pred = agg_clustering.fit_predict(X_scaled)
     cluster_labels = agg_clustering.labels_
+
+    # Save model
+    joblib.dump(agg_clustering, f"{model_path}/agg_clustering_{n_clusters}_clusters.pkl")
 
     # Perform t-SNE
     tsne = TSNE(n_components=2, perplexity=30, learning_rate=200, random_state=42)
@@ -312,7 +315,8 @@ if __name__ == "__main__":
 
     # Get the current working directory
     predicted_data_path = script_dir / 'data' / 'predicted-data'
-    model_path = script_dir / 'models' / 'hard_voting_classifier_co2_fuel.pkl'
+    model_path_save = script_dir / 'models' 
+    model_path = model_path_save / 'hard_voting_classifier_co2_fuel.pkl'
     reports_path= script_dir / 'reports'/ 'figures'
 
 
@@ -355,7 +359,7 @@ if __name__ == "__main__":
     
     # perform clustering - kmeans
     n_clusters = 2
-    labels_agg, y_pred = perform_clustering(X , n_clusters, top_features) # X ,y,  n_clusters, top_features
+    labels_agg, y_pred = perform_clustering(X , n_clusters, top_features, model_path_save) # X ,y,  n_clusters, top_features
 
     # add the labels to the dataframe
     df['aggregate_levels'] = labels_agg
@@ -367,8 +371,6 @@ if __name__ == "__main__":
     # plot the dendrogram
     plot_agg_clustering_dendrogram(df, X, labels_agg, reports_path)
 
-    # Transform vehicle_type to numeric
-    df['vehicle_type_cat'] = df['vehicle_type'].map({'fuel-only': 0, 'electric': 1, 'hybrid': 2})
-
+   
   # save the dataframe
     df.to_csv(f'{predicted_data_path}/vehicle_data_with_clusters.csv', index=False)

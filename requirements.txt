@@ -25,3 +25,7 @@ dash-table==5.0.0
 dash-bootstrap-components
 transformers==4.28.1
 torch==2.0.0
+openai
+jupysql
+fastapi==0.95.1
+uvicorn==0.21.1
