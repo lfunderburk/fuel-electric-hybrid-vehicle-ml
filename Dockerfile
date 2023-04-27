@@ -21,5 +21,5 @@ RUN pip install ploomber
 RUN find notebooks -type f -name "*.metadata" -exec rm -f {} \;
 
 # Execute the script when the container starts
-CMD ["uvicorn", "src.app.app:app"]
+CMD ["uvicorn", "src.app.app:app", "--host", "0.0.0.0"]
 

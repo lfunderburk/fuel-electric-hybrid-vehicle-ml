@@ -18,8 +18,10 @@ Ensure you have Docker installed
 
 ```
 docker build -t my_pipeline .
-docker run -it --rm -p 5000:5000 my_pipeline
+docker run -it --rm -p 8000:8000 my_pipeline
 ```
+
+Then visit http://localhost:8000
 
 ## Setting up - locally
 
