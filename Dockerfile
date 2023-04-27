@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port that the app runs on
-EXPOSE 5000
+EXPOSE 8000
 
 # Install ploomber
 RUN pip install ploomber
@@ -21,4 +21,5 @@ RUN pip install ploomber
 RUN find notebooks -type f -name "*.metadata" -exec rm -f {} \;
 
 # Execute the script when the container starts
-CMD ["sh", "pipeline_execution.sh"]
+CMD ["uvicorn", "src.app.app:app"]
+
