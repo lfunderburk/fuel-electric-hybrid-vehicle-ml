@@ -95,13 +95,18 @@ async def search(query: Query):
     print(result)
     sql_query = result.split("\n\n")[0]
 
-    # Execute SQL query and fetch results
-    with engine.connect() as connection:
-        result = connection.execute(sql_query)
-        rows = result.fetchall()
+    try:
+        # Execute SQL query and fetch results
+        with engine.connect() as connection:
+            result = connection.execute(sql_query)
+            rows = result.fetchall()
 
-    # Convert rows to list of dicts for JSON response
-    columns = result.keys()
-    data = [dict(zip(columns, row)) for row in rows]
+        # Convert rows to list of dicts for JSON response
+        columns = result.keys()
+        data = [dict(zip(columns, row)) for row in rows]
+
+    except Exception as e:
+        print(e)
+        return {"error": "SQL query failed"}
 
     return {"data": data}
