@@ -18,18 +18,14 @@ Ensure you have Docker installed. Ensure you have an OpenAI API key. Create a `.
 
 `OPENAI_API_KEY=<your-api-key>`
 
-```
-docker build -t vehicle_search .
-docker run --env-file .env -p 8000:8000 vehicle_search
-```
-
-Then visit http://localhost:8000
-
 Currently testing image works
 
 ```
 docker pull lgfunderburk/vehicle_classification:search
+docker run -it --rm -p 8000:8000 -v /path/to/your/.env:/app/.env lgfunderburk/vehicle_classification:search
 ```
+
+Then visit http://localhost:8000
 
 ## Setting up - locally
 
