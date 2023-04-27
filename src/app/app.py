@@ -107,6 +107,6 @@ async def search(query: Query):
 
     except Exception as e:
         print(e)
-        return {"error": "SQL query failed"}
+        return {"error": "SQL query failed. {e}"}
 
     return {"data": data}
