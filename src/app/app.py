@@ -106,7 +106,6 @@ async def search(query: Query):
         data = [dict(zip(columns, row)) for row in rows]
 
     except Exception as e:
-        print(e)
-        return {"error": "SQL query failed. {e}"}
+        return {"error": f"SQL query failed. {e}"}
 
     return {"data": data}
