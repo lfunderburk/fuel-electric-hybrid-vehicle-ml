@@ -7,6 +7,31 @@ Classifying data from hybrid, fuel only and electric vehicles
 
 ![](./docs/diagram-a.jpg)
 
+# About the data
+
+Data consists on vehicle model information for three kinds of vehicles: fuel-based, electric and hybrid vehicles. 
+
+Data is extracted from an API listed on [this site](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64). The data source operates under [Open Government License - Canada](http://open.canada.ca/en/open-government-licence-canada).
+
+The vehicles in this dateset underwent [five cycle fuel consumption testing](https://natural-resources.canada.ca/energy-efficiency/transportation-alternative-fuels/fuel-consumption-guide/understanding-fuel-consumption-ratings/fuel-consumption-testing/21008):
+
+* City test
+* Highway test
+* Cold temperature operation
+* Air conditioner use
+* Higher speeds with more rapid acceleration and braking
+
+Vehicles are assigned a CO2 rating, a smog rating, and CO2 emissions are evaluated. 
+
+I am interested to uncover patterns and interesting insights between fuel-based, electric and hybrid vehicles. 
+
+The data pipeline consists of five scripts:
+
+1. Data download and wrangling: extracts data on vehicle models from this [public API](https://open.canada.ca/data/api/action/package_show?id=98f1a129-f628-4ce4-b24d-6f16bf24dd64)
+2. CO2 ratings are missing in a large proportion of fuel-based vehicles. The goal of this script is to perform supervised learning (voting classifier) to impute missing CO2 scores based on fuel-based vehicles. A model is setup and saved.
+3. Model is used to complete missing values for CO2 ratings. Given there is a high correlation between CO2 ratings and smog ratings, KNNImputer is used on to complete missing smog rating scores.
+4. Once the data is labelled, clustering is perfomed with the purpose of uncovering patterns. Feature importance and Agglomerative clustering is done
+
 # Set up 
 
 Clone the repo
@@ -99,56 +124,5 @@ pytest
 
 2. The data pipeline is scheduled to refresh and retrain the model in batches, and saves the model's results to a database/api for easier retrieval. 
 
-
-#### Project Organization
-
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
---------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
