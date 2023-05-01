@@ -34,6 +34,8 @@ The data pipeline consists of five scripts:
 5. Results are served via an API with two key entry points:
 * Search: a natural language entry point that can ask questions about the data.
 * Predict: use the API to predict CO2 rating scores based on key features. 
+6. [In progress] a dashboard with visualizations (includes interesting vehicle stats, clustering results in 3D)
+7. [Future work] scrape vehicle purchases data and analyse consumer trends with a focus on changes in ratios of types of vehicles purchased over time
 
 # Set up 
 
