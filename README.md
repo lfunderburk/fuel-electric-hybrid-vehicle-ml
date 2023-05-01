@@ -37,20 +37,11 @@ The data pipeline consists of five scripts:
 
 # Set up 
 
-Clone the repo
-
-```
-git clone https://github.com/lfunderburk/fuel-electric-hybrid-vehicle-ml.git
-cd fuel-electric-hybrid-vehicle-ml
-```
-
 ## Setting up, with Docker
 
 Ensure you have Docker installed. Ensure you have an OpenAI API key. Create a `.env` file with the parameters
 
 `OPENAI_API_KEY=<your-api-key>`
-
-Currently testing image works
 
 ```
 docker pull lgfunderburk/vehicle_classification:search
@@ -59,8 +50,14 @@ docker run -it --rm -p 8000:8000 -v /path/to/your/.env:/app/.env lgfunderburk/ve
 
 Then visit http://localhost:8000
 
-## Setting up - locally
+## Setting up, locally
 
+Clone the repo
+
+```
+git clone https://github.com/lfunderburk/fuel-electric-hybrid-vehicle-ml.git
+cd fuel-electric-hybrid-vehicle-ml
+```
 
 Create and activate a virtual environment
 
@@ -119,6 +116,15 @@ From command line at the project root directory level
 
 ```
 pytest
+```
+
+## Run API
+
+From command line at the project root directory level
+
+```
+uvicorn src.app.app:app
+
 ```
 
 ## Deployment methods:
