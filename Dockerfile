@@ -20,6 +20,8 @@ RUN pip install ploomber
 # Remove files ending in .metadata from the notebooks folder
 RUN find notebooks -type f -name "*.metadata" -exec rm -f {} \;
 
+RUN ploomber build
+
 # Execute the script when the container starts
 CMD ["uvicorn", "src.app.app:app", "--host", "0.0.0.0"]
 
