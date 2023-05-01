@@ -3,6 +3,10 @@ ml-vehicle-classification
 
 Classifying data from hybrid, fuel only and electric vehicles
 
+# Architecture
+
+![](./docs/diagram-a.jpg)
+
 # Set up 
 
 Clone the repo
