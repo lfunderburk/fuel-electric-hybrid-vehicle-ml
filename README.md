@@ -30,7 +30,10 @@ The data pipeline consists of five scripts:
 1. Data download and wrangling: extracts data on vehicle models from this [public API](https://open.canada.ca/data/api/action/package_show?id=98f1a129-f628-4ce4-b24d-6f16bf24dd64)
 2. CO2 ratings are missing in a large proportion of fuel-based vehicles. The goal of this script is to perform supervised learning (voting classifier) to impute missing CO2 scores based on fuel-based vehicles. A model is setup and saved.
 3. Model is used to complete missing values for CO2 ratings. Given there is a high correlation between CO2 ratings and smog ratings, KNNImputer is used on to complete missing smog rating scores.
-4. Once the data is labelled, clustering is perfomed with the purpose of uncovering patterns. Feature importance and Agglomerative clustering is done
+4. Once the data is labelled, clustering is perfomed with the purpose of uncovering patterns. Recursive feature elimination with cross-validation to select features. Once key features are selected, Agglomerative Clustering, TSNE is computed for 2 and 3 dimensions, then results are compared against labelled data.
+5. Results are served via an API with two key entry points:
+* Search: a natural language entry point that can ask questions about the data.
+* Predict: use the API to predict CO2 rating scores based on key features. 
 
 # Set up 
 
