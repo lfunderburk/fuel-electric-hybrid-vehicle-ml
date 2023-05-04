@@ -24,10 +24,10 @@ def data_cleaner(df):
     
 
     # Replace the characters '.', '/', '(' and ')'with '_per_' all entries
-    df.columns = df.columns.str.replace('.', '_')
-    df.columns = df.columns.str.replace('/', '_per_')
-    df.columns = df.columns.str.replace('(', '_')
-    df.columns = df.columns.str.replace(')', '_')
+    df.columns = df.columns.str.replace('.', '_', regex=True)
+    df.columns = df.columns.str.replace('/', '_per_', regex=True)
+    df.columns = df.columns.str.replace('(', '_', regex=True)
+    df.columns = df.columns.str.replace(')', '_', regex=True)
 
     # drop column hybrid_in_fuel	hybrid_in_electric	aggregate_levels	vehicle_type_cat
     df = df.drop(['hybrid_in_fuel', 'hybrid_in_electric', 'aggregate_levels','transmission_','fuel_type'], axis=1)

@@ -40,7 +40,7 @@ async def startup_event():
 
     # Initialize prompter
     global prompter
-    prompter = Prompter(openai_api_key, "gpt-3.5-turbo")
+    prompter = Prompter(openai_api_key, "gpt-4")
 
     df, sample_values = init_data()
 
