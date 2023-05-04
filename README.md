@@ -5,7 +5,7 @@ Classifying data from hybrid, fuel only and electric vehicles
 
 https://user-images.githubusercontent.com/13559004/236241577-81a83980-651c-46a0-b11f-273bcfa24569.mov
 
-
+[Medium post about how the natural language API works is built](https://medium.com/@lgutierrwr/leveraging-fastapi-openai-and-sqlalchemy-for-natural-language-sql-queries-89052547289f)
 
 # Architecture
 
