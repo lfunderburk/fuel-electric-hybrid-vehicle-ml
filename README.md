@@ -7,7 +7,7 @@ https://user-images.githubusercontent.com/13559004/236241577-81a83980-651c-46a0-
 
 [Medium post about how the natural language API works](https://medium.com/@lgutierrwr/leveraging-fastapi-openai-and-sqlalchemy-for-natural-language-sql-queries-89052547289f)
 
-# Architecture
+# Architecture [AWS deployment under development]
 
 ![](./docs/diagram-a.jpg)
 
