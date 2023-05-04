@@ -3,6 +3,10 @@ ml-vehicle-classification
 
 Classifying data from hybrid, fuel only and electric vehicles
 
+https://user-images.githubusercontent.com/13559004/236241577-81a83980-651c-46a0-b11f-273bcfa24569.mov
+
+
+
 # Architecture
 
 ![](./docs/diagram-a.jpg)
