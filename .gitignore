@@ -135,3 +135,5 @@ notebooks/data_extraction.ipynb
 notebooks/predict_model.ipynb
 notebooks/train_model.ipynb
 notebooks/clustering.ipynb
+
+*.db

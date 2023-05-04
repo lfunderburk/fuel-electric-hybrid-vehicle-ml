@@ -2,48 +2,24 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
-from pathlib import Path
-import openai
-from sqlalchemy.engine import create_engine
 import pandas as pd
+from pathlib import Path
+from .app_utils import Prompter, init_database, data_cleaner
 
-class Prompter:
-    def __init__(self, api_key, gpt_model):
-        if not api_key:
-            raise Exception("Please provide the OpenAI API key")
-
-
-        openai.api_key = os.environ.get("OPENAI_API_KEY")
-
-        self.gpt_model = gpt_model
+def init_data():
+    # Set the path to the raw data
+    # Convert the current working directory to a Path object
+    script_dir = Path(os.getcwd())
+    predicted_data_path = script_dir / 'data' / 'predicted-data' / 'vehicle_data_with_clusters.csv'
     
-    def prompt_model_return(self, messages: list):
-        response = openai.ChatCompletion.create(model=self.gpt_model, 
-                                                messages=messages,
-                                                temperature=0.2)
-        return response["choices"][0]["message"]["content"]
-    
-def data_cleaner(df):
-    df.columns = df.columns.str.replace('.', '_')
+    # Load the CSV file into a DataFrame
+    dirty_df = pd.read_csv(predicted_data_path)
+    global df
+    df = data_cleaner(dirty_df)
+    global sample_values
+    sample_values = {df.columns[i]: df.values[0][i] for i in range(len(df.columns))}
 
-    # Replace the character '/' with '_per_' all entries
-    df.columns = df.columns.str.replace('/', '_per_')
-
-    df.columns = df.columns.str.replace('(', '_')
-    
-    df.columns = df.columns.str.replace(')', '_')
-
-    # drop column hybrid_in_fuel	hybrid_in_electric	aggregate_levels	vehicle_type_cat
-    df = df.drop(['hybrid_in_fuel', 'hybrid_in_electric', 'aggregate_levels','transmission_','fuel_type'], axis=1)
-
-    return df
-
-def init_database(df):
-    # Set up engine
-    engine = create_engine("sqlite://")
-    df.to_sql("vehicleDB", engine)
-
-    return engine
+    return df, sample_values
 
 app = FastAPI()
 
@@ -66,17 +42,7 @@ async def startup_event():
     global prompter
     prompter = Prompter(openai_api_key, "gpt-3.5-turbo")
 
-    # Set the path to the raw data
-    # Convert the current working directory to a Path object
-    script_dir = Path(os.getcwd())
-    predicted_data_path = script_dir / 'data' / 'predicted-data' / 'vehicle_data_with_clusters.csv'
-    
-    # Load the CSV file into a DataFrame
-    dirty_df = pd.read_csv(predicted_data_path)
-    global df
-    df = data_cleaner(dirty_df)
-    global sample_values
-    sample_values = {df.columns[i]: df.values[0][i] for i in range(len(df.columns))}
+    df, sample_values = init_data()
 
     # Set up engine
     global engine
