@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/13559004/236241577-81a83980-651c-46a0-
 
 Data consists on vehicle model information for three kinds of vehicles: fuel-based, electric and hybrid vehicles. 
 
-Data is extracted from an API listed on [this site](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64). The data source operates under [Open Government License - Canada](http://open.canada.ca/en/open-government-licence-canada).
+Data is extracted from an API listed on [this site](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64). The data source and data processing steps Contains information licensed under the [Open Government License - Canada](http://open.canada.ca/en/open-government-licence-canada).
 
 The vehicles in this dateset underwent [five cycle fuel consumption testing](https://natural-resources.canada.ca/energy-efficiency/transportation-alternative-fuels/fuel-consumption-guide/understanding-fuel-consumption-ratings/fuel-consumption-testing/21008):
 
