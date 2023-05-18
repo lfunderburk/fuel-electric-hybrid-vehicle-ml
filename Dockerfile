@@ -1,5 +1,5 @@
 # Use the official Python image as the base image
-FROM python:3.10
+FROM python:3.10 as builder
 
 # Set the working directory
 WORKDIR /app
@@ -8,8 +8,18 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# --- Runtime Stage ---
+FROM python:3.10-slim
+
+# Set the working directory
+WORKDIR /app
+
+# Add a non-root user
+RUN useradd appuser && chown -R appuser /app
+USER appuser
+
 # Copy the rest of the application code
-COPY . .
+COPY --from=builder /app .
 
 # Expose the port that the app runs on
 EXPOSE 8000
@@ -24,4 +34,3 @@ RUN ploomber build
 
 # Execute the script when the container starts
 CMD ["uvicorn", "src.app.app:app", "--host", "0.0.0.0"]
-
