@@ -1,0 +1,28 @@
+# Use the official Python image as the base image
+FROM python:3.10 as builder
+
+# Set the working directory
+WORKDIR /app
+
+# Copy requirements file and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# --- Runtime Stage ---
+FROM python:3.10-slim
+
+# Set the working directory
+WORKDIR /app
+
+# Add a non-root user
+RUN useradd appuser && chown -R appuser /app
+USER appuser
+
+# Copy the rest of the application code
+COPY --from=builder /app .
+
+# Expose the port that the Dash app runs on
+EXPOSE 8050
+
+# Run the Dash app
+CMD ["python", "app.py"]
