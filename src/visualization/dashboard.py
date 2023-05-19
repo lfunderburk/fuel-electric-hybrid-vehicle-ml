@@ -101,7 +101,7 @@ def display_table(dataframe, title_str):
     ])
 
     fig.update_layout(
-            title=f"{title_str}.<br><sup>On a scale from 1 (worst) to 10 (best)</sup>",
+            #title=f"{title_str}.<br><sup>On a scale from 1 (worst) to 10 (best)</sup>",
             font=dict(
                 color="white"
             ),
