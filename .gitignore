@@ -137,3 +137,5 @@ notebooks/train_model.ipynb
 notebooks/clustering.ipynb
 
 *.db
+
+*.pem

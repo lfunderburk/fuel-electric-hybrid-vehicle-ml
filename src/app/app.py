@@ -54,4 +54,3 @@ async def search(query: Query):
 
     except Exception as e:
         return {"error": f"SQL query failed. {e}"}
-
