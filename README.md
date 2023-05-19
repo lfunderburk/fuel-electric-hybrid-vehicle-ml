@@ -56,6 +56,16 @@ docker run -it --rm -p 8000:8000 -v /path/to/your/.env:/app/.env lgfunderburk/ve
 
 Then visit http://localhost:8000
 
+Alternatively, you can clone the repo and build the images locally
+
+```
+git clone https://github.com/lfunderburk/fuel-electric-hybrid-vehicle-ml.git
+cd fuel-electric-hybrid-vehicle-ml
+docker build -t myapi:latest -f Dockerfile.api .
+docker build -t mydashapp:latest -f Dockerfile.dash .
+
+```
+
 ## Setting up, locally
 
 Clone the repo
