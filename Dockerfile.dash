@@ -19,10 +19,10 @@ RUN useradd appuser && chown -R appuser /app
 USER appuser
 
 # Copy the rest of the application code
-COPY --from=builder /app/src/visualization /app
+COPY --from=builder /app .
 
 # Expose the port that the Dash app runs on
 EXPOSE 8050
 
 # Run the Dash app
-CMD ["python", "dashboard.py"]
+CMD ["python", "./scr/visualization/dashboard.py"]

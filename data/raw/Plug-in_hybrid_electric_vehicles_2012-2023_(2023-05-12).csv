@@ -1,0 +1,272 @@
+Model,Make,Model,Vehicle Class,Motor,Engine Size,Cylinders,Transmission,Fuel,Consumption,Range 1,Recharge,Fuel,Consumption,,,Range 2,CO2 Emissions,CO2,Smog
+Year,,,,(kW),(L),,,Type 1,Combined Le/100 km,(km),Time (h),Type 2,City (L/100 km),Hwy (L/100 km),Comb (L/100 km),(km),(g/km),Rating,Rating
+2012,Chevrolet,Volt,Compact,111,1.4,4,AV,B,2.5 (22.3 kWh/100 km),56,4,Z,6.7,5.9,6.4,550,54,n/a,n/a
+2013,Chevrolet,Volt,Compact,111,1.4,4,AV,B,2.4 (21.4 kWh/100 km),61,4,Z,6.7,5.9,6.4,550,45,n/a,n/a
+2013,Ford,C-MAX Energi,Mid-size,35,2.0,4,AV,B/X,2.7 ([23.2 kWh + 0.1 L]/100 km),32,2.5,X,5.8,6.5,6.1,856,80,n/a,n/a
+2013,Ford,Fusion Energi,Mid-size,35,2.0,4,AV,B/X,2.7 ([23.2 kWh + 0.1 L]/100 km),32,2.5,X,5.8,6.5,6.1,856,80,n/a,n/a
+2013,Toyota,Prius Plug-in Hybrid,Mid-size,60,1.8,4,AV,B/X,2.5 ([18.0 kWh + 0.4 L]/100 km),18,1.5,X,4.7,4.8,4.7,845,101,n/a,n/a
+2014,Cadillac,ELR,Compact,117,1.4,4,AV,B,2.9 (25.3 kWh/100 km),59,5,Z,7.6,6.7,7.2,493,50,n/a,n/a
+2014,Chevrolet,Volt,Compact,111,1.4,4,AV,B,2.4 (21.4 kWh/100 km),61,4,Z,6.7,5.9,6.4,550,45,n/a,n/a
+2014,Ford,C-MAX Energi,Mid-size,35,2.0,4,AV,B/X,2.7 ([23.2 kWh + 0.1 L]/100 km),32,2.5,X,5.8,6.5,6.1,856,80,n/a,n/a
+2014,Ford,Fusion Energi,Mid-size,35,2.0,4,AV,B/X,2.7 ([23.2 kWh + 0.1 L]/100 km),32,2.5,X,5.8,6.5,6.1,856,80,n/a,n/a
+2014,Porsche,Panamera S E-Hybrid,Full-size,71,3.0,6,A8,B/Z,4.6 ([31.7 kWh + 1.0 L]/100 km),26,3,Z,10.4,8.0,9.3,871,142,n/a,n/a
+2014,Toyota,Prius Plug-in Hybrid,Mid-size,60,1.8,4,AV,B/X,2.5 ([18.0 kWh + 0.4 L]/100 km),18,1.5,X,4.7,4.8,4.7,845,101,n/a,n/a
+2015,BMW,i3 REx,Subcompact,125,0.6,2,A1,B,2.0 (17.9 kWh/100 km),116,4,Z,5.7,6.3,6.0,119,22,n/a,n/a
+2015,BMW,i8,Subcompact,96,1.5,3,A6,B/Z,3.1 ([26.9 kWh + 0.2 L]/100 km),24,2,Z,8.4,8.1,8.3,509,123,n/a,n/a
+2015,Chevrolet,Volt,Compact,111,1.4,4,AV,B,2.4 (21.4 kWh/100 km),61,4,Z,6.7,5.9,6.4,547,50,n/a,n/a
+2015,Ford,C-MAX Energi,Mid-size,35,2.0,4,AV,B/X,2.7 ([23.2 kWh + 0.1 L]/100 km),32,2.5,X,5.8,6.5,6.1,856,80,n/a,n/a
+2015,Ford,Fusion Energi,Mid-size,35,2.0,4,AV,B/X,2.7 ([23.2 kWh + 0.1 L]/100 km),32,2.5,X,5.8,6.5,6.1,856,80,n/a,n/a
+2015,Porsche,918 Spyder,Two-seater,157,4.6,8,A7,B,3.4 (30.7 kWh/100 km),21,3,Z,11.5,10.0,10.9,649,172,n/a,n/a
+2015,Porsche,Cayenne S E-Hybrid,SUV: Standard,71,3.0,6,A8,B,5.0 (43.2 kWh/100 km),24,3,Z,11.3,9.8,10.6,758,162,n/a,n/a
+2015,Porsche,Panamera S E-Hybrid,Full-size,71,3.0,6,A8,B/Z,4.6 ([31.7 kWh + 1.0 L]/100 km),26,3,Z,10.4,8.0,9.3,871,142,n/a,n/a
+2015,Toyota,Prius Plug-in Hybrid,Mid-size,60,1.8,4,AV,B/X,2.5 ([18.0 kWh + 0.4 L]/100 km),18,1.5,X,4.7,4.8,4.7,845,101,n/a,n/a
+2016,Audi,A3 e-tron,Compact,80,1.4,4,A6,B/Z*,2.8 ([25.2 kWh + 0.0 L]/100 km),26,2.5,Z,7.1,6.4,6.8,591,98,10,n/a
+2016,Audi,A3 e-tron ultra,Compact,80,1.4,4,A6,B/Z*,2.7 ([23.9 kWh + 0.0 L]/100 km),27,2.5,Z,6.4,5.7,6.1,663,85,10,n/a
+2016,BMW,330e,Compact,65,2.0,4,AS8,B/Z*,3.3 ([29.1 kWh + 0.0 L]/100 km),23,2,Z,8.4,6.3,7.4,562,113,10,n/a
+2016,BMW,i3 REx,Subcompact,125,0.6,2,A1,B,2.0 (17.9 kWh/100 km),116,4,Z,5.7,6.3,6.0,119,22,10,n/a
+2016,BMW,i8,Subcompact,96,1.5,3,A6,B/Z,3.1 ([26.9 kWh + 0.2 L]/100 km),24,2,Z,8.4,8.1,8.3,509,123,9,n/a
+2016,BMW,X5 xDrive40e,SUV: Standard,83,2.0,4,AS8,B/Z*,4.2 ([36.8 kWh + 0.0 L]/100 km),23,3,Z,10.2,9.5,9.9,842,153,8,n/a
+2016,Cadillac,ELR,Subcompact,174,1.4,4,AV,B,2.7 (24.4 kWh/100 km),64,5,Z,7.6,7.1,7.4,480,57,10,n/a
+2016,Cadillac,ELR (Performance Pkg),Subcompact,174,1.4,4,AV,B,2.9 (26.2 kWh/100 km),58,5,Z,8.4,7.1,7.8,457,65,10,n/a
+2016,Chevrolet,Volt,Compact,111,1.5,4,AV,B,2.2 (19.9 kWh/100 km),85,4.5,X,5.5,5.6,5.6,591,32,10,n/a
+2016,Ford,C-MAX Energi,Mid-size,35,2.0,4,AV,B/X,2.7 ([23.2 kWh + 0.1 L]/100 km),32,2.5,X,5.8,6.5,6.1,856,80,10,n/a
+2016,Ford,Fusion Energi,Mid-size,35,2.0,4,AV,B/X,2.7 ([23.2 kWh + 0.1 L]/100 km),32,2.5,X,5.8,6.5,6.1,856,80,10,n/a
+2016,Hyundai,Sonata Plug-in Hybrid,Mid-size,50,2.0,4,AM6,B/X*,2.4 ([21.1 kWh + 0.0 L]/100 km),43,2.7,X,6.1,5.7,5.9,925,63,10,n/a
+2016,Mercedes-Benz,S 550e,Full-size,85,3.0,6,AS7,B/Z*,4.1 ([36.7 kWh + 0.0 L]/100 km),23,2.75,Z,10.0,7.8,9.0,695,141,9,n/a
+2016,Porsche,Cayenne S E-Hybrid,SUV: Standard,71,3.0,6,A8,B,5.0 (43.2 kWh/100 km),24,3,Z,11.3,9.8,10.6,758,162,8,n/a
+2016,Porsche,Panamera S E-Hybrid,Full-size,71,3.0,6,A8,B/Z,4.6 ([31.7 kWh + 1.0 L]/100 km),26,3,Z,10.4,8.0,9.3,871,142,9,n/a
+2016,Volvo,XC90 T8 AWD,SUV: Standard,65,2.0,4,AS8,B/Z*,4.6 ([40.4 kWh + 0.0 L]/100 km),21,3,Z,10.1,8.8,9.5,529,150,8,n/a
+2017,Audi,A3 e-tron,Compact,80,1.4,4,A6,B/Z*,2.8 ([25.5 kWh + 0.0 L]/100 km),26,2.5,Z,7.2,6.6,6.9,579,98,10,8
+2017,BMW,330e,Compact,65,2.0,4,AS8,B/Z*,3.3 ([29.5 kWh + 0.0 L]/100 km),23,2,Z,8.5,6.9,7.8,533,118,10,6
+2017,BMW,740e xDrive,Full-size,83,2.0,4,AS8,B/Z*,3.6 ([32.1 kWh + 0.0 L]/100 km),23,3,Z,9.5,8.0,8.8,525,133,9,6
+2017,BMW,i3 REx (94 Ah),Subcompact,125,0.6,2,A1,B,2.1 (18.9 kWh/100 km),156,5,Z,6.5,7.0,6.7,129,18,10,8
+2017,BMW,i8,Subcompact,96,1.5,3,A6,B/Z,3.1 ([26.9 kWh + 0.2 L]/100 km),24,2,Z,8.4,8.1,8.3,509,123,10,6
+2017,BMW,X5 xDrive40e,SUV: Standard,83,2.0,4,AS8,B/Z*,4.2 ([36.8 kWh + 0.0 L]/100 km),23,3,Z,10.2,9.5,9.9,840,154,8,6
+2017,Cadillac,CT6 Plug-in Hybrid,Mid-size,178,2.0,4,AV,B/Z*,3.8 ([33.7 kWh + 0.0 L]/100 km),50,4.5,Z,10.1,8.1,9.2,658,89,10,6
+2017,Chevrolet,Volt,Compact,111,1.5,4,AV,B,2.2 (19.9 kWh/100 km),85,4.5,X,5.5,5.6,5.6,591,32,10,6
+2017,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.8 ([24.9 kWh + 0.0 L]/100 km),53,2,X,7.3,7.2,7.3,858,66,10,8
+2017,Ford,C-MAX Energi,Mid-size,35,2.0,4,AV,B/X*,2.5 ([22.0 kWh + 0.0 L]/100 km),33,2.5,X,5.8,6.2,6.0,884,76,10,8
+2017,Ford,Fusion Energi,Mid-size,35,2.0,4,AV,B/X*,2.4 ([21.5 kWh + 0.0 L]/100 km),35,2.5,X,5.5,5.7,5.6,947,70,10,8
+2017,Hyundai,Sonata Plug-in Hybrid,Mid-size,50,2.0,4,AM6,B/X*,2.4 ([21.1 kWh + 0.0 L]/100 km),43,2.7,X,6.2,5.9,6.1,901,65,10,8
+2017,Karma,Revero,Subcompact,300,2.0,4,A1,B,4.6 (41.0 kWh/100 km),51,3.75,Z,13.0,12.0,12.5,303,114,10,5
+2017,Kia,Optima Plug-in Hybrid,Mid-size,50,2.0,4,AM6,B/X*,2.3 ([20.3 kWh + 0.0 L]/100 km),47,2.7,X,6.2,5.5,5.9,935,60,10,8
+2017,Mercedes-Benz,GLE 550e 4MATIC,SUV: Standard,85,3.0,6,AS7,B/Z,5.5 ([42.7 kWh + 0.8 L]/100 km),19,1.9,Z,11.8,10.3,11.1,719,184,7,6
+2017,Mercedes-Benz,S 550e,Full-size,85,3.0,6,AS7,B/Z*,4.1 ([36.7 kWh + 0.0 L]/100 km),23,2.75,Z,10.0,7.9,9.1,702,142,9,6
+2017,Porsche,Cayenne S E-Hybrid,SUV: Standard,71,3.0,6,A8,B,5.1 (44.2 kWh/100 km),23,3,Z,11.3,9.8,10.6,768,160,8,6
+2017,Toyota,Prius Prime,Mid-size,71,1.8,4,AV,B/X*,1.8 ([15.8 kWh + 0.0 L]/100 km),40,2,X,4.3,4.4,4.3,995,49,10,8
+2017,Volvo,XC90 T8 AWD,SUV: Standard,65,2.0,4,AS8,B/Z*,4.8 ([47.3 kWh + 0.0 L]/100 km),21,3,Z,10.0,8.8,9.5,529,148,8,8
+2018,Audi,A3 e-tron,Compact,80,1.4,4,AM6,B/Z*,2.8 ([25.2 kWh + 0.0 L]/100 km),26,2,Z,6.8,6.0,6.5,623,93,10,7
+2018,BMW,330e,Compact,65,2.0,4,AS8,B/Z*,3.3 ([29.5 kWh + 0.0 L]/100 km),23,2,Z,8.5,6.9,7.8,533,118,10,3
+2018,BMW,530e,Compact,83,2.0,4,AS8,B/Z*,3.3 ([28.5 kWh + 0.0 L]/100 km),26,2,Z,8.6,7.7,8.2,560,120,10,7
+2018,BMW,530e xDrive,Compact,83,2.0,4,AS8,B/Z*,3.5 ([30.2 kWh + 0.0 L]/100 km),24,2,Z,8.8,7.7,8.3,554,124,10,7
+2018,BMW,740e xDrive,Full-size,83,2.0,4,AS8,B/Z*,3.6 ([32.1 kWh + 0.0 L]/100 km),23,3,Z,9.5,8.0,8.8,525,133,9,3
+2018,BMW,i3 REx,Subcompact,125,0.6,2,A1,B,2.2 (19.1 kWh/100 km),156,5,Z,6.6,7.1,6.8,129,18,10,7
+2018,BMW,i3s REx,Subcompact,135,0.6,2,A1,B,2.2 (19.1 kWh/100 km),156,5,Z,6.6,7.1,6.8,129,18,10,7
+2018,BMW,X5 xDrive40e,SUV: Standard,83,2.0,4,AS8,B/Z*,4.2 ([36.9 kWh + 0.0 L]/100 km),23,3,Z,10.2,9.5,9.9,842,154,8,3
+2018,Cadillac,CT6 Plug-in Hybrid,Mid-size,178,2.0,4,AV,B/Z*,3.8 ([33.7 kWh + 0.0 L]/100 km),50,4.5,Z,10.2,8.1,9.2,642,89,10,3
+2018,Chevrolet,Volt,Compact,111,1.5,4,AV,B,2.2 (19.9 kWh/100 km),85,4.5,X,5.5,5.6,5.6,591,32,10,3
+2018,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.8 ([24.9 kWh + 0.0 L]/100 km),53,2,X,7.3,7.2,7.3,858,66,10,7
+2018,Ford,Fusion Energi,Mid-size,35,2.0,4,AV,B/X*,2.4 ([21.5 kWh + 0.0 L]/100 km),35,2.5,X,5.5,5.7,5.6,947,70,10,7
+2018,Honda,Clarity Plug-in Hybrid,Mid-size,135,1.5,4,AV,B/X*,2.1 ([19.0 kWh + 0.0 L]/100 km),77,2.5,X,5.3,5.9,5.6,475,36,10,8
+2018,Hyundai,IONIQ Electric Plus,Mid-size,45,1.6,4,AM6,B/X*,2.0 ([17.7 kWh + 0.0 L]/100 km),47,2.3,X,4.4,4.6,4.5,961,46,10,7
+2018,Karma,Revero,Subcompact,300,2.0,4,A1,B,3.9 (34.7 kWh/100 km),60,3.75,Z,11.8,11.2,11.5,328,94,10,1
+2018,Kia,Optima Plug-in Hybrid,Mid-size,50,2.0,4,AM6,B/X*,2.3 ([20.3 kWh + 0.0 L]/100 km),47,2.7,X,6.2,5.5,5.9,935,60,10,7
+2018,Mercedes-Benz,GLC 350e 4MATIC,SUV: Small,85,2.0,4,A7,B/Z*,4.2 ([36.5 kWh + 0.0 L]/100 km),21,1.9,Z,9.8,8.6,9.3,541,146,9,7
+2018,Mercedes-Benz,GLE 550e 4MATIC,SUV: Standard,85,3.0,6,AS7,B/Z,5.5 ([42.6 kWh + 0.8 L]/100 km),19,1.9,Z,11.8,10.3,11.1,719,184,7,6
+2018,MINI,Cooper SE Countryman ALL4,Mid-size,65,1.5,3,AS6,B/Z*,3.6 ([31.4 kWh + 0.0 L]/100 km),19,3,Z,8.4,8.8,8.6,420,139,9,3
+2018,Mitsubishi,Outlander PHEV AWD,SUV: Small,60,2.0,4,A1,B/X*,3.2 ([27.7 kWh + 0.0 L]/100 km),35,3.5,X,9.4,9.0,9.2,463,108,10,7
+2018,Porsche,Cayenne S E-Hybrid,SUV: Standard,71,3.0,6,AM8,B,5.1 (44.2 kWh/100 km),23,3,Z,11.3,9.8,10.6,768,160,8,3
+2018,Toyota,Prius Prime,Mid-size,71,1.8,4,AV,B/X*,1.8 ([15.8 kWh + 0.0 L]/100 km),40,2,X,4.3,4.4,4.3,995,49,10,7
+2018,Volvo,S90 T8 AWD,Mid-size,65,2.0,4,AS8,B/Z*,3.2 ([27.7 kWh + 0.0 L]/100 km),34,3,Z,8.9,7.1,8.1,621,100,10,7
+2018,Volvo,XC60 T8 AWD,SUV: Small,65,2.0,4,AS8,B/Z*,4.0 ([34.9 kWh + 0.0 L]/100 km),27,3,Z,10.1,8.5,9.4,534,133,9,7
+2018,Volvo,XC90 T8 AWD,SUV: Standard,65,2.0,4,AS8,B/Z*,3.9 ([34.4 kWh + 0.0 L]/100 km),27,3,Z,9.6,8.6,9.2,547,130,9,7
+2019,BMW,530e,Compact,83,2.0,4,AS8,B/Z*,3.3 ([28.5 kWh + 0.0 L]/100 km),26,2,Z,8.6,7.7,8.2,560,120,10,7
+2019,BMW,530e xDrive,Compact,83,2.0,4,AS8,B/Z*,3.5 ([30.2 kWh + 0.0 L]/100 km),24,2,Z,8.8,7.7,8.3,554,124,10,7
+2019,BMW,740e xDrive,Full-size,83,2.0,4,AS8,B/Z*,3.6 ([32.1 kWh + 0.0 L]/100 km),23,3,Z,9.5,8.0,8.8,525,133,9,3
+2019,BMW,i3 REx (120 Ah),Subcompact,125,0.6,2,A1,B,2.4 (19.9 kWh/100 km),203,7,Z,7.8,7.5,7.7,116,14,10,7
+2019,BMW,i3s REx (120 Ah),Subcompact,135,0.6,2,A1,B,2.4 (19.9 kWh/100 km),203,7,Z,7.8,7.5,7.7,116,14,10,7
+2019,BMW,i8 Coupe,Subcompact,105,1.5,3,AS6,B/Z*,3.4 ([30.6 kWh + 0.0 L]/100 km),29,3,Z,9.2,8.0,8.7,488,118,10,3
+2019,BMW,i8 Roadster,Two-seater,105,1.5,3,AS6,B/Z*,3.4 ([30.6 kWh + 0.0 L]/100 km),29,3,Z,9.2,8.0,8.7,488,118,10,3
+2019,Chevrolet,Volt,Compact,111,1.5,4,AV,B,2.2 (19.5 kWh/100 km),85,4.5,X,5.5,5.6,5.6,591,32,10,7
+2019,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.9 ([25.8 kWh + 0.0 L]/100 km),51,2,X,8.0,7.9,8.0,784,74,10,7
+2019,Ford,Fusion Energi,Mid-size,35,2.0,4,AV,B/X*,2.3 ([20.5 kWh + 0.0 L]/100 km),42,2.6,X,5.5,5.8,5.6,940,61,10,7
+2019,Honda,Clarity Plug-in Hybrid,Mid-size,135,1.5,4,AV,B/X*,2.1 ([19.0 kWh + 0.0 L]/100 km),77,2.5,X,5.3,5.9,5.6,475,36,10,8
+2019,Hyundai,IONIQ Electric Plus,Mid-size,45,1.6,4,AM6,B/X*,2.0 ([17.7 kWh + 0.0 L]/100 km),47,2.3,X,4.4,4.6,4.5,961,46,10,7
+2019,Hyundai,Sonata Plug-in Hybrid,Mid-size,50,2.0,4,AM6,B/X*,2.4 ([20.9 kWh + 0.0 L]/100 km),45,2.7,X,6.3,5.6,6.0,925,62,10,7
+2019,Karma,Revero,Subcompact,300,2.0,4,A1,B,3.9 (34.7 kWh/100 km),60,3.75,Z,11.8,11.2,11.5,328,94,10,1
+2019,Kia,Niro Plug-in Hybrid,Station wagon: Small,45,1.6,4,AM6,B/X*,2.2 ([19.7 kWh + 0.0 L]/100 km),42,2.25,X,4.9,5.3,5.1,853,56,10,7
+2019,Kia,Optima Plug-in Hybrid,Mid-size,50,2.0,4,AM6,B/X*,2.3 ([20.3 kWh + 0.0 L]/100 km),47,2.7,X,6.2,5.5,5.9,937,60,10,7
+2019,Mercedes-Benz,GLC 350e 4MATIC,SUV: Small,85,2.0,4,A7,B/Z*,4.2 ([36.5 kWh + 0.0 L]/100 km),21,1.9,Z,9.8,8.6,9.3,541,146,9,7
+2019,MINI,Cooper SE Countryman ALL4,Mid-size,65,1.5,3,AS6,B/Z*,3.6 ([31.4 kWh + 0.0 L]/100 km),19,3,Z,8.4,8.8,8.6,420,139,9,3
+2019,Mitsubishi,Outlander PHEV AWD,SUV: Small,60,2.0,4,A1,B/X*,3.2 ([27.7 kWh + 0.0 L]/100 km),35,3.5,X,9.4,9.0,9.2,463,108,10,7
+2019,Porsche,Cayenne E-Hybrid,SUV: Standard,99,3.0,6,AS8,B,5.1 (44.8 kWh/100 km),21,3,Z,11.8,10.5,11.2,669,177,7,3
+2019,Porsche,Panamera 4 E-Hybrid,Full-size,70,2.9,6,AM8,B,4.6 (40.3 kWh/100 km),23,3,Z,11.1,9.7,10.5,768,158,8,5
+2019,Porsche,Panamera Turbo S E-Hybrid,Full-size,70,4.0,8,AM8,B,4.9 (41.0 kWh/100 km),23,3,Z,12.3,10.6,11.5,695,180,7,3
+2019,Toyota,Prius Prime,Mid-size,71,1.8,4,AV,B/X*,1.8 ([15.8 kWh + 0.0 L]/100 km),40,2,X,4.3,4.4,4.3,995,49,10,7
+2019,Volvo,S90 T8 AWD,Mid-size,65,2.0,4,AS8,B/Z*,3.2 ([27.7 kWh + 0.0 L]/100 km),34,3,Z,8.9,7.1,8.1,753,100,10,7
+2019,Volvo,XC60 T8 AWD,SUV: Small,65,2.0,4,AS8,B/Z*,3.8 ([34.0 kWh + 0.0 L]/100 km),27,3,Z,9.5,8.5,9.0,779,128,9,7
+2019,Volvo,XC90 T8 AWD,SUV: Standard,65,2.0,4,AS8,B/Z*,3.9 ([34.3 kWh + 0.0 L]/100 km),27,3,Z,9.8,8.7,9.3,756,132,9,7
+2020,Audi,Q5 TFSIe,SUV: Small,105,2.0,4,AM7,B/Z*,3.6 ([32.2 kWh + 0.0 L]/100 km),32,2.4,Z,9.5,8.1,8.9,615,103,10,7
+2020,Bentley,Bentayga Hybrid,SUV: Standard,100,3.0,6,AS8,B/Z,5.2 ([44.2 kWh + 0.3 L]/100 km),29,3,Z,13.6,11.3,12.6,602,153,8,3
+2020,BMW,530e,Compact,83,2.0,4,AS8,B/Z*,3.4 ([29.1 kWh + 0.0 L]/100 km),34,3,Z,9.5,7.7,8.7,533,106,10,7
+2020,BMW,530e xDrive,Compact,83,2.0,4,AS8,B/Z*,3.6 ([32.2 kWh + 0.0 L]/100 km),31,3,Z,10.3,8.1,9.3,500,120,10,7
+2020,BMW,745Le xDrive,Full-size,83,3.0,6,AS8,B/Z*,4.2 ([37.7 kWh + 0.0 L]/100 km),26,3,Z,12.2,9.1,10.8,435,152,8,3
+2020,BMW,i3 REx (120 Ah),Subcompact,125,0.6,2,A1,B,2.4 (19.9 kWh/100 km),203,7,Z,7.8,7.5,7.7,116,14,10,7
+2020,BMW,i3s REx (120 Ah),Subcompact,135,0.6,2,A1,B,2.4 (19.9 kWh/100 km),203,7,Z,7.8,7.5,7.7,116,14,10,7
+2020,BMW,i8 Coupe,Subcompact,105,1.5,3,AS6,B/Z*,3.4 ([30.6 kWh + 0.0 L]/100 km),29,3,Z,9.2,8.0,8.7,488,118,10,3
+2020,BMW,i8 Roadster,Two-seater,105,1.5,3,AS6,B/Z*,3.4 ([30.6 kWh + 0.0 L]/100 km),29,3,Z,9.2,8.0,8.7,488,118,10,3
+2020,BMW,X3 xDrive30e,SUV: Small,80,2.0,4,AS8,B/Z*,3.9 ([35.0 kWh + 0.0 L]/100 km),29,3,Z,11.0,8.6,9.9,512,127,9,7
+2020,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.9 ([25.8 kWh + 0.0 L]/100 km),51,2,X,8.0,7.9,8.0,784,74,10,7
+2020,Ford,Escape Plug-in Hybrid,SUV: Small,62,2.5,4,AV,B/X*,2.3 ([20.5 kWh + 0.0 L]/100 km),60,3.3,X,5.4,6.2,5.8,790,48,10,7
+2020,Ford,Fusion Energi,Mid-size,35,2.0,4,AV,B/X*,2.3 ([20.5 kWh + 0.0 L]/100 km),42,2.6,X,5.5,5.8,5.6,940,61,10,7
+2020,Honda,Clarity Plug-in Hybrid,Mid-size,135,1.5,4,AV,B/X*,2.1 ([19.0 kWh + 0.0 L]/100 km),77,2.5,X,5.3,5.9,5.6,475,36,10,8
+2020,Hyundai,IONIQ Electric Plus,Mid-size,45,1.6,4,AM6,B/X*,2.0 ([17.7 kWh + 0.0 L]/100 km),47,2.3,X,4.4,4.6,4.5,961,46,10,7
+2020,Kia,Niro Plug-in Hybrid,Station wagon: Small,45,1.6,4,AM6,B/X*,2.2 ([19.7 kWh + 0.0 L]/100 km),42,2.25,X,4.9,5.3,5.1,853,56,10,7
+2020,Kia,Optima Plug-in Hybrid,Mid-size,50,2.0,4,AM6,B/X*,2.3 ([20.7 kWh + 0.0 L]/100 km),45,2.7,X,6.0,5.3,5.7,962,60,10,7
+2020,Lincoln,Aviator Grand Touring,SUV: Standard,62,3.0,6,AS10,B/X*,4.2 ([37.5 kWh + 0.0 L]/100 km),34,3.5,X,10.9,9.6,10.3,713,130,9,7
+2020,Mercedes-Benz,GLC 350e 4MATIC,SUV: Small,90,2.0,4,A9,B/Z*,3.4 ([30.8 kWh + 0.0 L]/100 km),35,1.3,Z,10.2,8.4,9.4,538,109,10,5
+2020,Mercedes-Benz,S 560e,Full-size,90,3.0,6,A9,B/Z*,3.7 ([32.7 kWh + 0.0 L]/100 km),31,1.3,Z,11.4,9.0,10.3,785,127,9,3
+2020,MINI,Cooper SE Countryman ALL4,Mid-size,65,1.5,3,AS6,B/Z*,3.2 ([28.6 kWh + 0.0 L]/100 km),29,3,Z,8.1,7.9,8.0,451,109,10,3
+2020,Mitsubishi,Outlander PHEV AWD,SUV: Small,60,2.0,4,A1,B/X*,3.2 ([27.7 kWh + 0.0 L]/100 km),35,3.5,X,9.4,9.0,9.2,463,108,10,7
+2020,Porsche,Panamera 4 E-Hybrid,Full-size,70,2.9,6,AM8,B,4.6 (40.3 kWh/100 km),23,3,Z,11.1,9.7,10.5,768,158,8,5
+2020,Porsche,Panamera Turbo S E-Hybrid,Full-size,70,4.0,8,AM8,B,4.9 (41.0 kWh/100 km),23,3,Z,12.3,10.6,11.5,695,180,7,3
+2020,Subaru,Crosstrek Hybrid AWD,SUV: Small,100,2.0,4,AV,B/X*,2.6 ([23.5 kWh + 0.0 L]/100 km),27,2,X,6.6,6.8,6.7,747,94,10,6
+2020,Toyota,Prius Prime,Mid-size,71,1.8,4,AV,B/X*,1.8 ([15.8 kWh + 0.0 L]/100 km),40,2,X,4.3,4.4,4.3,995,49,10,7
+2020,Volvo,S60 T8 AWD,Compact,65,2.0,4,AS8,B/Z*,3.2 ([29.0 kWh + 0.0 L]/100 km),35,3,Z,8.4,7.0,7.8,781,94,10,7
+2020,Volvo,S90 T8 AWD,Mid-size,65,2.0,4,AS8,B/Z,3.7 ([31.4 kWh + 0.2 L]/100 km),34,3,Z,8.3,7.5,7.9,761,99,10,7
+2020,Volvo,V60 T8 AWD,Station wagon: Small,65,2.0,4,AS8,B/Z*,3.2 ([29.0 kWh + 0.0 L]/100 km),35,3,Z,8.4,7.0,7.8,781,94,10,7
+2020,Volvo,XC60 T8 AWD,SUV: Small,65,2.0,4,AS8,B/Z*,4.2 ([38.2 kWh + 0.0 L]/100 km),27,3,Z,9.5,8.7,9.1,781,128,9,7
+2020,Volvo,XC90 T8 AWD,SUV: Standard,65,2.0,4,AS8,B/Z*,4.0 ([36.1 kWh + 0.0 L]/100 km),29,3,Z,9.1,8.4,8.8,813,120,10,7
+2021,Audi,A7 Sportback 55 TFSI e quattro,Mid-size,105,2.0,4,AM7,B/Z,3.5 ([28.7 kWh + 0.2 L]/100 km),39,2.4,Z,8.9,7.0,8.1,668,87,10,7
+2021,Audi,A8 L Sedan 60 TFSI e quattro,Full-size,100,3.0,6,AS8,B/Z*,4.4 ([39.2 kWh + 0.0 L]/100 km),29,2.4,Z,11.3,9.1,10.3,639,132,8,3
+2021,Audi,Q5 55 TFSI e quattro,SUV: Small,105,2.0,4,AM7,B/Z,4.7 ([27.5 kWh + 1.5 L]/100 km),31,2.4,Z,9.3,8.2,8.8,608,103,10,7
+2021,Bentley,Bentayga Hybrid,SUV: Standard,100,3.0,6,AS8,B/Z*,5.1 ([45.5 kWh + 0.0 L]/100 km),29,3,Z,13.9,11.2,12.7,599,159,7,3
+2021,BMW,330e,Compact,83,2.0,4,AS8,B/Z*,3.1 ([27.8 kWh + 0.0 L]/100 km),37,3,Z,9.4,7.2,8.4,486,100,10,3
+2021,BMW,330e xDrive,Compact,83,2.0,4,AS8,B/Z*,3.5 ([31.5 kWh + 0.0 L]/100 km),32,3,Z,10.7,7.9,9.4,436,119,9,3
+2021,BMW,530e,Mid-size,83,2.0,4,AS8,B/Z,3.7 ([30.3 kWh + 0.2 L]/100 km),34,3,Z,9.6,8.0,8.9,520,111,9,7
+2021,BMW,530e xDrive,Mid-size,83,2.0,4,AS8,B/Z*,3.8 ([32.9 kWh + 0.0 L]/100 km),31,3,Z,10.5,8.4,9.5,486,126,9,7
+2021,BMW,745Le xDrive,Full-size,83,3.0,6,AS8,B/Z*,4.2 ([37.4 kWh + 0.0 L]/100 km),27,3,Z,12.2,9.1,10.8,435,152,8,3
+2021,BMW,i3 REx (120 Ah),Subcompact,125,0.6,2,A1,B,2.4 (19.9 kWh/100 km),203,7,Z,7.8,7.5,7.7,116,14,10,7
+2021,BMW,i3s REx (120 Ah),Subcompact,135,0.6,2,A1,B,2.4 (19.9 kWh/100 km),203,7,Z,7.8,7.5,7.7,116,14,10,7
+2021,BMW,X3 xDrive30e,SUV: Small,80,2.0,4,AS8,B/Z*,3.9 ([34.9 kWh + 0.0 L]/100 km),29,3,Z,11.0,8.6,9.9,512,127,9,7
+2021,BMW,X5 xDrive45e,SUV: Standard,83,3.0,6,AS8,B/Z,4.7 ([38.8 kWh + 0.3 L]/100 km),50,5,Z,12.2,10.6,11.5,600,111,9,7
+2021,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.9 ([25.8 kWh + 0.0 L]/100 km),51,2,X,8.0,7.9,8.0,784,74,10,7
+2021,Ford,Escape Plug-in Hybrid,SUV: Small,62,2.5,4,AV,B/X*,2.2 ([20.2 kWh + 0.0 L]/100 km),60,3.3,X,5.5,6.2,5.8,784,48,10,7
+2021,Honda,Clarity Plug-in Hybrid,Mid-size,135,1.5,4,AV,B/X*,2.1 ([19.0 kWh + 0.0 L]/100 km),77,2.5,X,5.3,5.9,5.6,475,36,10,8
+2021,Hyundai,IONIQ Plug-in Hybrid,Mid-size,45,1.6,4,AM6,B/X*,2.0 ([17.4 kWh + 0.0 L]/100 km),47,2.3,X,4.5,4.6,4.5,954,46,10,7
+2021,Jeep,Wrangler 4xe,SUV: Small,100,2.0,4,A8,B/X*,4.8 ([42.2 kWh + 0.0 L]/100 km),35,2.4,X,11.6,11.9,11.7,557,143,8,5
+2021,Karma,"GS-6 (21"" Wheels)",Subcompact,400,1.5,3,A1,B,3.4 (29.9 kWh/100 km),98,6.25,Z,8.8,9.5,9.1,428,44,10,7
+2021,Karma,"GS-6 (22"" Wheels)",Subcompact,400,1.5,3,A1,B,3.8 (33.7 kWh/100 km),87,6.25,Z,10.7,11.0,10.8,360,60,10,7
+2021,Karma,"Revero GT (21"" Wheels)",Subcompact,400,1.5,3,A1,B,3.4 (29.9 kWh/100 km),98,6.25,Z,8.8,9.5,9.1,428,44,10,7
+2021,Karma,"Revero GT (22"" Wheels)",Subcompact,400,1.5,3,A1,B,3.8 (33.7 kWh/100 km),87,6.25,Z,10.7,11.0,10.8,360,60,10,7
+2021,Kia,Niro Plug-in Hybrid,Station wagon: Small,45,1.6,4,AM6,B/X*,2.2 ([19.7 kWh + 0.0 L]/100 km),42,2.25,X,4.9,5.3,5.1,853,56,10,7
+2021,Lincoln,Aviator Grand Touring,SUV: Standard,62,3.0,6,AS10,B/X*,4.2 ([37.3 kWh + 0.0 L]/100 km),34,3.5,X,10.9,9.6,10.3,713,130,9,7
+2021,Lincoln,Corsair Grand Touring,SUV: Small,62,2.5,4,AV,B/X*,3.0 ([26.9 kWh + 0.0 L]/100 km),45,3.4,X,6.9,7.3,7.1,644,73,10,7
+2021,MINI,Cooper SE Countryman ALL4,Mid-size,65,1.5,3,AS6,B/Z*,3.2 ([28.4 kWh + 0.0 L]/100 km),29,3,Z,8.1,7.9,8.0,451,109,9,3
+2021,Mitsubishi,Outlander PHEV AWD,SUV: Small,70,2.4,4,A1,B/X*,3.2 ([28.2 kWh + 0.0 L]/100 km),39,4,X,9.2,9.0,9.1,470,103,10,7
+2021,Polestar,1,Minicompact,170,2.0,4,AS8,B/Z*,3.9 ([35.4 kWh + 0.0 L]/100 km),84,9,Z,10.5,7.6,9.2,671,54,10,5
+2021,Porsche,Cayenne E-Hybrid,SUV: Standard,99,3.0,6,AS8,B/Z*,5.1 ([44.9 kWh + 0.0 L]/100 km),27,3,Z,11.8,10.6,11.3,666,160,7,5
+2021,Porsche,Cayenne Turbo S E-Hybrid,SUV: Standard,99,4.0,8,AS8,B/Z*,5.6 ([51.2 kWh + 0.0 L]/100 km),24,3,Z,13.8,12.1,13.0,578,199,6,3
+2021,Porsche,Panamera 4 E-Hybrid,Full-size,70,2.9,6,AM8,B/Z*,4.5 ([39.6 kWh + 0.0 L]/100 km),31,3,Z,11.4,10.0,10.8,745,144,8,5
+2021,Porsche,Panamera Turbo S E-Hybrid,Full-size,70,4.0,8,AM8,B/Z*,4.9 ([43.8 kWh + 0.0 L]/100 km),27,3,Z,13.2,10.8,12.1,665,171,7,3
+2021,Subaru,Crosstrek Hybrid AWD,SUV: Small,100,2.0,4,AV,B/X*,2.6 ([23.5 kWh + 0.0 L]/100 km),27,2,X,6.6,6.8,6.7,747,94,10,6
+2021,Toyota,Prius Prime,Mid-size,71,1.8,4,AV,B/X*,1.8 ([15.8 kWh + 0.0 L]/100 km),40,2,X,4.3,4.4,4.3,995,49,10,7
+2021,Toyota,RAV4 Prime,SUV: Small,134,2.5,4,AV,B/X*,2.5 ([22.3 kWh + 0.0 L]/100 km),68,4.5,X,5.7,6.4,6.0,911,44,10,7
+2021,Volvo,S60 T8 AWD,Compact,65,2.0,4,AS8,B/Z*,3.2 ([29.0 kWh + 0.0 L]/100 km),35,3,Z,8.4,7.0,7.8,781,94,10,7
+2021,Volvo,S90 T8 AWD,Mid-size,65,2.0,4,AS8,B/Z,3.7 ([31.4 kWh + 0.2 L]/100 km),34,3,Z,8.3,7.5,7.9,761,99,10,7
+2021,Volvo,V60 T8 AWD,Station wagon: Small,65,2.0,4,AS8,B/Z*,3.2 ([29.0 kWh + 0.0 L]/100 km),35,3,Z,8.4,7.0,7.8,781,94,10,7
+2021,Volvo,XC60 T8 AWD,SUV: Small,65,2.0,4,AS8,B/Z*,4.0 ([36.1 kWh + 0.0 L]/100 km),31,3,Z,9.8,8.7,9.3,769,125,9,7
+2021,Volvo,XC90 T8 AWD,SUV: Standard,65,2.0,4,AS8,B/Z*,4.0 ([36.1 kWh + 0.0 L]/100 km),29,3,Z,9.1,8.4,8.8,813,120,9,7
+2022,Audi,A7 Sportback 55 TFSI e quattro,Mid-size,105,2.0,4,AM7,B/Z*,3.4 ([29.9 kWh + 0.0 L]/100 km),42,3,Z,9.5,7.5,8.6,623,78,10,7
+2022,Audi,Q5 55 TFSI e quattro,SUV: Small,105,2.0,4,AM7,B/Z*,3.9 ([34.7 kWh + 0.0 L]/100 km),37,3,Z,9.4,8.8,9.1,594,92,10,7
+2022,Bentley,Flying Spur Hybrid,Mid-size,103,2.9,6,AM8,B/Z*,5.1 ([45.9 kWh + 0.0 L]/100 km),34,3,Z,13.7,10.7,12.3,653,156,7,5
+2022,BMW,330e xDrive,Compact,83,2.0,4,AS8,B/Z*,3.5 ([31.3 kWh + 0.0 L]/100 km),32,3,Z,10.7,7.9,9.4,436,119,9,7
+2022,BMW,530e xDrive,Mid-size,83,2.0,4,AS8,B/Z*,3.8 ([32.9 kWh + 0.0 L]/100 km),31,3,Z,10.5,8.4,9.5,486,126,8,7
+2022,BMW,745Le xDrive,Full-size,83,3.0,6,AS8,B/Z*,4.2 ([37.4 kWh + 0.0 L]/100 km),27,3,Z,12.2,9.1,10.8,435,152,7,3
+2022,BMW,X3 xDrive30e,SUV: Small,80,2.0,4,AS8,B/Z*,3.9 ([34.9 kWh + 0.0 L]/100 km),29,3,Z,11.0,8.6,9.9,512,127,8,7
+2022,BMW,X5 xDrive45e,SUV: Standard,83,3.0,6,AS8,B/Z*,4.5 ([39.2 kWh + 0.0 L]/100 km),50,5,Z,12.2,10.6,11.5,602,110,9,7
+2022,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.9 ([25.8 kWh + 0.0 L]/100 km),51,2,X,8.0,7.9,8.0,784,74,10,7
+2022,Ford,Escape Plug-in Hybrid,SUV: Small,62,2.5,4,AV,B/X*,2.2 ([20.2 kWh + 0.0 L]/100 km),60,3.3,X,5.5,6.2,5.8,784,48,10,7
+2022,Hyundai,IONIQ Plug-in Hybrid,Mid-size,45,1.6,4,AM6,B/X*,2.0 ([17.4 kWh + 0.0 L]/100 km),47,2.3,X,4.5,4.6,4.5,954,46,10,7
+2022,Hyundai,Santa Fe Plug-in Hybrid,SUV: Small,67,1.6,4,AM6,B/X*,3.1 ([27.5 kWh + 0.0 L]/100 km),50,3.4,X,7.1,7.3,7.2,655,69,10,7
+2022,Hyundai,Tucson Plug-in Hybrid,SUV: Small,67,1.6,4,AM6,B/X*,2.9 ([25.9 kWh + 0.0 L]/100 km),53,1.7,X,6.8,6.6,6.7,626,62,10,7
+2022,Jeep,Grand Cherokee 4xe,SUV: Standard,100,2.0,4,A8,B/X*,4.2 ([36.0 kWh + 0.0 L]/100 km),42,3.4,X,10.3,9.7,10.0,719,110,9,7
+2022,Jeep,Wrangler 4xe,SUV: Small,100,2.0,4,A8,B/X*,4.8 ([42.2 kWh + 0.0 L]/100 km),35,2.4,X,11.6,11.9,11.7,557,143,8,5
+2022,Kia,Niro Plug-in Hybrid,Station wagon: Small,45,1.6,4,AM6,B/X*,2.2 ([19.7 kWh + 0.0 L]/100 km),42,2.25,X,4.9,5.3,5.1,853,56,10,7
+2022,Kia,Sorento Plug-in Hybrid,SUV: Small,67,1.6,4,AM6,B/X*,3.0 ([26.4 kWh + 0.0 L]/100 km),51,3.4,X,6.7,7.1,6.9,681,65,10,7
+2022,Lexus,NX 450h+ AWD,SUV: Small,134,2.5,4,AV6,B/Z*,2.8 ([24.7 kWh + 0.0 L]/100 km),61,4.5,Z,6.2,7.0,6.6,835,54,10,7
+2022,Lincoln,Aviator Grand Touring,SUV: Standard,62,3.0,6,AS10,B/X*,4.2 ([37.3 kWh + 0.0 L]/100 km),34,3.5,X,10.9,9.6,10.3,713,130,8,7
+2022,Lincoln,Corsair Grand Touring,SUV: Small,62,2.5,4,AV,B/X*,3.1 ([27.3 kWh + 0.0 L]/100 km),45,3.4,X,6.9,7.3,7.0,645,74,10,7
+2022,MINI,Cooper SE Countryman ALL4,Mid-size,65,1.5,3,AS6,B/Z*,3.2 ([28.4 kWh + 0.0 L]/100 km),29,3,Z,8.1,7.9,8.0,451,109,9,3
+2022,Mitsubishi,Outlander PHEV AWD,SUV: Small,70,2.4,4,A1,B/X*,3.2 ([28.2 kWh + 0.0 L]/100 km),39,4,X,9.2,9.0,9.1,470,103,9,7
+2022,Porsche,Cayenne E-Hybrid,SUV: Standard,99,3.0,6,AS8,B/Z*,5.1 ([44.9 kWh + 0.0 L]/100 km),27,3,Z,11.8,10.6,11.3,666,160,7,5
+2022,Porsche,Cayenne Turbo S E-Hybrid,SUV: Standard,99,4.0,8,AS8,B/Z*,5.6 ([51.2 kWh + 0.0 L]/100 km),24,3,Z,13.8,12.1,13.0,578,199,6,3
+2022,Porsche,Panamera 4 E-Hybrid,Full-size,70,2.9,6,AM8,B/Z*,4.5 ([39.6 kWh + 0.0 L]/100 km),31,3,Z,11.4,10.0,10.8,745,144,8,5
+2022,Porsche,Panamera 4S E-Hybrid,Full-size,70,2.9,6,AM8,B/Z*,4.7 ([40.9 kWh + 0.0 L]/100 km),31,3,Z,11.4,10.1,10.8,742,147,8,5
+2022,Porsche,Panamera Turbo S E-Hybrid,Full-size,70,4.0,8,AM8,B/Z*,4.9 ([43.8 kWh + 0.0 L]/100 km),27,3,Z,13.2,10.8,12.1,665,171,7,3
+2022,Subaru,Crosstrek Hybrid AWD,SUV: Small,100,2.0,4,AV,B/X*,2.6 ([23.5 kWh + 0.0 L]/100 km),27,2,X,6.6,6.8,6.7,747,94,10,6
+2022,Toyota,Prius Prime,Mid-size,71,1.8,4,AV,B/X*,1.8 ([15.8 kWh + 0.0 L]/100 km),40,2,X,4.3,4.4,4.3,995,49,10,7
+2022,Toyota,RAV4 Prime,SUV: Small,134,2.5,4,AV,B/X*,2.5 ([22.3 kWh + 0.0 L]/100 km),68,4.5,X,5.7,6.4,6.0,911,44,10,7
+2022,Volvo,S60 T8 AWD Recharge,Compact,65,2.0,4,AS8,B/Z*,3.2 ([29.0 kWh + 0.0 L]/100 km),35,3,Z,8.4,7.0,7.8,781,94,10,7
+2022,Volvo,S60 T8 AWD Recharge Extended Range,Compact,107,2.0,4,AS8,B/Z*,3.0 ([27.2 kWh + 0.0 L]/100 km),64,5,Z,8.0,7.2,7.6,792,58,10,7
+2022,Volvo,S90 T8 AWD Recharge,Mid-size,65,2.0,4,AS8,B/Z*,3.5 ([31.8 kWh + 0.0 L]/100 km),34,3,Z,8.3,7.5,7.9,761,100,9,7
+2022,Volvo,S90 T8 AWD Recharge Extended Range,Mid-size,107,2.0,4,AS8,B/Z*,3.4 ([30.0 kWh + 0.0 L]/100 km),61,5,Z,8.5,7.6,8.1,748,65,10,7
+2022,Volvo,V60 T8 AWD Recharge,Station wagon: Small,65,2.0,4,AS8,B/Z*,3.2 ([29.0 kWh + 0.0 L]/100 km),35,3,Z,8.4,7.0,7.8,781,94,10,7
+2022,Volvo,V60 T8 AWD Recharge Extended Range,Station wagon: Small,107,2.0,4,AS8,B/Z*,3.0 ([27.2 kWh + 0.0 L]/100 km),64,5,Z,8.0,7.2,7.6,792,58,10,7
+2022,Volvo,XC60 T8 AWD Recharge,SUV: Small,65,2.0,4,AS8,B/Z*,3.9 ([35.1 kWh + 0.0 L]/100 km),31,3,Z,9.7,8.7,9.3,769,126,8,7
+2022,Volvo,XC60 T8 AWD Recharge Extended Range,SUV: Small,107,2.0,4,AS8,B/Z*,3.5 ([31.2 kWh + 0.0 L]/100 km),58,5,Z,8.5,8.5,8.5,838,72,10,7
+2022,Volvo,XC90 T8 AWD Recharge,SUV: Standard,65,2.0,4,AS8,B/Z*,4.0 ([36.1 kWh + 0.0 L]/100 km),29,3,Z,9.1,8.4,8.8,813,120,9,7
+2022,Volvo,XC90 T8 AWD Recharge Extended Range,SUV: Standard,107,2.0,4,AS8,B/Z*,3.4 ([30.6 kWh + 0.0 L]/100 km),58,5,Z,9.2,8.6,8.9,798,78,10,7
+2023,Audi,Q5 55 TFSI e quattro,SUV: Small,105,2.0,4,AM7,B/Z*,3.9 ([34.8 kWh + 0.0 L]/100 km),37,3,Z,9.3,8.7,9.0,600,92,9,7
+2023,Bentley,Bentayga Hybrid,SUV: Standard,100,3.0,6,AS8,B/Z*,5.0 ([44.2 kWh + 0.0 L]/100 km),31,3,Z,13.3,9.8,11.7,652,138,7,3
+2023,Bentley,Flying Spur Hybrid,Mid-size,103,2.9,6,AM8,B/Z*,5.1 ([45.9 kWh + 0.0 L]/100 km),34,3,Z,13.7,10.7,12.3,653,156,7,5
+2023,BMW,330e Sedan,Compact,80,2.0,4,AS8,B/Z*,3.2 ([28.2 kWh + 0.0 L]/100 km),35,3,Z,9.9,7.4,8.8,468,98,9,7
+2023,BMW,330e xDrive Sedan,Compact,80,2.0,4,AS8,B/Z*,3.4 ([29.5 kWh + 0.0 L]/100 km),34,3,Z,10.6,7.4,9.2,452,107,9,7
+2023,BMW,530e xDrive Sedan,Mid-size,80,2.0,4,AS8,B/Z*,3.8 ([32.9 kWh + 0.0 L]/100 km),31,3,Z,10.5,8.4,9.5,486,126,8,7
+2023,BMW,X3 xDrive30e,SUV: Small,80,2.0,4,AS8,B/Z*,3.9 ([34.7 kWh + 0.0 L]/100 km),29,3,Z,11.4,8.6,10.1,502,129,8,7
+2023,BMW,X5 xDrive45e,SUV: Standard,83,3.0,6,AS8,B/Z*,4.5 ([39.2 kWh + 0.0 L]/100 km),50,5,Z,12.2,10.6,11.5,602,110,8,7
+2023,BMW,XM,SUV: Standard,145,4.4,8,AS8,B/Z*,5.1 ([45.5 kWh + 0.0 L]/100 km),50,7,Z,19.9,13.9,17.2,431,152,7,7
+2023,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.9 ([25.8 kWh + 0.0 L]/100 km),51,2,X,8.0,7.9,8.0,784,74,10,7
+2023,Ford,Escape Plug-in Hybrid,SUV: Small,62,2.5,4,AV,B/X*,2.3 ([20.6 kWh + 0.0 L]/100 km),60,3.4,X,5.6,6.3,5.9,771,49,10,8
+2023,Hyundai,Santa Fe Plug-in Hybrid,SUV: Small,67,1.6,4,AM6,B/X*,3.1 ([27.5 kWh + 0.0 L]/100 km),50,3.4,X,7.1,7.3,7.2,655,69,10,7
+2023,Hyundai,Tucson Plug-in Hybrid,SUV: Small,67,1.6,4,AM6,B/X*,2.9 ([25.9 kWh + 0.0 L]/100 km),53,1.7,X,6.8,6.6,6.7,626,62,10,7
+2023,Jeep,Grand Cherokee 4xe,SUV: Standard,100,2.0,4,A8,B/X*,4.2 ([36.0 kWh + 0.0 L]/100 km),42,3.4,X,10.3,9.7,10.0,719,110,8,7
+2023,Jeep,Wrangler 4xe,SUV: Small,100,2.0,4,A8,B/X*,4.8 ([42.2 kWh + 0.0 L]/100 km),35,2.4,X,11.6,11.9,11.7,557,143,7,5
+2023,Kia,Niro Plug-in Hybrid,Station wagon: Small,62,1.6,4,AM6,B/X*,2.1 ([19.2 kWh + 0.0 L]/100 km),55,2.8,X,4.6,4.9,4.8,781,42,10,7
+2023,Kia,Sorento Plug-in Hybrid,SUV: Small,67,1.6,4,AM6,B/X*,3.0 ([26.4 kWh + 0.0 L]/100 km),51,3.4,X,6.7,7.1,6.9,681,65,10,7
+2023,Kia,Sportage Plug-in Hybrid,SUV: Small,67,1.6,4,AM6,B/X*,2.8 ([24.9 kWh + 0.0 L]/100 km),55,2,X,6.6,6.7,6.7,632,60,10,7
+2023,Lexus,NX 450h+ AWD,SUV: Small,134,2.5,4,AV6,B/Z*,2.8 ([24.7 kWh + 0.0 L]/100 km),61,4.5,Z,6.2,7.0,6.6,835,54,10,7
+2023,Lincoln,Aviator Grand Touring,SUV: Standard,62,3.0,6,AS10,B/X*,4.2 ([37.3 kWh + 0.0 L]/100 km),34,3.5,X,10.9,9.6,10.3,713,130,8,7
+2023,Lincoln,Corsair Grand Touring,SUV: Small,62,2.5,4,AV,B/X*,3.1 ([27.5 kWh + 0.0 L]/100 km),43,3.2,X,6.9,7.4,7.1,639,76,10,8
+2023,Mercedes-Benz,S 580e 4MATIC Sedan,Full-size,110,3.0,6,A9,B/Z,4.6 ([30.4 kWh + 1.2 L]/100 km),90,2.25,Z,11.5,8.2,10.0,671,67,10,7
+2023,MINI,Cooper SE Countryman ALL4,Mid-size,65,1.5,3,AS6,B/Z*,3.2 ([28.4 kWh + 0.0 L]/100 km),29,3,Z,8.1,7.9,8.0,451,109,8,3
+2023,Mitsubishi,Outlander PHEV AWD,SUV: Standard,100,2.4,4,A1,B/X*,3.6 ([32.1 kWh + 0.0 L]/100 km),61,6.5,X,9.2,8.7,9.0,626,70,10,7
+2023,Subaru,Crosstrek Hybrid AWD,SUV: Small,100,2.0,4,AV,B/X*,2.6 ([23.5 kWh + 0.0 L]/100 km),27,2,X,6.6,6.8,6.7,747,94,9,6
+2023,Toyota,Prius Prime SE,Mid-size,120,2.0,4,AV,B/X*,1.8 ([16.4 kWh + 0.0 L]/100 km),72,4,X,4.4,4.6,4.5,890,31,10,7
+2023,Toyota,RAV4 Prime,SUV: Small,134,2.5,4,AV,B/X*,2.5 ([22.3 kWh + 0.0 L]/100 km),68,4.5,X,5.7,6.4,6.0,911,44,10,7
+2023,Volvo,S60 T8 AWD Recharge,Compact,107,2.0,4,AS8,B/Z*,3.0 ([27.2 kWh + 0.0 L]/100 km),64,5,Z,8.0,7.2,7.6,792,58,10,7
+2023,Volvo,S90 T8 AWD Recharge,Mid-size,107,2.0,4,AS8,B/Z*,3.4 ([30.0 kWh + 0.0 L]/100 km),61,5,Z,8.5,7.6,8.1,748,65,10,7
+2023,Volvo,V60 T8 AWD Recharge,Station wagon: Small,107,2.0,4,AS8,B/Z*,3.0 ([27.2 kWh + 0.0 L]/100 km),64,5,Z,8.0,7.2,7.6,792,58,10,7
+2023,Volvo,XC60 T8 AWD Recharge,SUV: Small,107,2.0,4,AS8,B/Z*,3.5 ([31.2 kWh + 0.0 L]/100 km),58,5,Z,8.5,8.5,8.5,838,72,10,7
+2023,Volvo,XC90 T8 AWD Recharge,SUV: Standard,107,2.0,4,AS8,B/Z*,3.8 ([34.4 kWh + 0.0 L]/100 km),53,5,Z,9.1,8.6,8.9,803,82,9,7
+,,,,,,,,,,,,,,,,,,,
+"*In testing, this vehicle did not use any gasoline during electric mode operation. However, depending on how you drive the vehicle, you may use gasoline during electric mode operation following a full charge.",,,,,,,,,,,,,,,,,,,
+"Note: Vehicle manufacturers now use the 5-cycle testing procedure, introduced for model year 2015, to determine the fuel consumption ratings of new light-duty vehicles. 5-cycle testing produces fuel consumption ratings",,,,,,,,,,,,,,,,,,,
+"that are more representative of a vehicle’s on-road fuel consumption. To help you compare vehicles from different model years, the ratings for 1995 to 2014 vehicles have been adjusted to reflect the improved testing.",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Understanding the table,,,,,,,,,,,,,,,,,,,
+Transmission,A = automatic,,,,,,,,,,,,,,,,,,
+,AM = automated manual,,,,,,,,,,,,,,,,,,
+,AS = automatic with select shift,,,,,,,,,,,,,,,,,,
+,AV = continuously variable,,,,,,,,,,,,,,,,,,
+,1 – 10 = number of gears,,,,,,,,,,,,,,,,,,
+Fuel type,B = electricity,,,,,,,,,,,,,,,,,,
+,X = regular gasoline,,,,,,,,,,,,,,,,,,
+,Z = premium gasoline,,,,,,,,,,,,,,,,,,
+Consumption,The combined fuel consumption rating reflects 55% city and 45% highway driving. ,,,,,,,,,,,,,,,,,,
+,Le is gasoline litre equivalent. One litre of gasoline contains the energy equivalent to 8.9 kWh of electricity.,,,,,,,,,,,,,,,,,,
+Range,the estimated driving distance (in kilometres) on a fully charged battery or full tank of fuel,,,,,,,,,,,,,,,,,,
+Recharge time,the estimated time (in hours) to fully recharge the battery at 240 volts,,,,,,,,,,,,,,,,,,
+CO2 emissions,"The vehicle's tailpipe emissions of carbon dioxide are shown in grams per kilometre for combined city and highway driving, and reflect a mix of electric mode and gasoline-only operation.",,,,,,,,,,,,,,,,,,
+CO2 rating,the tailpipe emissions of carbon dioxide rated on a scale from 1 (worst) to 10 (best),,,,,,,,,,,,,,,,,,
+Smog rating,the tailpipe emissions of smog-forming pollutants rated on a scale from 1 (worst) to 10 (best),,,,,,,,,,,,,,,,,,

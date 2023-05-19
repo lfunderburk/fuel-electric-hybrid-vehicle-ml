@@ -341,80 +341,85 @@ model_year,make_,model.1_,vehicleclass_,motor_(kw),transmission_,fuel_type,consu
 2023,ford,f-150 lightning extended range,pickup truck - standard,420,A1,B,26.9,33.3,29.8,3.0,3.7,3.3,515,0,10,10,10.1,automatic,1,electricity,340,electric
 2023,ford,f-150 lightning platinum,pickup truck - standard,420,A1,B,28.7,35.0,31.5,3.2,3.9,3.5,483,0,10,10,9.3,automatic,1,electricity,341,electric
 2023,ford,mustang mach-e standard range,suv - small,198,A1,B,19.0,21.9,20.3,2.1,2.5,2.3,397,0,10,10,8.1,automatic,1,electricity,342,electric
-2023,ford,mustang mach-e standard range awd,suv - small,198,A1,B,21.1,24.3,22.6,2.4,2.7,2.5,360,0,10,10,8,automatic,1,electricity,343,electric
-2023,ford,mustang mach-e extended range,suv - small,216,A1,B,19.9,22.7,21.1,2.2,2.5,2.4,500,0,10,10,10.2,automatic,1,electricity,344,electric
-2023,ford,mustang mach-e extended range awd,suv - small,258,A1,B,21.5,24.5,22.9,2.4,2.8,2.6,467,0,10,10,10,automatic,1,electricity,345,electric
-2023,ford,mustang mach-e california route 1 awd,suv - small,258,A1,B,20.0,22.9,21.3,2.3,2.6,2.4,502,0,10,10,10.1,automatic,1,electricity,346,electric
-2023,ford,mustang mach-e gt performance edition,suv - small,358,A1,B,23.8,27.8,25.6,2.7,3.1,2.9,418,0,10,10,10.1,automatic,1,electricity,347,electric
-2023,genesis,electrified g80,full-size,272,A1,B,19.9,23.6,21.7,2.2,2.6,2.4,454,0,10,10,9,automatic,1,electricity,348,electric
-2023,genesis,gv60 advanced awd,full-size,234,A1,B,20.3,24.2,22.1,2.3,2.7,2.5,399,0,10,10,7.2,automatic,1,electricity,349,electric
-2023,genesis,gv60 performance awd,full-size,320,A1,B,21.7,25.5,23.0,2.4,2.9,2.6,378,0,10,10,7.2,automatic,1,electricity,350,electric
-2023,genesis,electrified gv70,suv - small,320,A1,B,21.3,25.1,23.0,2.4,2.8,2.6,383,0,10,10,7.9,automatic,1,electricity,351,electric
-2023,hyundai,ioniq 5 standard range,full-size,125,A1,B,16.2,22.4,19.3,1.9,2.5,2.1,354,0,10,10,6.3,automatic,1,electricity,352,electric
-2023,hyundai,ioniq 5 long range,full-size,168,A1,B,15.5,21.7,18.6,1.8,2.4,2.1,488,0,10,10,8.5,automatic,1,electricity,353,electric
-2023,hyundai,ioniq 5 long range awd,full-size,239,A1,B,18.9,23.5,21.0,2.1,2.6,2.4,428,0,10,10,8.5,automatic,1,electricity,354,electric
-2023,hyundai,ioniq 6 standard range,mid-size,111,A1,B,13.7,17.4,15.5,1.6,2.0,1.7,386,0,10,10,6.1,automatic,1,electricity,355,electric
-2023,hyundai,ioniq 6 long range (18'' wheels),mid-size,168,A1,B,13.7,16.2,14.9,1.5,1.9,1.7,581,0,10,10,7.5,automatic,1,electricity,356,electric
-2023,hyundai,ioniq 6 long range awd (18'' wheels),mid-size,239,A1,B,16.2,18.6,17.4,1.8,2.1,1.9,509,0,10,10,7.5,automatic,1,electricity,357,electric
-2023,hyundai,ioniq 6 long range awd (20'' wheels),mid-size,239,A1,B,18.8,22.4,20.5,2.1,2.5,2.3,435,0,10,10,7.5,automatic,1,electricity,358,electric
-2023,hyundai,kona electric,suv - small,150,A1,B,15.5,19.9,17.4,1.8,2.2,2.0,415,0,10,10,9.5,automatic,1,electricity,359,electric
-2023,jaguar,i-pace,suv - small,294,A1,B,24.5,26.7,25.5,2.7,3.0,2.9,381,0,10,10,13,automatic,1,electricity,360,electric
-2023,kia,ev6 standard range,station wagon - small,125,A1,B,15.5,21.1,18.0,1.7,2.4,2.0,373,0,10,10,6.3,automatic,1,electricity,361,electric
-2023,kia,ev6 long range,station wagon - small,168,A1,B,15.5,20.5,18.0,1.8,2.3,2.0,499,0,10,10,8.7,automatic,1,electricity,362,electric
-2023,kia,"ev6 long range awd (19"" wheels)",station wagon - small,239,A1,B,17.5,21.5,19.3,2.0,2.4,2.2,454,0,10,10,8.4,automatic,1,electricity,363,electric
-2023,kia,"ev6 long range awd (20"" wheels)",station wagon - small,239,A1,B,19.9,24.2,21.7,2.2,2.7,2.5,406,0,10,10,8.4,automatic,1,electricity,364,electric
-2023,kia,ev6 gt awd,station wagon - small,430,A1,B,24.7,28.4,26.4,2.8,3.2,3.0,332,0,10,10,8.9,automatic,1,electricity,365,electric
-2023,kia,niro ev,station wagon - small,150,A1,B,16.8,20.5,18.6,1.9,2.3,2.1,407,0,10,10,7.5,automatic,1,electricity,366,electric
-2023,kia,soul ev (120 ah),station wagon - small,150,A1,B,15.6,20.4,17.8,1.8,2.3,2.0,248,0,10,10,6,automatic,1,electricity,367,electric
-2023,kia,soul ev (180 ah),station wagon - small,150,A1,B,16.9,21.0,18.7,1.9,2.4,2.1,383,0,10,10,9.5,automatic,1,electricity,368,electric
-2023,lexus,"rz 450e awd (18"" wheels)",suv - small,230,A1,B,18.1,21.4,19.6,2.0,2.4,2.2,354,0,10,10,10,automatic,1,electricity,369,electric
-2023,lexus,"rz 450e awd (20"" wheels)",suv - small,230,A1,B,20.3,24.1,22.4,2.3,2.7,2.5,315,0,10,10,10,automatic,1,electricity,370,electric
-2023,lucid,"air grand touring xr (19"" wheels)",full-size,611,A1,B,16.1,15.8,16.0,1.8,1.8,1.8,830,0,10,10,13,automatic,1,electricity,371,electric
-2023,lucid,"air grand touring xr (20"" wheels)",full-size,611,A1,B,17.4,17.1,17.3,2.0,1.9,1.9,755,0,10,10,13,automatic,1,electricity,372,electric
-2023,lucid,"air grand touring xr (21"" wheels)",full-size,611,A1,B,17.4,17.1,17.3,2.0,1.9,1.9,755,0,10,10,13,automatic,1,electricity,373,electric
-2023,lucid,"air grand touring performance (21"" wheels)",full-size,783,A1,B,19.0,18.8,18.9,2.1,2.1,2.1,718,0,10,10,13,automatic,1,electricity,374,electric
-2023,lucid,"air pure (19"" wheels)",full-size,358,A1,B,14.9,14.9,14.9,1.7,1.7,1.7,660,0,10,10,10,automatic,1,electricity,375,electric
-2023,lucid,"air pure (20"" wheels)",full-size,358,A1,B,17.2,17.4,17.3,1.9,2.0,1.9,618,0,10,10,10,automatic,1,electricity,376,electric
-2023,lucid,"air touring (19"" wheels)",full-size,462,A1,B,14.9,14.9,14.9,1.7,1.7,1.7,684,0,10,10,10,automatic,1,electricity,377,electric
-2023,lucid,"air touring (20"" wheels)",full-size,462,A1,B,17.2,17.4,17.3,1.9,2.0,1.9,618,0,10,10,10,automatic,1,electricity,378,electric
-2023,lucid,"air touring (21"" wheels)",full-size,462,A1,B,17.2,17.4,17.3,1.9,2.0,1.9,618,0,10,10,10,automatic,1,electricity,379,electric
-2023,mazda,mx-30,mid-size,107,A1,B,21.4,24.6,22.8,2.4,2.8,2.6,161,0,10,10,5.3,automatic,1,electricity,380,electric
-2023,mercedes-benz,amg eqe 4matic+ sedan,mid-size,460,A1,B,28.1,28.5,28.3,3.2,3.2,3.2,362,0,10,10,9.5,automatic,1,electricity,381,electric
-2023,mercedes-benz,amg eqs 4matic+ sedan,full-size,484,A1,B,28.4,27.4,27.9,3.2,3.1,3.1,446,0,10,10,11.25,automatic,1,electricity,382,electric
-2023,mercedes-benz,eqb 350 4matic suv,suv - small,215,A1,B,21.4,22.0,21.7,2.4,2.5,2.4,356,0,10,10,6.25,automatic,1,electricity,383,electric
-2023,mercedes-benz,eqs 450 4matic suv,suv - standard,265,A1,B,26.7,27.3,26.7,3.0,3.1,3.0,459,0,10,10,11.5,automatic,1,electricity,384,electric
-2023,mercedes-benz,eqs 580 4matic sedan,full-size,385,A1,B,23.3,22.7,23.0,2.6,2.5,2.6,547,0,10,10,11.25,automatic,1,electricity,385,electric
-2023,mercedes-benz,eqs 580 4matic suv,suv - standard,400,A1,B,26.1,28.0,27.3,3.0,3.2,3.1,459,0,10,10,11.5,automatic,1,electricity,386,electric
-2023,mini,cooper se 3 door,subcompact,135,A1,B,17.6,20.9,19.1,2.0,2.3,2.1,183,0,10,10,4,automatic,1,electricity,387,electric
-2023,polestar,2 single motor,mid-size,170,A1,B,18.5,20.9,19.6,2.1,2.3,2.2,435,0,10,10,8,automatic,1,electricity,388,electric
-2023,polestar,2 dual motor,mid-size,300,A1,B,20.0,21.9,20.9,2.3,2.5,2.3,418,0,10,10,8,automatic,1,electricity,389,electric
-2023,polestar,2 dual motor performance pack,mid-size,350,A1,B,20.0,21.9,20.9,2.3,2.5,2.3,418,0,10,10,8,automatic,1,electricity,390,electric
-2023,polestar,2 bst edition,mid-size,350,A1,B,21.3,23.1,22.1,2.4,2.6,2.5,397,0,10,10,8,automatic,1,electricity,391,electric
-2023,rivian,"r1s (20"" wheels)",suv - standard,650,A1,B,30.5,35.1,32.5,3.4,3.9,3.7,465,0,10,10,13,automatic,1,electricity,392,electric
-2023,rivian,"r1s (20"" wheels) all-terrain",suv - standard,650,A1,B,32.0,35.0,33.4,3.6,3.9,3.7,441,0,10,10,13,automatic,1,electricity,393,electric
-2023,rivian,"r1s (21"" wheels)",suv - standard,650,A1,B,27.8,31.5,29.5,3.1,3.5,3.3,517,0,10,10,13,automatic,1,electricity,394,electric
-2023,rivian,"r1s (22"" wheels)",suv - standard,650,A1,B,28.7,33.1,30.7,3.2,3.7,3.4,488,0,10,10,13,automatic,1,electricity,395,electric
-2023,rivian,"r1t (20"" wheels)",pickup truck - standard,650,A1,B,30.5,35.1,32.5,3.4,3.9,3.7,465,0,10,10,13,automatic,1,electricity,396,electric
-2023,rivian,"r1t (20"" wheels) all-terrain",pickup truck - standard,650,A1,B,32.0,35.0,33.4,3.6,3.9,3.7,441,0,10,10,13,automatic,1,electricity,397,electric
-2023,rivian,"r1t (21"" wheels)",pickup truck - standard,650,A1,B,27.4,30.2,28.7,3.1,3.4,3.2,528,0,10,10,13,automatic,1,electricity,398,electric
-2023,rivian,"r1t (22"" wheels)",pickup truck - standard,650,A1,B,28.7,33.1,30.7,3.2,3.7,3.4,488,0,10,10,13,automatic,1,electricity,399,electric
-2023,subaru,solterra awd,suv - small,160,A1,B,18.6,22.4,20.3,2.1,2.5,2.3,360,0,10,10,11,automatic,1,electricity,400,electric
-2023,tesla,model 3 rwd,mid-size,191,A1,B,15.2,16.6,15.8,1.7,1.9,1.8,438,0,10,10,8.5,automatic,1,electricity,401,electric
-2023,tesla,model 3 long range awd,mid-size,293,A1,B,15.6,16.6,16.0,1.8,1.9,1.8,576,0,10,10,10,automatic,1,electricity,402,electric
-2023,tesla,model 3 performance,mid-size,321,A1,B,17.8,19.6,18.6,2.0,2.2,2.1,507,0,10,10,10,automatic,1,electricity,403,electric
-2023,tesla,model s,full-size,494,A1,B,16.9,18.3,17.5,1.9,2.1,2.0,652,0,10,10,15,automatic,1,electricity,404,electric
-2023,tesla,"model s plaid (19"" wheels)",full-size,750,A1,B,17.6,18.7,18.1,2.0,2.1,2.0,637,0,10,10,15,automatic,1,electricity,405,electric
-2023,tesla,"model s plaid (21"" wheels)",full-size,750,A1,B,20.4,21.2,20.8,2.3,2.4,2.3,560,0,10,10,15,automatic,1,electricity,406,electric
-2023,tesla,model x,suv - standard,494,A1,B,19.7,21.7,20.6,2.2,2.4,2.3,560,0,10,10,14,automatic,1,electricity,407,electric
-2023,tesla,"model x plaid (20"" wheels)",suv - standard,750,A1,B,20.4,22.5,21.4,2.3,2.5,2.4,536,0,10,10,14,automatic,1,electricity,408,electric
-2023,tesla,"model x plaid (22"" wheels)",suv - standard,750,A1,B,22.3,23.8,22.9,2.5,2.7,2.6,500,0,10,10,14,automatic,1,electricity,409,electric
-2023,tesla,model y awd,suv - small,291,A1,B,16.3,18.1,17.1,1.8,2.0,1.9,449,0,10,10,9,automatic,1,electricity,410,electric
-2023,tesla,model y long range awd,suv - small,291,A1,B,16.5,17.9,17.2,1.9,2.0,1.9,531,0,10,10,10,automatic,1,electricity,411,electric
-2023,tesla,model y performance,suv - small,312,A1,B,18.2,19.8,18.9,2.0,2.2,2.1,488,0,10,10,10,automatic,1,electricity,412,electric
-2023,toyota,bz4x,suv - small,150,A1,B,16.0,19.5,17.6,1.8,2.2,2.0,406,0,10,10,11,automatic,1,electricity,413,electric
-2023,toyota,bz4x awd,suv - small,160,A1,B,18.4,22.3,20.1,2.1,2.5,2.3,367,0,10,10,11,automatic,1,electricity,414,electric
-2023,volkswagen,id.4,suv - small,150,A1,B,18.2,21.2,19.6,2.0,2.4,2.2,336,0,10,10,6,automatic,1,electricity,415,electric
-2023,volkswagen,id.4 pro,suv - small,150,A1,B,18.2,21.3,19.6,2.0,2.4,2.2,443,0,10,10,7.5,automatic,1,electricity,416,electric
-2023,volkswagen,id.4 awd pro,suv - small,220,A1,B,20.1,22.6,21.2,2.3,2.5,2.4,410,0,10,10,7.5,automatic,1,electricity,417,electric
-2023,volvo,c40 recharge twin,suv - small,300,A1,B,22.2,26.1,23.9,2.5,2.9,2.7,364,0,10,10,8,automatic,1,electricity,418,electric
-2023,volvo,xc40 recharge twin,suv - small,300,A1,B,22.8,26.6,24.5,2.6,3.0,2.8,359,0,10,10,8,automatic,1,electricity,419,electric
+2023,ford,mustang mach-e standard range (lfp),suv - small,198,A1,B,19.6,22.0,20.7,2.2,2.5,2.3,402,0,10,10,7.4,automatic,1,electricity,343,electric
+2023,ford,mustang mach-e standard range awd,suv - small,198,A1,B,21.1,24.3,22.6,2.4,2.7,2.5,360,0,10,10,8,automatic,1,electricity,344,electric
+2023,ford,mustang mach-e standard range awd (lfp),suv - small,232,A1,B,21.5,24.0,22.6,2.4,2.7,2.5,370,0,10,10,7.4,automatic,1,electricity,345,electric
+2023,ford,mustang mach-e extended range,suv - small,216,A1,B,19.9,22.7,21.1,2.2,2.5,2.4,500,0,10,10,10.2,automatic,1,electricity,346,electric
+2023,ford,mustang mach-e extended range awd,suv - small,258,A1,B,21.5,24.5,22.9,2.4,2.8,2.6,467,0,10,10,10,automatic,1,electricity,347,electric
+2023,ford,mustang mach-e california route 1 awd,suv - small,258,A1,B,20.0,22.9,21.3,2.3,2.6,2.4,502,0,10,10,10.1,automatic,1,electricity,348,electric
+2023,ford,mustang mach-e gt performance edition,suv - small,358,A1,B,23.8,27.8,25.6,2.7,3.1,2.9,418,0,10,10,10.1,automatic,1,electricity,349,electric
+2023,genesis,electrified g80,full-size,272,A1,B,19.9,23.6,21.7,2.2,2.6,2.4,454,0,10,10,9,automatic,1,electricity,350,electric
+2023,genesis,gv60 advanced awd,full-size,234,A1,B,20.3,24.2,22.1,2.3,2.7,2.5,399,0,10,10,7.2,automatic,1,electricity,351,electric
+2023,genesis,gv60 performance awd,full-size,320,A1,B,21.7,25.5,23.0,2.4,2.9,2.6,378,0,10,10,7.2,automatic,1,electricity,352,electric
+2023,genesis,electrified gv70,suv - small,320,A1,B,21.3,25.1,23.0,2.4,2.8,2.6,383,0,10,10,7.9,automatic,1,electricity,353,electric
+2023,hyundai,ioniq 5 standard range,full-size,125,A1,B,16.2,22.4,19.3,1.9,2.5,2.1,354,0,10,10,6.3,automatic,1,electricity,354,electric
+2023,hyundai,ioniq 5 long range,full-size,168,A1,B,15.5,21.7,18.6,1.8,2.4,2.1,488,0,10,10,8.5,automatic,1,electricity,355,electric
+2023,hyundai,ioniq 5 long range awd,full-size,239,A1,B,18.9,23.5,21.0,2.1,2.6,2.4,428,0,10,10,8.5,automatic,1,electricity,356,electric
+2023,hyundai,ioniq 6 standard range,mid-size,111,A1,B,13.7,17.4,15.5,1.6,2.0,1.7,386,0,10,10,6.1,automatic,1,electricity,357,electric
+2023,hyundai,ioniq 6 long range (18'' wheels),mid-size,168,A1,B,13.7,16.2,14.9,1.5,1.9,1.7,581,0,10,10,7.5,automatic,1,electricity,358,electric
+2023,hyundai,ioniq 6 long range awd (18'' wheels),mid-size,239,A1,B,16.2,18.6,17.4,1.8,2.1,1.9,509,0,10,10,7.5,automatic,1,electricity,359,electric
+2023,hyundai,ioniq 6 long range awd (20'' wheels),mid-size,239,A1,B,18.8,22.4,20.5,2.1,2.5,2.3,435,0,10,10,7.5,automatic,1,electricity,360,electric
+2023,hyundai,kona electric,suv - small,150,A1,B,15.5,19.9,17.4,1.8,2.2,2.0,415,0,10,10,9.5,automatic,1,electricity,361,electric
+2023,jaguar,i-pace,suv - small,294,A1,B,24.5,26.7,25.5,2.7,3.0,2.9,381,0,10,10,13,automatic,1,electricity,362,electric
+2023,kia,ev6 standard range,station wagon - small,125,A1,B,15.5,21.1,18.0,1.7,2.4,2.0,373,0,10,10,6.3,automatic,1,electricity,363,electric
+2023,kia,ev6 long range,station wagon - small,168,A1,B,15.5,20.5,18.0,1.8,2.3,2.0,499,0,10,10,8.7,automatic,1,electricity,364,electric
+2023,kia,"ev6 long range awd (19"" wheels)",station wagon - small,239,A1,B,17.5,21.5,19.3,2.0,2.4,2.2,454,0,10,10,8.4,automatic,1,electricity,365,electric
+2023,kia,"ev6 long range awd (20"" wheels)",station wagon - small,239,A1,B,19.9,24.2,21.7,2.2,2.7,2.5,406,0,10,10,8.4,automatic,1,electricity,366,electric
+2023,kia,ev6 gt awd,station wagon - small,430,A1,B,24.7,28.4,26.4,2.8,3.2,3.0,332,0,10,10,8.9,automatic,1,electricity,367,electric
+2023,kia,niro ev,station wagon - small,150,A1,B,16.8,20.5,18.6,1.9,2.3,2.1,407,0,10,10,7.5,automatic,1,electricity,368,electric
+2023,kia,soul ev (120 ah),station wagon - small,150,A1,B,15.6,20.4,17.8,1.8,2.3,2.0,248,0,10,10,6,automatic,1,electricity,369,electric
+2023,kia,soul ev (180 ah),station wagon - small,150,A1,B,16.9,21.0,18.7,1.9,2.4,2.1,383,0,10,10,9.5,automatic,1,electricity,370,electric
+2023,lexus,"rz 450e awd (18"" wheels)",suv - small,230,A1,B,18.1,21.4,19.6,2.0,2.4,2.2,354,0,10,10,10,automatic,1,electricity,371,electric
+2023,lexus,"rz 450e awd (20"" wheels)",suv - small,230,A1,B,20.3,24.1,22.4,2.3,2.7,2.5,315,0,10,10,10,automatic,1,electricity,372,electric
+2023,lucid,"air grand touring xr (19"" wheels)",full-size,611,A1,B,16.1,15.8,16.0,1.8,1.8,1.8,830,0,10,10,13,automatic,1,electricity,373,electric
+2023,lucid,"air grand touring xr (20"" wheels)",full-size,611,A1,B,17.4,17.1,17.3,2.0,1.9,1.9,755,0,10,10,13,automatic,1,electricity,374,electric
+2023,lucid,"air grand touring xr (21"" wheels)",full-size,611,A1,B,17.4,17.1,17.3,2.0,1.9,1.9,755,0,10,10,13,automatic,1,electricity,375,electric
+2023,lucid,"air grand touring performance (21"" wheels)",full-size,783,A1,B,19.0,18.8,18.9,2.1,2.1,2.1,718,0,10,10,13,automatic,1,electricity,376,electric
+2023,lucid,"air pure (19"" wheels)",full-size,358,A1,B,14.9,14.9,14.9,1.7,1.7,1.7,660,0,10,10,10,automatic,1,electricity,377,electric
+2023,lucid,"air pure (20"" wheels)",full-size,358,A1,B,17.2,17.4,17.3,1.9,2.0,1.9,618,0,10,10,10,automatic,1,electricity,378,electric
+2023,lucid,"air touring (19"" wheels)",full-size,462,A1,B,14.9,14.9,14.9,1.7,1.7,1.7,684,0,10,10,10,automatic,1,electricity,379,electric
+2023,lucid,"air touring (20"" wheels)",full-size,462,A1,B,17.2,17.4,17.3,1.9,2.0,1.9,618,0,10,10,10,automatic,1,electricity,380,electric
+2023,lucid,"air touring (21"" wheels)",full-size,462,A1,B,17.2,17.4,17.3,1.9,2.0,1.9,618,0,10,10,10,automatic,1,electricity,381,electric
+2023,mazda,mx-30,mid-size,107,A1,B,21.4,24.6,22.8,2.4,2.8,2.6,161,0,10,10,5.3,automatic,1,electricity,382,electric
+2023,mercedes-benz,amg eqe 4matic+ sedan,mid-size,460,A1,B,28.1,28.5,28.3,3.2,3.2,3.2,362,0,10,10,9.5,automatic,1,electricity,383,electric
+2023,mercedes-benz,amg eqs 4matic+ sedan,full-size,484,A1,B,28.4,27.4,27.9,3.2,3.1,3.1,446,0,10,10,11.25,automatic,1,electricity,384,electric
+2023,mercedes-benz,eqb 350 4matic suv,suv - small,215,A1,B,21.4,22.0,21.7,2.4,2.5,2.4,356,0,10,10,6.25,automatic,1,electricity,385,electric
+2023,mercedes-benz,eqs 450 4matic suv,suv - standard,265,A1,B,26.7,27.3,26.7,3.0,3.1,3.0,459,0,10,10,11.5,automatic,1,electricity,386,electric
+2023,mercedes-benz,eqs 580 4matic sedan,full-size,385,A1,B,23.3,22.7,23.0,2.6,2.5,2.6,547,0,10,10,11.25,automatic,1,electricity,387,electric
+2023,mercedes-benz,eqs 580 4matic suv,suv - standard,400,A1,B,26.1,28.0,27.3,3.0,3.2,3.1,459,0,10,10,11.5,automatic,1,electricity,388,electric
+2023,mini,cooper se 3 door,subcompact,135,A1,B,17.6,20.9,19.1,2.0,2.3,2.1,183,0,10,10,4,automatic,1,electricity,389,electric
+2023,polestar,2 single motor,mid-size,170,A1,B,18.5,20.9,19.6,2.1,2.3,2.2,435,0,10,10,8,automatic,1,electricity,390,electric
+2023,polestar,2 dual motor,mid-size,300,A1,B,20.0,21.9,20.9,2.3,2.5,2.3,418,0,10,10,8,automatic,1,electricity,391,electric
+2023,polestar,2 dual motor performance pack,mid-size,350,A1,B,20.0,21.9,20.9,2.3,2.5,2.3,418,0,10,10,8,automatic,1,electricity,392,electric
+2023,polestar,2 bst edition,mid-size,350,A1,B,21.3,23.1,22.1,2.4,2.6,2.5,397,0,10,10,8,automatic,1,electricity,393,electric
+2023,rivian,"r1s (20"" wheels)",suv - standard,650,A1,B,30.5,35.1,32.5,3.4,3.9,3.7,465,0,10,10,13,automatic,1,electricity,394,electric
+2023,rivian,"r1s (20"" wheels) all-terrain",suv - standard,650,A1,B,32.0,35.0,33.4,3.6,3.9,3.7,441,0,10,10,13,automatic,1,electricity,395,electric
+2023,rivian,"r1s (21"" wheels)",suv - standard,650,A1,B,27.8,31.5,29.5,3.1,3.5,3.3,517,0,10,10,13,automatic,1,electricity,396,electric
+2023,rivian,"r1s (22"" wheels)",suv - standard,650,A1,B,28.7,33.1,30.7,3.2,3.7,3.4,488,0,10,10,13,automatic,1,electricity,397,electric
+2023,rivian,"r1t (20"" wheels)",pickup truck - standard,650,A1,B,30.5,35.1,32.5,3.4,3.9,3.7,465,0,10,10,13,automatic,1,electricity,398,electric
+2023,rivian,"r1t (20"" wheels) all-terrain",pickup truck - standard,650,A1,B,32.0,35.0,33.4,3.6,3.9,3.7,441,0,10,10,13,automatic,1,electricity,399,electric
+2023,rivian,"r1t (21"" wheels)",pickup truck - standard,650,A1,B,27.4,30.2,28.7,3.1,3.4,3.2,528,0,10,10,13,automatic,1,electricity,400,electric
+2023,rivian,"r1t (22"" wheels)",pickup truck - standard,650,A1,B,28.7,33.1,30.7,3.2,3.7,3.4,488,0,10,10,13,automatic,1,electricity,401,electric
+2023,subaru,solterra awd,suv - small,160,A1,B,18.6,22.4,20.3,2.1,2.5,2.3,360,0,10,10,11,automatic,1,electricity,402,electric
+2023,tesla,model 3 rwd,mid-size,191,A1,B,15.2,16.6,15.8,1.7,1.9,1.8,438,0,10,10,8.5,automatic,1,electricity,403,electric
+2023,tesla,model 3 long range awd,mid-size,293,A1,B,15.6,16.6,16.0,1.8,1.9,1.8,576,0,10,10,10,automatic,1,electricity,404,electric
+2023,tesla,model 3 long range awd (import),mid-size,276,A1,B,16.0,17.3,16.6,1.8,1.9,1.9,534,0,10,10,10,automatic,1,electricity,405,electric
+2023,tesla,model 3 performance,mid-size,321,A1,B,17.8,19.6,18.6,2.0,2.2,2.1,507,0,10,10,10,automatic,1,electricity,406,electric
+2023,tesla,model s,full-size,494,A1,B,16.9,18.3,17.5,1.9,2.1,2.0,652,0,10,10,15,automatic,1,electricity,407,electric
+2023,tesla,"model s plaid (19"" wheels)",full-size,750,A1,B,17.6,18.7,18.1,2.0,2.1,2.0,637,0,10,10,15,automatic,1,electricity,408,electric
+2023,tesla,"model s plaid (21"" wheels)",full-size,750,A1,B,20.4,21.2,20.8,2.3,2.4,2.3,560,0,10,10,15,automatic,1,electricity,409,electric
+2023,tesla,model x,suv - standard,494,A1,B,19.7,21.7,20.6,2.2,2.4,2.3,560,0,10,10,14,automatic,1,electricity,410,electric
+2023,tesla,"model x plaid (20"" wheels)",suv - standard,750,A1,B,20.4,22.5,21.4,2.3,2.5,2.4,536,0,10,10,14,automatic,1,electricity,411,electric
+2023,tesla,"model x plaid (22"" wheels)",suv - standard,750,A1,B,22.3,23.8,22.9,2.5,2.7,2.6,500,0,10,10,14,automatic,1,electricity,412,electric
+2023,tesla,model y rwd,suv - small,211,A1,B,16.6,18.1,17.3,1.9,2.0,1.9,394,0,10,10,8,automatic,1,electricity,413,electric
+2023,tesla,model y awd,suv - small,291,A1,B,16.3,18.1,17.1,1.8,2.0,1.9,449,0,10,10,9,automatic,1,electricity,414,electric
+2023,tesla,model y long range awd,suv - small,291,A1,B,16.5,17.9,17.2,1.9,2.0,1.9,531,0,10,10,10,automatic,1,electricity,415,electric
+2023,tesla,model y performance,suv - small,312,A1,B,18.2,19.8,18.9,2.0,2.2,2.1,488,0,10,10,10,automatic,1,electricity,416,electric
+2023,tesla,model y performance (import),suv - small,314,A1,B,18.3,20.4,19.2,2.1,2.3,2.2,459,0,10,10,10,automatic,1,electricity,417,electric
+2023,toyota,bz4x,suv - small,150,A1,B,16.0,19.5,17.6,1.8,2.2,2.0,406,0,10,10,11,automatic,1,electricity,418,electric
+2023,toyota,bz4x awd,suv - small,160,A1,B,18.4,22.3,20.1,2.1,2.5,2.3,367,0,10,10,11,automatic,1,electricity,419,electric
+2023,volkswagen,id.4,suv - small,150,A1,B,18.2,21.2,19.6,2.0,2.4,2.2,336,0,10,10,6,automatic,1,electricity,420,electric
+2023,volkswagen,id.4 pro,suv - small,150,A1,B,18.2,21.3,19.6,2.0,2.4,2.2,443,0,10,10,7.5,automatic,1,electricity,421,electric
+2023,volkswagen,id.4 awd pro,suv - small,220,A1,B,20.1,22.6,21.2,2.3,2.5,2.4,410,0,10,10,7.5,automatic,1,electricity,422,electric
+2023,volvo,c40 recharge twin,suv - small,300,A1,B,22.2,26.1,23.9,2.5,2.9,2.7,364,0,10,10,8,automatic,1,electricity,423,electric
+2023,volvo,xc40 recharge twin,suv - small,300,A1,B,22.8,26.6,24.5,2.6,3.0,2.8,359,0,10,10,8,automatic,1,electricity,424,electric
