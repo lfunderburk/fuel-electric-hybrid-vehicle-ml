@@ -41,6 +41,14 @@ The data pipeline consists of five scripts:
 6. [In progress] a dashboard with visualizations (includes interesting vehicle stats, clustering results in 3D)
 7. [Future work] scrape vehicle purchases data and analyse consumer trends with a focus on changes in ratios of types of vehicles purchased over time
 
+# Accessing the application on AWS
+
+Dashboard: http://18.221.229.86:8050/
+
+Natural language text api: http://18.221.15.147:8000/docs#/
+
+
+
 # Set up 
 
 ## Setting up, with Docker
