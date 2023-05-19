@@ -67,7 +67,7 @@ def display_top_vehicle_scores(dataframe,  view='top'):
     ])
 
     fig.update_layout(
-            title=f"{title_str}",
+            title=title_str,
             font=dict(
                 color="white"
             ),
