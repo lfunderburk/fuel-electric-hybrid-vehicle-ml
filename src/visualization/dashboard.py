@@ -67,7 +67,7 @@ def display_top_vehicle_scores(dataframe,  view='top'):
     ])
 
     fig.update_layout(
-            title=f"{title_str}<br><sup>Score is taken by computing the average CO2 score of all models in a make, weighted by the total number of models the make has</sup>",
+            title=f"{title_str}<sup>Score is taken by computing the average CO2 score of all models in a make, weighted by the total number of models the make has</sup>",
             font=dict(
                 color="white"
             ),
