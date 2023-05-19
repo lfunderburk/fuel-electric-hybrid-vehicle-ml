@@ -7,7 +7,77 @@ from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import sys, os
 import plotly.graph_objects as go
+import numpy as np
 
+def merge_vehicles_make_vehicle_type(dataframe):
+
+    # Merge the vehicles and make dataframes
+    vehicle_type_count = dataframe.groupby('make_')['vehicle_type'].value_counts().unstack().reset_index().fillna(0)
+
+    # Count the unique models for each make
+    total_models_df = dataframe.groupby('make_')['model.1_'].nunique().reset_index()
+
+    # Rename the columns to make them more descriptive
+    total_models_df.columns = ['make_', 'total_models']
+
+    # Merge this with your current dataframe
+    master_df_d = pd.merge(dataframe, total_models_df, on='make_', how='left')
+
+    # Then you can use numpy's average function to compute the weighted average
+    make_total_avg_score = master_df_d.groupby('make_').apply(lambda x: np.average(x['predicted_co2_rating'], 
+                                                                                weights=x['total_models'])).reset_index().rename(columns={0:'weighted_avg_predicted_co2_rating_by_make'})
+    make_total_avg_score.sort_values(by='weighted_avg_predicted_co2_rating_by_make', ascending=False, inplace=True)
+
+
+    # Merge the total models dataframe with the make_total_avg_score dataframe
+    weighted_avg_df = pd.merge(total_models_df, make_total_avg_score, on='make_', how='left')
+
+    # sort the dataframe by the weighted average
+    weighted_avg_df.sort_values(by='weighted_avg_predicted_co2_rating_by_make', ascending=False, inplace=True)
+
+    final_df = pd.merge(weighted_avg_df, vehicle_type_count, on='make_', how='left').sort_values(by='weighted_avg_predicted_co2_rating_by_make', ascending=False)
+    return final_df
+
+
+def display_top_vehicle_scores(dataframe,  view='top'):
+
+    final_df = merge_vehicles_make_vehicle_type(dataframe)
+
+    if view=='top':
+        final_df = final_df.head(10)
+        title_str = "Top 10 Vehicle Makes - by their average CO2 rating score"
+    else:
+        final_df = final_df.tail(10)
+        title_str = "Bottom 10 Vehicle Makes - by their average CO2 rating score"
+
+    fig = go.Figure(data=[go.Table(
+        header=dict(values=list(final_df.columns),
+                    fill_color='rgb(47, 15 , 61)',
+                    align='center'),
+        # make_	total_models	weighted_avg_predicted_co2_rating_by_make	electric	fuel-only	hybrid
+        cells=dict(values=[final_df["make_"],
+                        final_df["total_models"],
+                        final_df["weighted_avg_predicted_co2_rating_by_make"],
+                        final_df["electric"],
+                        final_df["fuel-only"],
+                        final_df["hybrid"]
+                        ],
+                                    fill_color='rgb(107, 24, 63)',
+                                    align='left'))
+    ])
+
+    fig.update_layout(
+            title=f"{title_str}<br><sup>Score is taken by computing the average CO2 score of all models in a make, weighted by the total number of models the make has</sup>",
+            font=dict(
+                color="white"
+            ),
+            title_x=0.5,
+            plot_bgcolor=colors['background'],
+            paper_bgcolor=colors['background'],
+            font_color='white'
+        )
+
+    return fig
 
 def display_table(dataframe, title_str):
 
@@ -117,7 +187,7 @@ def generate_count_plot(attribute, vehicle_type, dataframe):
 clean_data = os.path.abspath(os.path.join(os.getcwd(), 'data', 'predicted-data'))
 
 # Assign variables 
-file_name_2022_1995 = "predicted_co2_rating.csv"
+file_name_2022_1995 = "vehicle_data_with_clusters.csv"
 pure_electric = "predicted_co2_rating_electric.csv"
 hybric_vehicle = "predicted_co2_rating_hybrid.csv"
 
@@ -219,6 +289,25 @@ menu_card = dbc.Card(
     ), style={'backgroundColor': colors['background']}
 )
 
+menu_card2 = dbc.Card(
+    dbc.CardBody(
+        [
+           html.Div([
+                html.Div([
+                    html.P("Type or select a make", style=header_menu_style),
+                    dcc.Dropdown(
+                        id='select-make-2',
+                        options=all_makes,
+                        value= 'bmw',
+                        style={'backgroundColor':"white"}),
+                ],  className="two columns"),
+
+            ], className="row"),
+
+        ]
+    ), style={'backgroundColor': colors['background']}
+)
+
 plots_card = dbc.Card(
 
     dbc.CardBody([ 
@@ -250,11 +339,67 @@ plots_card = dbc.Card(
     ]), style={'backgroundColor': colors['background']}
 )
 
+plots_card_2 = dbc.Card(
+
+    dbc.CardBody([ 
+        html.Div([
+                   
+                    
+                    html.Div([
+                           dcc.Graph(id='top_10_cars')
+                        ], className="six columns"),
+
+                    html.Div([
+                           dcc.Graph(id='bottom_10_cars')
+                        ], className="six columns"),
+                    
+                    
+                ], className="row"),
+
+        html.Div([
+                        html.Div([
+                html.Div([
+                    html.P("Type or select a make", style=header_menu_style),
+                    dcc.Dropdown(
+                        id='select-make-2',
+                        options=all_makes,
+                        value= 'bmw',
+                        style={'backgroundColor':"white"}),
+                ],  className="two columns"),
+
+            ], className="row"),
+        ]),
+
+        html.Div([
+
+                    html.Div([
+                            dcc.Graph(id='graph-vehicle-type-count')
+                        ], className="six columns", ),
+
+                 
+
+                html.Div([
+                            dcc.Graph(id='vehicle-type-bar')
+                        ], className="six columns"),
+                    
+                ], className="row"),
+    ]), style={'backgroundColor': colors['background']}
+)
+
 cards = dbc.Container([ 
     dbc.Row(
     [   
         dbc.Col(menu_card, width='auto'),
         dbc.Col(plots_card, width='auto'),
+    ]
+)
+], fluid=True,style={'backgroundColor': "black"})
+
+
+cards2 = dbc.Container([ 
+    dbc.Row(
+    [   
+        dbc.Col(plots_card_2, width='auto'),
     ]
 )
 ], fluid=True,style={'backgroundColor': "black"})
@@ -269,30 +414,24 @@ app.layout = html.Div([
                 style={'backgroundColor': "black"}
             )
         ]),
-        dcc.Tab(label='Hybrid vehicle insights', children=[
-            dcc.Graph(
-                figure={
-                    'data': [
-                        {'x': [1, 2, 3], 'y': [1, 4, 1],
-                            'type': 'bar', 'name': 'SF'},
-                        {'x': [1, 2, 3], 'y': [1, 2, 3],
-                         'type': 'bar', 'name': u'Montréal'},
-                    ]
-                }
+        dcc.Tab(label='Insights about vehicles by their type: electric, fuel based and hybrid', children=[
+            html.Div(
+                children=[cards2],
+                style={'backgroundColor': "black"}
             )
         ]),
-        dcc.Tab(label='Electric vehicle insights', children=[
-            dcc.Graph(
-                figure={
-                    'data': [
-                        {'x': [1, 2, 3], 'y': [2, 4, 3],
-                            'type': 'bar', 'name': 'SF'},
-                        {'x': [1, 2, 3], 'y': [5, 4, 3],
-                         'type': 'bar', 'name': u'Montréal'},
-                    ]
-                }
-            )
-        ]),
+        # dcc.Tab(label='Supervised learning results and clustering analysis', children=[
+        #     dcc.Graph(
+        #         figure={
+        #             'data': [
+        #                 {'x': [1, 2, 3], 'y': [2, 4, 3],
+        #                     'type': 'bar', 'name': 'SF'},
+        #                 {'x': [1, 2, 3], 'y': [5, 4, 3],
+        #                  'type': 'bar', 'name': u'Montréal'},
+        #             ]
+        #         }
+        #     )
+        # ]),
     ]),
     dbc.Col(footer_card, width='auto')
 ])
@@ -312,12 +451,13 @@ def show_avg_predicted_co2_rating_by_make(value):
                   color_discrete_sequence= px.colors.sequential.matter,)
 
     fig.update_layout(
-            title_x=0.5,
-            plot_bgcolor=colors['background'],
-            paper_bgcolor=colors['background'],
-            font_color=colors['text']
-        )
-    fig.update_layout(barmode='stack', xaxis={'categoryorder': 'total descending'})
+        title_x=0.5,
+        plot_bgcolor=colors['background'],
+        paper_bgcolor=colors['background'],
+        font_color=colors['text'],
+        xaxis={'categoryorder': 'total descending', 'showgrid': False},
+        yaxis={'showgrid': False}
+    )
 
     return fig
 
@@ -334,17 +474,19 @@ def show_predicted_co2_rating_by_model(value):
                         title=f'Predicted CO2 ratings over time by make {value.upper()} and model (hover for model name)',
                         labels={'model_year':'Model Year', 'co2emissions_(g/km)':'CO2 Emissions (g/km)'}, 
                         hover_name='model.1_',
-                        color_discrete_sequence= px.colors.sequential.matter,
+                        color_discrete_sequence= ['rgb(253, 237, 176)',
+                                                'rgb(195, 56, 90)',
+                                                'rgb(47, 15, 61)'],
                         color='vehicle_type')
     
     line_fig.update_layout(
-            title_x=0.5,
-            plot_bgcolor=colors['background'],
-            paper_bgcolor=colors['background'],
-            font_color=colors['text']
-        )
-    line_fig.update_layout(barmode='stack', xaxis={'categoryorder': 'total descending'})
-
+        title_x=0.5,
+        plot_bgcolor=colors['background'],
+        paper_bgcolor=colors['background'],
+        font_color=colors['text'],
+        xaxis={'categoryorder': 'total descending', 'showgrid': False},
+        yaxis={'showgrid': False}
+    )
     return line_fig
 
 @app.callback(
@@ -374,8 +516,75 @@ def update_frequency_chart(make):
     fig0 = display_table(dataframe, title_str)
     return fig0
 
+@app.callback(
+    Output('graph-vehicle-type-count', 'figure'),
+    [Input('select-make-2', 'value')])
+def plot_vehicle_type_count(make):
+    total_models_df = merge_vehicles_make_vehicle_type(master_df)
+    df_filtered = total_models_df[total_models_df['make_'] == make]
+    
+    fig = go.Figure(data=[
+        go.Bar(name='Electric', x=df_filtered['make_'], y=df_filtered['electric'], marker_color='rgb(26, 118, 255)'),
+        go.Bar(name='Fuel-only', x=df_filtered['make_'], y=df_filtered['fuel-only'], marker_color='rgb(55, 83, 109)'),
+        go.Bar(name='Hybrid', x=df_filtered['make_'], y=df_filtered['hybrid'], marker_color='rgb(26, 188, 156)')
+    ])
 
+    # Change the bar mode
+    fig.update_layout(
+        title=f'Number of Vehicle Types for {make.upper()}',
+        title_x=0.5,
+        xaxis=dict(title='Make'),
+        yaxis=dict(title='Number of Vehicles'),
+        plot_bgcolor=colors['background'],
+        paper_bgcolor=colors['background'],
+        font_color=colors['text'],
+        xaxis_showgrid=False,
+        yaxis_showgrid=False
+    )
 
+    return fig
+
+@app.callback(
+    Output('top_10_cars', 'figure'),
+    Input('select-make-2', 'value')
+    )
+def show_top_ten_cars(value):
+    figure = display_top_vehicle_scores(master_df,  view='top')
+
+    return figure
+
+@app.callback(
+    Output('bottom_10_cars', 'figure'),
+    Input('select-make-2', 'value')
+    )
+def show_bottom_ten_cars(value):
+    figure = display_top_vehicle_scores(master_df, view='bottom')
+
+    return figure
+
+@app.callback(
+    Output('vehicle-type-bar', 'figure'),
+    Input('select-make-2', 'value')
+    )
+def show_all_cars(value):
+    vehicle_type_count = master_df['vehicle_type'].value_counts().reset_index()
+    vehicle_type_count.columns = ['vehicle_type', 'count']
+
+    figure = px.bar(vehicle_type_count, x='vehicle_type', y='count', title='Vehicle Type Count')
+    # Change the bar mode
+    figure.update_layout(
+        title=f'Number of Vehicle Types in the entire dataset',
+        title_x=0.5,
+        xaxis=dict(title='Make'),
+        yaxis=dict(title='Number of Vehicles'),
+        plot_bgcolor=colors['background'],
+        paper_bgcolor=colors['background'],
+        font_color=colors['text'],
+        xaxis_showgrid=False,
+        yaxis_showgrid=False
+    )
+
+    return figure
 
 if __name__ == '__main__':  
     
